@@ -1,9 +1,10 @@
 package de.fhwedel
 
-import de.fhwedel.antscout.antnet.AntWay
 import net.liftweb.common.{Box, Empty}
 import net.liftweb.http.SessionVar
 import akka.actor.ActorSystem
+import antscout.antnet.AntWay
+import antscout.dijkstra._
 
 /**
  * Hier ist alles zu finden, was im gesamten Projekt benötigt wird.

@@ -6,7 +6,8 @@ import akka.util.duration._
 import net.liftweb.http.rest.RestHelper
 import net.liftweb.json.JsonDSL._
 import osm.OsmMap
-import routing._
+import dijkstra.Dijkstra
+import routing.RoutingService
 import net.liftweb.common.{Full, Box, Logger}
 import antnet.{AntNode, AntWay, AntMap}
 import akka.dispatch.Await
@@ -48,15 +49,15 @@ object Rest extends Logger with RestHelper {
       Source(Full(source))
       // Ziel in die Session schreiben
       Destination(Full(destination))
-      // Anfrage an den RoutingService nach dem Pfad
-      if (true)
-      {
-      val pathFuture = (system.actorFor(Iterable("user", AntScout.ActorName, DijkstraRouting.ActorName)) ?
-        DijkstraRouting.FindPath(source, destination))
-      } else {
-      val pathFuture = (system.actorFor(Iterable("user", AntScout.ActorName, RoutingService.ActorName)) ?
-        RoutingService.FindPath(AntNode(source), AntNode(destination)))
-      }  
+      // Anfrage an den RoutingService oder an Dijkstra nach dem Pfad   
+       if (Settings.Dji == false)
+      { }
+      val pathFuture = (system.actorFor(Iterable("user", AntScout.ActorName, Dijkstra.ActorName)) ?
+        Dijkstra.FindPath(source, destination))
+
+      //val pathFuture = (system.actorFor(Iterable("user", AntScout.ActorName, RoutingService.ActorName)) ?
+      //  RoutingService.FindPath(AntNode(source), AntNode(destination)))
+ 
       for {
         // Auf die Antwort vom RoutingService warten
         path <- Await.result(pathFuture, 5 seconds).asInstanceOf[Box[Seq[AntWay]]] ?~ "No path found" ~> 404

@@ -1,4 +1,5 @@
 package de.fhwedel.antscout
+package antnet
 
 import akka.actor.ActorRef
 import net.liftweb.util.TimeHelpers

@@ -1,4 +1,5 @@
 package de.fhwedel.antscout
+package antnet
 
 import akka.actor.{Cancellable, ActorRef, ActorLogging, Actor}
 import akka.util._ //Duration

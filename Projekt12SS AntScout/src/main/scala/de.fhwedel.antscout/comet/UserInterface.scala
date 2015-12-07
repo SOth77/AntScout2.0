@@ -8,6 +8,7 @@ import net.liftweb.http.js.JsCmds.SetHtml
 import net.liftweb.http.NamedCometActorTrait
 import net.liftweb.json.JsonDSL._
 import routing.RoutingService
+import dijkstra.Dijkstra
 import xml.Text
 import net.liftweb.json.JsonAST.JArray
 
@@ -46,7 +47,32 @@ class UserInterface extends Logger with NamedCometActorTrait {
               </tr>
           }
         }))
-    // Pfad
+    // Pfad über Dijkstra
+    case Dijkstra.Path(path) => {
+      // Pfad als Json
+      val pathAsJson = path match {
+        case Full(path) =>
+          val (length, tripTime) = path.foldLeft(0.0, 0.0) {
+            case ((lengthAcc, tripTimeAcc), way) => (way.length + lengthAcc, way.tripTime + tripTimeAcc)
+          }
+          ("length" -> "%.4f".format(length / 1000)) ~
+          ("lengths" ->
+            JArray(List(("unit" -> "m") ~
+            ("value" -> "%.4f".format(length))))) ~
+          ("tripTime" -> "%.4f".format(tripTime / 60)) ~
+          ("tripTimes" ->
+            JArray(List(
+              ("unit" -> "s") ~
+              ("value" -> "%.4f".format(tripTime)),
+              ("unit" -> "h") ~
+              ("value" -> "%.4f".format(tripTime / 3600))))) ~
+          ("ways" ->  path.map(_.toJson))
+        case _ => JArray(List[AntWay]().map(_.toJson))
+      }
+      // Pfad an das Front-End senden
+      partialUpdate(Call("AntScout.path", pathAsJson).cmd)
+    }
+    // Pfad über Ameisen
     case RoutingService.Path(path) => {
       // Pfad als Json
       val pathAsJson = path match {

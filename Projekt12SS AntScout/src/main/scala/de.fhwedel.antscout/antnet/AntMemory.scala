@@ -1,4 +1,5 @@
 package de.fhwedel.antscout
+package antnet
 
 import net.liftweb.common.Logger
 import akka.actor.ActorRef

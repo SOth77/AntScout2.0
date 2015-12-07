@@ -16,6 +16,11 @@ object Settings {
   private val config = ConfigFactory.load
 
   import config._
+  
+  /**
+   * Soll Dijkstra verwendet werden?
+   */
+  val Dji = true
 
   /**
    * Parameter a für die Squash-Funktion.

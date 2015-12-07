@@ -8,6 +8,7 @@ import akka.actor.{ ActorRef, ActorLogging, Actor }
 import de.fhwedel.antscout
 import net.liftweb.common.{ Empty, Full, Box }
 import net.liftweb.http.{ NamedCometListener, S, LiftSession }
+import de.fhwedel.antscout._
 
 /**
  * Verwaltet eine globale Routing-Tabelle, beantwortet Anfragen nach dem aktuellen Pfad von einem Quell- zu einem

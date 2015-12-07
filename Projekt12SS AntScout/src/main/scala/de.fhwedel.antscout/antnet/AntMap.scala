@@ -1,5 +1,5 @@
 package de.fhwedel.antscout
-package osm
+package antnet
 
 import net.liftweb.common.Logger
 import osm.{OsmOneWay, OsmWay, OsmNode, OsmMap}

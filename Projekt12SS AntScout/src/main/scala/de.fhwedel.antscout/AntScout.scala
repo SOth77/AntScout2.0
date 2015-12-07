@@ -1,10 +1,12 @@
 package de.fhwedel.antscout
 
-import antnet.AntMap
+import antnet.{ AntMap, AntWayData }
 import osm.OsmMap
 import routing.RoutingService
+import dijkstra.Dijkstra
 import akka.actor.{Props, Actor, FSM}
 import net.liftweb.http.LiftSession
+import antnet.AntNodeSupervisor
 
 /**
  * Initialisiert die Anwendung mit Hilfe eines Zustands-Automaten.
@@ -18,6 +20,8 @@ class AntScout extends Actor with FSM[AntScoutState, Unit] {
     AntNodeSupervisor.ActorName)
   // Routing-Service erzeugen
   context.actorOf(Props[RoutingService], RoutingService.ActorName)
+  // Dijkstra erzeugen
+  context.actorOf(Props[Dijkstra], Dijkstra.ActorName)
 
   // Start-Zustand
   startWith(Uninitialized, Unit)
