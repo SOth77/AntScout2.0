@@ -8,7 +8,7 @@ import net.liftweb.http.js.JsCmds.SetHtml
 import net.liftweb.http.NamedCometActorTrait
 import net.liftweb.json.JsonDSL._
 import routing.RoutingService
-import dijkstra.Dijkstra
+import dijkstra.DijkstraService
 import xml.Text
 import net.liftweb.json.JsonAST.JArray
 
@@ -48,7 +48,7 @@ class UserInterface extends Logger with NamedCometActorTrait {
           }
         }))
     // Pfad über Dijkstra
-    case Dijkstra.Path(path) => {
+    case DijkstraService.Path(path) => {
       // Pfad als Json
       val pathAsJson = path match {
         case Full(path) =>

@@ -6,10 +6,10 @@ import akka.util.duration._
 import net.liftweb.http.rest.RestHelper
 import net.liftweb.json.JsonDSL._
 import osm.OsmMap
-import dijkstra.Dijkstra
+import dijkstra.DijkstraService
 import routing.RoutingService
-import net.liftweb.common.{Full, Box, Logger}
-import antnet.{AntNode, AntWay, AntMap}
+import net.liftweb.common.{ Full, Box, Logger }
+import antnet.{ AntNode, AntWay, AntMap }
 import akka.dispatch.Await
 import akka.util.Timeout
 import net.liftweb.json.JsonAST.JArray
@@ -39,27 +39,26 @@ object Rest extends Logger with RestHelper {
         case (node, ways) => ways
       } getOrElse Set[AntWay]()
       ("incomingWays" -> incomingWays.map(_.toJson)) ~
-      ("outgoingWays" -> outgoingWays.map(_.toJson))
+        ("outgoingWays" -> outgoingWays.map(_.toJson))
     // Anfrage nach Knoten
     case Get(List("nodes"), _) =>
       AntMap.nodes.map(node => OsmMap.nodes(node.id).toJson): JArray
     // Anfrage nach einem Pfad
     case Get(List("path", source, destination), _) =>
+      //info("Rest-Pfadanfrage, source: %s destination: %s".format(source, destination))
       // Quelle in die Session schreiben
       Source(Full(source))
       // Ziel in die Session schreiben
       Destination(Full(destination))
       // Anfrage an den RoutingService oder an Dijkstra nach dem Pfad   
-       if (Settings.Dji == false)
-      { }
-      val pathFuture = (system.actorFor(Iterable("user", AntScout.ActorName, Dijkstra.ActorName)) ?
-        Dijkstra.FindPath(source, destination))
+      val pathFuture = (system.actorFor(Iterable("user", AntScout.ActorName, DijkstraService.ActorName)) ?
+        DijkstraService.FindPath(source, destination))
 
       //val pathFuture = (system.actorFor(Iterable("user", AntScout.ActorName, RoutingService.ActorName)) ?
       //  RoutingService.FindPath(AntNode(source), AntNode(destination)))
- 
+
       for {
-        // Auf die Antwort vom RoutingService warten
+        // Auf die Antwort vom RoutingService oder Dijkstra warten
         path <- Await.result(pathFuture, 5 seconds).asInstanceOf[Box[Seq[AntWay]]] ?~ "No path found" ~> 404
       } yield {
         // Json aus den Daten erzeugen
@@ -67,17 +66,17 @@ object Rest extends Logger with RestHelper {
           case ((lengthAcc, tripTimeAcc), way) => (way.length + lengthAcc, way.tripTime + tripTimeAcc)
         }
         ("length" -> "%.4f".format(length / 1000)) ~
-        ("lengths" ->
-          JArray(List(("unit" -> "m") ~
-          ("value" -> "%.4f".format(length))))) ~
-        ("tripTime" -> "%.4f".format(tripTime / 60)) ~
-        ("tripTimes" ->
-          JArray(List(
-            ("unit" -> "s") ~
-            ("value" -> "%.4f".format(tripTime)),
-            ("unit" -> "h") ~
-            ("value" -> "%.4f".format(tripTime / 3600))))) ~
-        ("ways" -> path.map(_.toJson))
+          ("lengths" ->
+            JArray(List(("unit" -> "m") ~
+              ("value" -> "%.4f".format(length))))) ~
+            ("tripTime" -> "%.4f".format(tripTime / 60)) ~
+            ("tripTimes" ->
+              JArray(List(
+                ("unit" -> "s") ~
+                  ("value" -> "%.4f".format(tripTime)),
+                ("unit" -> "h") ~
+                  ("value" -> "%.4f".format(tripTime / 3600))))) ~
+              ("ways" -> path.map(_.toJson))
       }
     // Anfrage nach den OSM-Knoten
     case Get(List("osmnodes"), _) => {
@@ -110,8 +109,14 @@ object Rest extends Logger with RestHelper {
             // Weg im Pfad ersetzen
             val newPath = (path.takeWhile(_ != way) :+ way) ++ path.dropWhile(_ != way).tail
             // Neuen Pfad an den User-Interface-Aktor senden
-            NamedCometListener.getDispatchersFor(Full("userInterface")) foreach { actor =>
-              actor.map(_ ! RoutingService.Path(Full(newPath)))
+            if (Settings.Dji == true) {
+              NamedCometListener.getDispatchersFor(Full("userInterface")) foreach { actor =>
+                actor.map(_ ! DijkstraService.Path(Full(newPath)))
+              }
+            } else {
+              NamedCometListener.getDispatchersFor(Full("userInterface")) foreach { actor =>
+                actor.map(_ ! RoutingService.Path(Full(newPath)))
+              }
             }
             // Neuen Pfad in die Session schreiben
             Path(Full(newPath))

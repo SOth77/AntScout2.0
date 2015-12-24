@@ -34,7 +34,6 @@ class RoutingService extends Actor with ActorLogging {
    * Sucht einen Pfad von einem Quell- zu einem Ziel-Knoten.
    */
   def findPath(source: ActorRef, destination: ActorRef): Box[Seq[AntWay]] = {
-
     @tailrec
     def findPathRecursive(source: ActorRef, path: Seq[AntWay]): Box[Seq[AntWay]] = {
       if (log.isDebugEnabled)
@@ -71,7 +70,7 @@ class RoutingService extends Actor with ActorLogging {
    */
   def init() {
     log.info("Initialized")
-    context.parent ! AntScout.RoutingServiceInitialized
+    context.parent ! AntScout.ServiceInitialized
   }
 
   /**
@@ -84,6 +83,7 @@ class RoutingService extends Actor with ActorLogging {
   protected def receive = {
     // Anfrage nach einem Pfad
     case FindPath(source, destination) =>
+      log.info("PathfindingRouting")
       // Pfad suchen
       val path = findPath(source, destination)
       for {
@@ -107,7 +107,10 @@ class RoutingService extends Actor with ActorLogging {
       this.liftSession = Some(liftSession)
     // Aktualisiert den besten Weg zu einem Ziel
     case UpdateBestWay(destination, way) =>
+      {
+      log.info("UpdateRouting")
       updateBestWay(sender, destination, way)
+      }
     case m: Any =>
       log.warning("Unknown message: %s" format m.toString)
   }

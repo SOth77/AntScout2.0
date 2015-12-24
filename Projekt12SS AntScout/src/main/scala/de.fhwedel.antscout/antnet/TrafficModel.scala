@@ -16,7 +16,7 @@ class TrafficModel(destinations: Set[ActorRef]) extends Logger {
    * Stichproben pro Ziel.
    */
   val samples = mutable.Map[ActorRef, TrafficModelSample]()
-
+  
   // Stichproben initialisieren
   destinations.foreach(samples += _ -> TrafficModelSample())
 

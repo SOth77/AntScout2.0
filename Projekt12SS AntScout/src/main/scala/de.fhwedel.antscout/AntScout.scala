@@ -3,8 +3,8 @@ package de.fhwedel.antscout
 import antnet.{ AntMap, AntWayData }
 import osm.OsmMap
 import routing.RoutingService
-import dijkstra.Dijkstra
-import akka.actor.{Props, Actor, FSM}
+import dijkstra.DijkstraService
+import akka.actor.{ Props, Actor, FSM }
 import net.liftweb.http.LiftSession
 import antnet.AntNodeSupervisor
 
@@ -21,7 +21,7 @@ class AntScout extends Actor with FSM[AntScoutState, Unit] {
   // Routing-Service erzeugen
   context.actorOf(Props[RoutingService], RoutingService.ActorName)
   // Dijkstra erzeugen
-  context.actorOf(Props[Dijkstra], Dijkstra.ActorName)
+  context.actorOf(Props[DijkstraService], DijkstraService.ActorName)
 
   // Start-Zustand
   startWith(Uninitialized, Unit)
@@ -32,16 +32,22 @@ class AntScout extends Actor with FSM[AntScoutState, Unit] {
     case Event(Initialize, _) =>
       // OsmMap initialisieren
       OsmMap(Settings.Map)
-      // RoutingService-Initialisierung anstoÃŸen
-      context.actorFor(RoutingService.ActorName) ! RoutingService.Initialize
+      if (Settings.Dji) {
+        // DijkstraService-Initialisierung anstoÃŸen
+        context.actorFor(DijkstraService.ActorName) ! DijkstraService.Initialize
+      } else {
+        // RoutingService-Initialisierung anstoÃŸen
+        context.actorFor(RoutingService.ActorName) ! RoutingService.Initialize
+      }
+
       // Zustand wechseln
-      goto(InitializingRoutingService)
+      goto(InitializingService)
   }
 
-  // RoutingService-Initialisierung
-  when(InitializingRoutingService) {
-    // RoutingService initialisiert
-    case Event(RoutingServiceInitialized, _) =>
+  // DijkstraService-Initialisierung
+  when(InitializingService) {
+    // DijkstraService initialisiert
+    case Event(ServiceInitialized, _) =>
       // Ant-Weg-Daten berechnen
       val antWayData = AntMap.prepare
       // Ant-Knoten berechnen
@@ -64,8 +70,10 @@ class AntScout extends Actor with FSM[AntScoutState, Unit] {
       AntMap.computeSourcesAndDestinations()
       // Zusicherung, dass Knoten nicht leer sind
       assert(AntMap.nodes.size > 0, AntMap.nodes.size)
-      // Initialisierung der Ant-Knoten anstoÃŸen
-      context.actorFor(AntNodeSupervisor.ActorName) ! AntNodeSupervisor.InitializeNodes
+      if (Settings.Dji == false) {
+        // Initialisierung der Ant-Knoten anstoÃŸen
+        context.actorFor(AntNodeSupervisor.ActorName) ! AntNodeSupervisor.InitializeNodes
+      }
       // In diesem Zustand bleiben
       stay()
   }
@@ -109,14 +117,15 @@ object AntScout {
   case object InitializingAntNodeSupervisor extends AntScoutState
 
   /**
-   * RoutingService-Initialisierung.
-   */
-  case object InitializingRoutingService extends AntScoutState
-
-  /**
    * RoutingService initialisiert.
    */
-  case object RoutingServiceInitialized extends AntScoutMessage
+  case object ServiceInitialized extends AntScoutMessage
+
+  /**
+   * DijkstraService-Initialisierung.
+   */
+  case object InitializingService extends AntScoutState
+
 
   // AntScout-Aktor erzeugen
   system.actorOf(Props[AntScout], AntScout.ActorName)
@@ -130,7 +139,7 @@ object AntScout {
 
   /**
    * FÃ¤hrt AntScout herunter.
-    */
+   */
   def shutDown() {
     system.shutdown()
   }

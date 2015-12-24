@@ -1,0 +1,258 @@
+14:50:27.439 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Map.osm
+14:50:27.806 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+14:50:27.843 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+14:50:28.135 INFO  [d.f.a.osm.OsmMap] [] - 7184 nodes parsed in 262 milliseconds
+14:50:28.139 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+14:50:29.785 INFO  [d.f.a.osm.OsmMap] [] - 1384 ways parsed in 1623 milliseconds
+14:50:29.839 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+14:50:30.237 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7184 elements computed, took 262 ms
+14:50:30.252 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+14:50:30.318 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+14:50:30.470 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+14:50:30.582 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+14:50:31.173 INFO  [d.f.a.antnet.AntMap] [] - 10 ant ways data computed, took 537 ms
+14:50:31.205 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+14:50:31.229 INFO  [d.f.a.antnet.AntMap] [] - 12 nodes computed
+14:50:31.299 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+14:50:31.372 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+14:50:31.391 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+14:50:31.642 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+14:50:31.690 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+14:50:31.826 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+14:50:31.841 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+14:50:31.894 INFO  [d.f.a.antnet.AntMap] [] - 11 sources and 12 destinations computed, took 27 ms
+14:50:31.906 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+14:50:32.168 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+14:50:32.589 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 299 ms
+14:50:32.803 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+14:50:36.045 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+14:50:36.280 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+14:50:43.790 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+14:50:43.790 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+14:51:46.194 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Bahrenfeld-Gross-Flottbek-Othmarschen-Ottensen.osm
+14:51:46.491 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+14:51:46.491 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+14:51:46.553 INFO  [d.f.a.osm.OsmMap] [] - 2139 nodes parsed in 62 milliseconds
+14:51:46.553 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+14:51:46.803 INFO  [d.f.a.osm.OsmMap] [] - 494 ways parsed in 234 milliseconds
+14:51:46.803 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+14:51:46.928 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 2139 elements computed, took 110 ms
+14:51:46.928 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+14:51:46.928 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+14:51:46.928 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+14:51:46.959 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+14:51:47.146 INFO  [d.f.a.antnet.AntMap] [] - 151 ant ways data computed, took 171 ms
+14:51:47.146 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+14:51:47.146 INFO  [d.f.a.antnet.AntMap] [] - 104 nodes computed
+14:51:47.146 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+14:51:47.146 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+14:51:47.146 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+14:51:47.193 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+14:51:47.208 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+14:51:47.208 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+14:51:47.208 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+14:51:47.208 INFO  [d.f.a.antnet.AntMap] [] - 99 sources and 100 destinations computed, took 0 ms
+14:51:47.224 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+14:51:47.349 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+14:51:47.598 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 249 ms
+14:51:47.895 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+14:51:52.625 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+14:51:52.640 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+14:52:32.097 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+14:52:32.487 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+14:52:32.487 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+14:52:32.612 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+14:52:32.612 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+14:52:34.345 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1733 milliseconds
+14:52:34.345 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+14:52:34.564 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 156 ms
+14:52:34.564 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+14:52:34.564 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+14:52:34.564 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+14:52:34.611 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+14:52:34.720 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 93 ms
+14:52:34.720 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+14:52:34.720 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+14:52:34.720 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+14:52:34.720 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+14:52:34.720 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+14:52:34.782 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+14:52:34.782 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+14:52:34.798 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+14:52:34.798 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+14:52:34.798 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+14:52:34.798 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+14:52:34.954 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+14:52:35.313 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 359 ms
+14:52:35.845 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+14:52:38.185 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+14:52:38.559 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+14:53:16.792 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+14:53:16.792 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+15:44:53.487 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+15:44:53.737 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+15:44:53.737 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+15:44:53.862 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 125 milliseconds
+15:44:53.862 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+15:44:54.080 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+15:44:54.096 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+15:44:54.363 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:88) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:25) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+15:44:55.549 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1671 milliseconds
+15:44:55.549 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+15:44:55.705 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 141 ms
+15:44:55.705 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+15:44:55.705 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+15:44:55.705 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+15:44:55.751 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+15:44:55.845 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 94 ms
+15:44:55.845 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+15:44:55.845 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+15:44:55.845 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+15:44:55.861 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+15:44:55.861 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+15:44:55.907 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+15:44:55.907 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+15:44:55.923 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+15:44:55.923 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+15:44:55.939 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+15:44:55.939 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+15:44:56.079 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+15:44:56.391 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 312 ms
+15:44:56.859 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+15:44:57.561 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+15:44:57.561 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
