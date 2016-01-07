@@ -1,0 +1,1229 @@
+06:07:19.015 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+06:07:19.311 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+06:07:19.327 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+06:07:19.561 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 172 milliseconds
+06:07:19.576 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+06:07:22.291 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2637 milliseconds
+06:07:22.306 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+06:07:22.712 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 249 ms
+06:07:22.712 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+06:07:22.712 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+06:07:22.852 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+06:07:23.024 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 172 ms
+06:07:23.024 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+06:07:23.024 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+06:07:23.024 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+06:07:23.055 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+06:07:23.055 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+06:07:23.055 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+06:07:23.118 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+06:07:23.118 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+06:07:23.133 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+06:07:23.133 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+06:07:23.133 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+06:07:25.161 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:25.896 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+06:07:25.928 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+06:07:27.169 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:29.182 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:31.194 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:32.957 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:07:33.207 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:35.221 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:37.233 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:39.246 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:41.258 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:43.271 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:45.283 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:47.296 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:49.308 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:51.320 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:53.333 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:55.345 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:56.437 INFO  [b.liftweb.Boot] [] - Shutting down
+06:07:57.348 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:07:59.363 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:01.378 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:03.391 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:05.405 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:07.419 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:09.432 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:11.444 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:13.457 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:15.469 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:17.481 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:19.494 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:21.506 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:23.519 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:25.531 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:27.543 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:29.556 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:31.568 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:33.582 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:35.583 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:37.596 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:39.608 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:41.621 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:43.446 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+06:08:43.524 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+06:08:43.524 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+06:08:43.555 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 31 milliseconds
+06:08:43.555 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+06:08:43.633 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:45.396 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1841 milliseconds
+06:08:45.396 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+06:08:45.505 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 94 ms
+06:08:45.505 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+06:08:45.505 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+06:08:45.521 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+06:08:45.630 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+06:08:45.630 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+06:08:45.630 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+06:08:45.630 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+06:08:45.630 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+06:08:45.645 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:45.645 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+06:08:45.645 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+06:08:45.692 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+06:08:45.692 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+06:08:45.708 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+06:08:45.708 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+06:08:45.708 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+06:08:47.658 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:47.751 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:49.670 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:49.764 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:51.324 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+06:08:51.324 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+06:08:51.672 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:51.766 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:53.685 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:53.778 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:55.699 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:55.793 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:57.166 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:08:57.712 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:57.805 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:59.724 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:08:59.818 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:01.737 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:01.830 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:03.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:03.843 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:05.763 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:05.857 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:07.778 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:07.871 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:09.779 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:09.872 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:10.122 INFO  [d.f.a.rest.Rest] [] - Rest: Weg wird geändert!
+06:09:10.153 INFO  [d.f.a.rest.Rest] [] - Rest: Weg ist nicht Teil der aktuellenLösung
+06:09:11.791 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:11.885 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:13.803 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:13.897 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:14.817 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:09:15.816 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:15.909 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:17.828 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:17.922 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:19.841 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:19.934 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:21.853 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:21.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:23.865 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:23.959 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:25.160 INFO  [d.f.a.rest.Rest] [] - Rest: Weg wird geändert!
+06:09:25.176 INFO  [d.f.a.rest.Rest] [] - Rest: Weg ist Teil der aktuellen Lösung
+06:09:25.878 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:25.971 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:27.921 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:27.984 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:29.903 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:29.996 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:31.915 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:32.009 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:33.928 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:34.021 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:35.942 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:36.036 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:37.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:38.048 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:38.298 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:09:39.967 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:40.060 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:41.981 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:42.061 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:43.982 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:44.076 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:45.994 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:46.088 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:46.665 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:09:48.007 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:48.100 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:50.019 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:50.113 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:52.032 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:52.125 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:54.044 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:54.138 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:55.027 INFO  [d.f.a.rest.Rest] [] - Rest: Weg wird geändert!
+06:09:55.027 INFO  [d.f.a.rest.Rest] [] - Rest: Weg ist nicht Teil der aktuellenLösung
+06:09:56.056 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:56.150 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:58.069 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:09:58.162 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:00.081 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:00.175 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:01.672 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:10:02.094 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:02.187 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:04.106 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:04.200 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:06.120 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:06.214 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:08.133 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:08.226 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:10.145 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:10.239 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:12.158 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:12.251 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:14.170 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:14.264 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:16.171 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:16.264 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:18.185 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:18.279 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:20.198 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:20.291 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:22.210 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:22.304 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:23.084 INFO  [d.f.a.rest.Rest] [] - Rest: Weg wird geändert!
+06:10:23.084 INFO  [d.f.a.rest.Rest] [] - Rest: Weg ist nicht Teil der aktuellenLösung
+06:10:24.222 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:24.316 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:26.235 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:26.328 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:28.247 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:28.341 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:29.589 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:10:30.260 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:30.353 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:32.272 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:32.366 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:34.284 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:34.378 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:36.299 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:36.392 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:38.311 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:38.405 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:40.324 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:40.417 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:42.040 INFO  [b.liftweb.Boot] [] - Shutting down
+06:10:42.327 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:42.420 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:44.339 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:44.433 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:46.352 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:46.445 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:48.364 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:48.458 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:50.365 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:50.458 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:52.379 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:52.473 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:54.392 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:54.485 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:56.404 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:56.498 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:58.416 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:10:58.510 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:00.429 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:00.522 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:02.441 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:02.535 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:04.454 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:04.547 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:06.466 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:06.560 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:08.480 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:08.574 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:10.493 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:10.586 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:12.505 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:12.599 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:14.518 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:14.611 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:16.530 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:16.624 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:18.542 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:18.636 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:20.555 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:20.648 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:22.567 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:22.661 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:24.568 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:24.662 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:26.583 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:26.676 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:28.595 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:28.689 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:30.607 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:30.701 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:32.620 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:32.713 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:34.632 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:34.726 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:36.645 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:36.738 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:38.659 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:38.753 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:40.671 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:40.765 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:42.684 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:42.777 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:44.696 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:44.790 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:46.709 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:46.802 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:48.721 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:48.815 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:50.733 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:50.827 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:52.746 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:52.839 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:54.758 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:54.852 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:56.771 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:56.864 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:58.771 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:11:58.865 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:00.786 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:00.879 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:02.798 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:02.892 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:04.811 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:04.904 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:06.823 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:06.917 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:08.837 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:08.931 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:10.850 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:10.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:12.862 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:12.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:14.875 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:14.968 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:16.887 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:16.981 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:18.899 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:18.993 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:20.912 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:21.005 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:22.924 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:23.018 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:24.937 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:25.030 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:26.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:27.043 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:28.961 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:29.055 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:30.974 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:31.067 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:32.975 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:33.068 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:34.989 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:35.083 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:37.001 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:37.095 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:39.016 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:39.109 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:41.028 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:41.122 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:43.041 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:43.134 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:45.053 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:45.147 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:47.065 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:47.159 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:49.078 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:49.171 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:51.090 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:51.184 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:53.103 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:53.196 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:55.115 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:55.209 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:55.318 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+06:12:55.380 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+06:12:55.380 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+06:12:55.411 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 31 milliseconds
+06:12:55.411 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+06:12:57.127 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:57.221 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:57.330 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1919 milliseconds
+06:12:57.330 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+06:12:57.408 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 62 ms
+06:12:57.408 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+06:12:57.408 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+06:12:57.424 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+06:12:57.517 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 93 ms
+06:12:57.517 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+06:12:57.517 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+06:12:57.517 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+06:12:57.517 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+06:12:57.549 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+06:12:57.549 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+06:12:57.595 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+06:12:57.595 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+06:12:57.611 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+06:12:57.611 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+06:12:57.611 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+06:12:59.140 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:59.233 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:12:59.639 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:00.435 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+06:13:00.450 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+06:13:01.144 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:01.238 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:01.643 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:03.157 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:03.250 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:03.656 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:05.169 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:05.263 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:05.670 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:07.170 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:07.263 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:07.373 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:13:07.671 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:09.171 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:09.264 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:09.685 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:11.183 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:11.277 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:11.698 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:13.195 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:13.289 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:13.710 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:15.208 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:15.301 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:15.723 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:17.220 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:17.314 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:17.735 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:19.233 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:19.326 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:19.748 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:21.245 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:21.339 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:21.760 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:21.807 INFO  [d.f.a.rest.Rest] [] - Rest: Weg wird geändert!
+06:13:21.838 INFO  [d.f.a.rest.Rest] [] - Rest: Weg ist nicht Teil der aktuellen Lösung
+06:13:23.258 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:23.351 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:23.772 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:25.270 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:25.364 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:25.785 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:27.282 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:27.376 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:27.797 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:29.295 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:29.388 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:29.810 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:31.073 INFO  [d.f.a.rest.Rest] [] - Rest: Weg wird geändert!
+06:13:31.073 INFO  [d.f.a.rest.Rest] [] - Rest: Weg ist Teil der aktuellen Lösung
+06:13:31.089 INFO  [d.f.a.rest.Rest] [] - Rest: Dijkstra berechnet neuen Weg
+06:13:31.307 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:31.401 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:31.822 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:33.320 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:33.413 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:33.834 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:35.332 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:35.426 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:35.847 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:37.344 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:37.438 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:37.859 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:39.359 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:39.452 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:39.860 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:41.360 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:41.453 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:41.861 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:43.374 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:43.468 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:43.873 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:45.386 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:45.480 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:45.886 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:47.102 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:13:47.399 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:47.492 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:47.898 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:49.411 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:49.505 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:49.910 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:51.424 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:51.517 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:51.923 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:53.436 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:53.530 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:53.935 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:55.448 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:55.542 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:55.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:57.461 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:57.554 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:57.960 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:58.334 INFO  [d.f.a.rest.Rest] [] - Rest: Weg wird geändert!
+06:13:58.334 INFO  [d.f.a.rest.Rest] [] - Rest: Weg ist nicht Teil der aktuellen Lösung
+06:13:59.473 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:59.567 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:13:59.972 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:01.486 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:01.579 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:01.985 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:02.063 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+06:14:03.498 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:03.592 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:03.997 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:05.136 INFO  [b.liftweb.Boot] [] - Shutting down
+06:14:05.501 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:05.595 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:06.000 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:07.514 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:07.607 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:08.013 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:09.528 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:09.622 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:10.027 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:11.540 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:11.634 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:12.040 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:13.553 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:13.646 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:14.053 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:15.567 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:15.661 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:16.068 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:17.582 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:17.675 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:18.081 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:19.594 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:19.688 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:20.093 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:21.606 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:21.700 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:22.106 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:23.619 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:23.712 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:24.118 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:25.631 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:25.725 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:26.130 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:27.644 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:27.737 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:28.143 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:29.656 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:29.750 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:30.155 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:31.668 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:31.762 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:32.168 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:33.681 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:33.774 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:34.180 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:35.693 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:35.787 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:36.192 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:37.706 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:37.799 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:38.205 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:39.720 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:39.814 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:40.219 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:41.732 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:41.826 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:42.232 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:43.745 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:43.838 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:44.244 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:45.757 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:45.851 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:46.256 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:47.770 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:47.863 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:48.271 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:49.770 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:49.864 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:50.272 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:51.785 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:51.878 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:52.284 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:53.797 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:53.891 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:54.296 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:55.810 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:55.903 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:56.309 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:57.822 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:57.916 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:58.321 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:59.834 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:14:59.928 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:00.334 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:01.847 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:01.940 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:02.346 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:03.859 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:03.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:04.358 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:05.872 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:05.965 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:06.371 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:07.884 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:07.978 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:08.383 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:09.897 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:09.992 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:10.398 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:11.911 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:12.005 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:12.410 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:13.923 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:14.017 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:14.423 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:15.936 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:16.029 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:16.435 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:17.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:18.042 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:18.447 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:19.961 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:20.054 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:20.460 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:21.973 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:22.067 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:22.472 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:23.974 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:24.067 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:24.473 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:25.987 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:26.081 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:26.486 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:28.000 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:28.093 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:28.499 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:30.012 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:30.106 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:30.511 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:32.024 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:32.118 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:32.524 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:34.037 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:34.130 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:34.536 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:36.049 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:36.143 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:36.548 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:38.062 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:38.155 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:38.561 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:40.074 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:40.168 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:40.575 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:42.088 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:42.182 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:42.588 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:44.101 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:44.194 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:44.600 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:46.113 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:46.207 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:46.612 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:48.126 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:48.219 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:48.625 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:50.138 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:50.232 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:50.637 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:52.150 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:52.244 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:52.650 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:54.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:54.256 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:54.662 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:56.175 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:56.269 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:56.674 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:58.176 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:58.270 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:15:58.675 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:00.190 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:00.284 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:00.690 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:02.203 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:02.296 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:02.702 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:04.215 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:04.309 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:04.714 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:06.228 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:06.321 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:06.727 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:08.240 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:08.334 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:08.739 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:10.252 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:10.346 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:10.752 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:12.267 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:12.360 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:12.766 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:14.279 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:14.373 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:14.778 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:16.292 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:16.385 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:16.791 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:18.304 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:18.398 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:18.803 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:20.316 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:20.410 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+06:16:20.816 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+12:34:50.184 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+12:34:50.759 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+12:34:50.770 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+12:34:51.084 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 249 milliseconds
+12:34:51.093 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+12:34:53.649 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2466 milliseconds
+12:34:53.656 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+12:34:54.219 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 211 ms
+12:34:54.257 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+12:34:54.410 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+12:34:54.543 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+12:34:55.384 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 822 ms
+12:34:55.391 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+12:34:55.419 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+12:34:55.436 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+12:34:55.449 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+12:34:55.552 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+12:34:55.640 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+12:34:56.235 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+12:34:56.842 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+12:34:56.980 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+12:34:56.989 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+12:34:57.050 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 15 ms
+12:34:58.025 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:34:58.284 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:34:59.137 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888888888888891
+12:34:59.138 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.888888888888891
+12:35:01.138 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:01.139 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:03.138 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:35:03.138 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:35:05.139 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:05.139 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:07.139 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:35:07.139 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:35:09.190 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:09.190 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:11.190 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:11.190 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:12.050 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:35:13.190 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:13.191 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:15.191 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:15.191 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:17.335 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:17.335 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:19.335 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:19.335 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:21.389 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:35:21.389 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:35:23.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:35:23.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:35:25.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:35:25.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:35:27.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888899999999998
+12:35:27.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.888899999999998
+12:35:29.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888888888888891
+12:35:29.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.888888888888891
+12:35:31.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:31.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:32.508 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:35:33.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:35:33.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:35:35.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888888888888891
+12:35:35.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.888888888888891
+12:35:37.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 16.666666666666668
+12:35:37.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 16.666666666666668
+12:35:38.204 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:35:39.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:35:39.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:35:41.391 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:35:41.391 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:35:43.391 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:35:43.391 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:35:45.391 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:35:45.391 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:35:46.259 INFO  [b.liftweb.Boot] [] - Shutting down
+12:35:47.406 ERROR [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - sending to terminated ref breaks promises
+akka.pattern.AskTimeoutException: sending to terminated ref breaks promises
+	at akka.pattern.AskSupport$class.ask(AskSupport.scala:76) ~[akka-actor-2.0.5.jar:2.0.5]
+	at akka.pattern.package$.ask(package.scala:43) ~[akka-actor-2.0.5.jar:2.0.5]
+	at akka.pattern.AskSupport$AskableActorRef.$qmark(AskSupport.scala:153) ~[akka-actor-2.0.5.jar:2.0.5]
+	at akka.agent.Agent.future(Agent.scala:185) ~[akka-agent-2.0.5.jar:2.0.5]
+	at akka.agent.Agent.await(Agent.scala:190) ~[akka-agent-2.0.5.jar:2.0.5]
+	at de.fhwedel.antscout.antnet.AntWay.maxSpeed(AntWay.scala:77) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:43) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:30) ~[classes/:na]
+	at akka.actor.Actor$class.apply(Actor.scala:318) ~[akka-actor-2.0.5.jar:2.0.5]
+	at de.fhwedel.antscout.antnet.JamGen.apply(JamGen.scala:8) ~[classes/:na]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor-2.0.5.jar:2.0.5]
+12:35:47.407 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+12:37:56.326 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+12:37:56.408 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+12:37:56.410 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+12:37:56.579 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 102 milliseconds
+12:37:56.581 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+12:37:58.485 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1902 milliseconds
+12:37:58.485 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+12:37:58.584 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 84 ms
+12:37:58.586 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+12:37:58.589 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+12:37:58.609 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+12:37:58.742 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 132 ms
+12:37:58.742 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+12:37:58.743 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+12:37:58.747 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+12:37:58.751 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+12:37:58.840 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+12:37:58.840 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+12:37:58.892 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+12:37:58.893 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+12:37:58.910 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+12:37:58.910 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+12:37:58.911 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 1 ms
+12:38:00.942 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888897999135375
+12:38:00.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.888897999135375
+12:38:02.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:38:02.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:38:04.765 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:38:04.774 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:38:04.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:04.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:06.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:06.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:08.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:38:08.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:38:10.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:38:10.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:38:12.907 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:38:12.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:12.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:14.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:14.943 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:16.905 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:38:16.944 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:38:16.944 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:38:18.944 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:38:18.944 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:38:20.944 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:20.944 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:21.295 INFO  [b.liftweb.Boot] [] - Shutting down
+12:38:22.944 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:22.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:24.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:38:24.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:38:26.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:26.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:28.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:28.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:30.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:30.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:32.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 16.666666666666668
+12:38:32.946 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 16.666666666666668
+12:38:34.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:34.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:36.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:36.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:38.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:38:38.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:38:40.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:40.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:42.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:38:42.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:38:44.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:44.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:46.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:38:46.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:38:48.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:48.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:50.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:38:50.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:38:52.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 14.551718864370066
+12:38:52.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 14.551718864370066
+12:38:54.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:38:54.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:38:56.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:38:56.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:38:58.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:38:58.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:39:00.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 1.388888888888889
+12:39:00.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:39:02.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:39:02.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:39:04.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:04.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:06.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:06.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:08.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:08.948 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:10.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:10.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:12.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:12.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:14.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:39:14.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:39:16.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:39:16.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:39:18.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:39:18.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:39:20.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:20.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:22.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:39:22.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:39:24.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:39:24.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:39:26.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:39:26.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:39:28.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888888888888888
+12:39:28.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.888888888888888
+12:39:30.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:39:30.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:39:32.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 1.38889
+12:39:32.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.38889
+12:39:33.338 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+12:39:33.407 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+12:39:33.409 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+12:39:33.437 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 26 milliseconds
+12:39:33.438 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+12:39:34.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:34.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:35.599 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2159 milliseconds
+12:39:35.600 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+12:39:35.670 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 53 ms
+12:39:35.672 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+12:39:35.677 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+12:39:35.692 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+12:39:35.795 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 103 ms
+12:39:35.796 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+12:39:35.797 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+12:39:35.798 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+12:39:35.805 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+12:39:35.806 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+12:39:35.807 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+12:39:35.851 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+12:39:35.852 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+12:39:35.865 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+12:39:35.866 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+12:39:35.868 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 1 ms
+12:39:36.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:39:36.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:39:37.884 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:37.889 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:39:38.160 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:39:38.169 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:39:38.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:38.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:39.888 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:39:39.888 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.38889
+12:39:40.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:40.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:41.888 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:39:41.889 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 0.8333333333333335
+12:39:42.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:42.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:43.888 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:39:43.888 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 0.8333333333333335
+12:39:44.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:44.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:45.296 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:39:45.889 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:45.890 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:39:46.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:39:46.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:39:47.889 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:47.890 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:39:48.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 10.48381005827449
+12:39:48.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 10.48381005827449
+12:39:49.890 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:49.890 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:39:50.789 INFO  [b.liftweb.Boot] [] - Shutting down
+12:39:50.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:39:50.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:39:51.903 ERROR [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - sending to terminated ref breaks promises
+akka.pattern.AskTimeoutException: sending to terminated ref breaks promises
+	at akka.pattern.AskSupport$class.ask(AskSupport.scala:76) ~[akka-actor-2.0.5.jar:2.0.5]
+	at akka.pattern.package$.ask(package.scala:43) ~[akka-actor-2.0.5.jar:2.0.5]
+	at akka.pattern.AskSupport$AskableActorRef.$qmark(AskSupport.scala:153) ~[akka-actor-2.0.5.jar:2.0.5]
+	at akka.agent.Agent.future(Agent.scala:185) ~[akka-agent-2.0.5.jar:2.0.5]
+	at akka.agent.Agent.await(Agent.scala:190) ~[akka-agent-2.0.5.jar:2.0.5]
+	at de.fhwedel.antscout.antnet.AntWay.maxSpeed(AntWay.scala:77) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:43) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:30) ~[classes/:na]
+	at akka.actor.Actor$class.apply(Actor.scala:318) ~[akka-actor-2.0.5.jar:2.0.5]
+	at de.fhwedel.antscout.antnet.JamGen.apply(JamGen.scala:8) ~[classes/:na]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor-2.0.5.jar:2.0.5]
+12:39:51.903 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+12:39:52.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:39:52.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:39:54.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:54.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:39:56.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:39:56.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:39:58.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:39:58.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:00.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:40:00.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:40:02.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:02.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:04.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:04.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:06.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:06.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:08.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 1.38889
+12:40:08.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.38889
+12:40:10.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:10.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:12.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:40:12.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:40:14.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:40:14.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:40:16.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 16.666666666666668
+12:40:16.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 16.666666666666668
+12:40:18.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:40:18.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:40:20.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:20.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:22.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:40:22.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:40:24.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:24.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:26.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 21.65414390176952
+12:40:26.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 21.65414390176952
+12:40:28.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:28.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:30.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888888888888888
+12:40:30.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.888888888888888
+12:40:32.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:32.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:34.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:34.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:36.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:40:36.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:40:38.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:40:38.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:40:40.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:40.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:42.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:40:42.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:40:44.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:40:44.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:40:46.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88889345209461
+12:40:46.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88889345209461
+12:40:48.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:48.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:50.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:40:50.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:40:52.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:40:52.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:40:54.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 15.049762162258132
+12:40:54.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 15.049762162258132
+12:40:56.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:40:56.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:40:58.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:40:58.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:41:00.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:00.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:02.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:02.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:04.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:41:04.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:41:06.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:41:06.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:41:08.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888888888888888
+12:41:08.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.888888888888888
+12:41:10.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:10.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:12.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:41:12.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:41:14.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:14.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:16.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:16.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:18.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:18.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:20.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:20.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:22.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:22.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:24.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:41:24.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:41:26.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:41:26.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:41:28.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:28.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:30.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:41:30.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 8.333333333333334
+12:41:32.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:41:32.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:41:34.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:34.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:36.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 16.666666666666668
+12:41:36.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 16.666666666666668
+12:41:38.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:41:38.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:41:40.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888888888888891
+12:41:40.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.888888888888891
+12:41:42.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:41:42.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.88888888888889
+12:41:44.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:41:44.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:41:46.958 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 19.4444
+12:41:46.958 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 19.4444
+12:41:48.958 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:41:48.958 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 13.8889
+12:50:30.892 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+12:50:31.188 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+12:50:31.188 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+12:50:31.297 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+12:50:31.313 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+12:50:33.294 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1981 milliseconds
+12:50:33.294 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+12:50:33.559 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 218 ms
+12:50:33.559 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+12:50:33.559 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+12:50:33.606 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+12:50:33.700 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 94 ms
+12:50:33.700 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+12:50:33.700 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+12:50:33.715 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+12:50:33.715 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+12:50:33.715 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+12:50:33.715 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+12:50:33.778 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+12:50:33.778 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+12:50:33.793 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+12:50:33.793 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+12:50:33.793 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+12:50:35.837 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333332
+12:50:36.055 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 0.8333333333333333
+12:50:36.383 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:50:36.398 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:50:38.067 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:50:38.285 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.38889
+12:50:40.298 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:50:40.518 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:50:41.953 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:50:42.531 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:50:42.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.38889
+12:50:44.761 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:50:44.980 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.38889
+12:50:46.992 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 21.510514823326083
+12:50:47.211 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 2.1510514823326083
+12:52:19.979 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+12:52:20.229 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+12:52:20.245 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+12:52:20.354 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+12:52:20.354 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+12:52:22.054 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1700 milliseconds
+12:52:22.054 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+12:52:22.304 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+12:52:22.304 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+12:52:22.319 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+12:52:22.351 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+12:52:22.475 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 124 ms
+12:52:22.475 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+12:52:22.475 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+12:52:22.475 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+12:52:22.475 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+12:52:22.491 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+12:52:22.491 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+12:52:22.538 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+12:52:22.538 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+12:52:22.553 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+12:52:22.553 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+12:52:22.553 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+12:52:24.363 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:52:24.379 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:52:24.572 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 16.666666666666668
+12:52:24.782 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.666666666666667
+12:52:26.794 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 1.666666666666667
+12:52:27.013 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 0.1666666666666667
+12:52:29.025 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:52:29.244 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:52:30.726 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:52:31.256 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:52:31.474 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:52:33.489 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:52:33.707 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:52:35.720 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:52:35.938 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:52:37.950 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888888888888891
+12:52:38.169 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.3888888888888893
+12:52:40.181 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:52:40.400 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:52:42.414 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:52:42.632 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:52:44.645 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:52:44.863 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:52:46.876 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888896261160939
+12:52:47.094 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388889626116094
+12:52:49.106 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 16.666666666666668
+12:52:49.325 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.666666666666667
+12:52:51.337 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 1.388888888888889
+12:52:51.556 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 0.13888888888888892
+12:52:53.568 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 8.333333333333334
+12:52:53.786 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 0.8333333333333335
+12:52:55.799 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:52:56.017 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:52:58.030 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.888888888888891
+12:52:58.248 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.3888888888888893
+12:53:00.260 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 16.666666666666668
+12:53:00.479 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.666666666666667
+12:53:02.491 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:53:02.710 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:53:04.722 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:53:04.942 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.38889
+12:53:06.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:53:07.173 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.38889
+12:53:09.186 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.8889
+12:53:09.404 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.38889
+12:53:11.418 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:53:11.637 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:53:13.649 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:53:13.868 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:53:15.880 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:53:16.098 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889
+12:53:18.111 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Die alte Geschwindigkeit beträgt 13.88888888888889
+12:53:18.329 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt! Die neue Geschwindigkeit beträgt 1.388888888888889

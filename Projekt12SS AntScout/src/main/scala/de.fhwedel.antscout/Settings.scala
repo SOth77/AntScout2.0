@@ -20,7 +20,33 @@ object Settings {
   /**
    * Soll Dijkstra verwendet werden?
    */
-  val Dji = true
+  val Dji = getBoolean("ant-scout.dijkstra")
+  
+  /**
+   * Sollen zufällige Staus erzeugt werden?
+   */
+  val Jamgen = getBoolean("ant-scout.jam-gen.gen")
+  
+  /**
+   * Sollen sich Verkehrsverhältnisse auch positiv verändern können?
+   */
+  val Positive = getBoolean("ant-scout.jam-gen.positive")
+  
+  /**
+   * Millisekunden, nach denen jeweils ein Stau erzeugt werden soll
+   */
+  val Frequency = getInt("ant-scout.jam-gen.frequency")
+  
+  /**
+   *  Faktor, um den die bisherige Geschwindigkeit durch einen Stau verändert werden soll
+   */
+	val Factor = getDouble("ant-scout.jam-gen.factor")
+	
+	/**
+	 * Grenze, bis zu welchem Vielfachen des Grundfaktors sich die Geschwindigkeit
+	 * auf einer Teilstrecke pro Stau maximal verändert.
+	 */
+	val MaxChange = getInt("ant-scout.jam-gen.maxChange")
 
   /**
    * Parameter a für die Squash-Funktion.

@@ -8,12 +8,12 @@ import net.liftweb.json.JsonDSL._
 import osm.OsmMap
 import dijkstra.DijkstraService
 import routing.RoutingService
-import net.liftweb.common.{ Full, Box, Logger }
 import antnet.{ AntNode, AntWay, AntMap }
 import akka.dispatch.Await
 import akka.util.Timeout
 import net.liftweb.json.JsonAST.JArray
-import net.liftweb.http.NamedCometListener
+import net.liftweb.common.{ Empty, Full, Box, Logger }
+import net.liftweb.http.{ NamedCometListener, S, LiftSession }
 
 /**
  * Rest-Schnittstelle für Knoten, Wege und Pfade.
@@ -91,6 +91,7 @@ object Rest extends Logger with RestHelper {
       AntMap.ways.find(_.id == id).map(_.toJson)
     // Weg-Änderungs-Anfrage
     case JsonPut(List("way", id), json -> _) =>
+      info("erti-Rest: Weg wird geändert! ")
       // Weg suchen, der aktualisiert werden soll
       val way = AntMap.ways.find(_.id == id)
       // Aktualisierte Daten extrahieren
@@ -100,26 +101,61 @@ object Rest extends Logger with RestHelper {
         way.update(wayUpdate)
         // Warten, bis die Aktualisierung durchgeführt wurde
         way.maxSpeed(true)
-        // Pfad aktualisieren, falls notwendig
-        for {
-          path <- Path
-        } yield {
-          // Ist der aktualisierte Weg Teil des aktuellen Pfades?
-          if (path.contains(way)) {
-            // Weg im Pfad ersetzen
-            val newPath = (path.takeWhile(_ != way) :+ way) ++ path.dropWhile(_ != way).tail
-            // Neuen Pfad an den User-Interface-Aktor senden
-            if (Settings.Dji == true) {
+        if (Settings.Dji) {
+          info("erti-Rest: Dijkstra berechnet Weg neu")
+          val actSource = Source.get.openOr("empty")
+          val actDestination = Destination.get.openOr("empty")
+          info("erti-Rest: Source: %s, Destination: %s".format(actSource, actDestination))
+          if (actSource != "empty" && actDestination != "empty") {
+            val pathFuture = (system.actorFor(Iterable("user", AntScout.ActorName, DijkstraService.ActorName)) ?
+              DijkstraService.FindPath(actSource, actDestination))
+            for {
+              // Auf die Antwort vom Dijkstra warten
+              path <- Await.result(pathFuture, 5 seconds).asInstanceOf[Box[Seq[AntWay]]] ?~ "No path found" ~> 404
+            } yield {
+               // Neuen Pfad an den User-Interface-Aktor senden
               NamedCometListener.getDispatchersFor(Full("userInterface")) foreach { actor =>
-                actor.map(_ ! DijkstraService.Path(Full(newPath)))
+                actor.map(_ ! DijkstraService.Path(Full(path)))
+                Path(Full(path))
+                // Json aus den Daten erzeugen
+                val (length, tripTime) = path.foldLeft(0.0, 0.0) {
+                  case ((lengthAcc, tripTimeAcc), way) => (way.length + lengthAcc, way.tripTime + tripTimeAcc)
+                }
+                ("length" -> "%.4f".format(length / 1000)) ~
+                  ("lengths" ->
+                    JArray(List(("unit" -> "m") ~
+                      ("value" -> "%.4f".format(length))))) ~
+                    ("tripTime" -> "%.4f".format(tripTime / 60)) ~
+                    ("tripTimes" ->
+                      JArray(List(
+                        ("unit" -> "s") ~
+                          ("value" -> "%.4f".format(tripTime)),
+                        ("unit" -> "h") ~
+                          ("value" -> "%.4f".format(tripTime / 3600))))) ~
+                      ("ways" -> path.map(_.toJson))
               }
-            } else {
+            }
+          }
+        } else {
+          // Pfad aktualisieren, falls notwendig
+          for {
+            path <- Path
+          } yield {
+            // Ist der aktualisierte Weg Teil des aktuellen Pfades?
+            if (path.contains(way)) {
+              info("Rest: Weg ist Teil der aktuellen Lösung")
+              // Weg im Pfad ersetzen
+              val newPath = (path.takeWhile(_ != way) :+ way) ++ path.dropWhile(_ != way).tail
+              // Neuen Pfad an den User-Interface-Aktor senden
               NamedCometListener.getDispatchersFor(Full("userInterface")) foreach { actor =>
                 actor.map(_ ! RoutingService.Path(Full(newPath)))
               }
+
+              // Neuen Pfad in die Session schreiben
+              Path(Full(newPath))
+            } else {
+              info("Rest: Weg ist nicht Teil der aktuellen Lösung")
             }
-            // Neuen Pfad in die Session schreiben
-            Path(Full(newPath))
           }
         }
         // Aktualisierten Weg zurückgeben

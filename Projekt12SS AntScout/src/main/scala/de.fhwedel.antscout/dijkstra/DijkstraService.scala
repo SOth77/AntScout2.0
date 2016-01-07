@@ -27,8 +27,7 @@ class DijkstraService extends Actor with ActorLogging {
    */
   def findPath(source: String, destination: String): Box[Seq[AntWay]] = {
     val (start, target) = transformGraph(source, destination)
-    graph.dijkstra(start, target) match 
-    {
+    graph.dijkstra(start, target) match {
       case Some((path, distance)) => return Full(result(path))
       case None => return Empty
     }
@@ -41,38 +40,28 @@ class DijkstraService extends Actor with ActorLogging {
     mapEdge.clear()
     mapNode.clear()
     graph.clear()
-    log.info("erti transform: Vor der 1. Schleife, mapEdge Size: %d".format(mapEdge.size))
     AntMap.nodes.foreach((i: map.Node) => mapNode.put(i, graph.mkNode))
-    log.info("erti transform, AntMap Size: %d, mapNode Size: %d".format(AntMap.nodes.size, mapNode.size))
     for ((a, b) <- AntMap.outgoingWays) {
       for (c <- b) {
         val startNode = mapNode(a)
-        //log.info("erti transform, startNode: %d".format(startNode))
         val endNode = mapNode(c.endNode(a))
-        //log.info("erti transform, endNode: %d".format(endNode))
         graph.setDistance(startNode, endNode, c.tripTime)
-        mapEdge += (((startNode,endNode), c))
+        mapEdge += (((startNode, endNode), c))
       }
     }
-    log.info("erti transform: Zwischen den Schleifen, mapEdge Size: %d".format(mapEdge.size))
     for ((d, e) <- AntMap.incomingWays) {
       for (f <- e) {
         val startNode = mapNode(d)
         val endNode = mapNode(f.endNode(d))
         graph.setDistance(startNode, endNode, f.tripTime)
-        mapEdge += (((startNode,endNode), f))
+        mapEdge += (((startNode, endNode), f))
       }
     }
-    log.info("erti transform: Nach der 2. Schleife, mapEdge Size: %d".format(mapEdge.size))
 
     val source2 = AntMap.nodes.find(x => x.id == source).getOrElse(new map.Node(source))
-    log.info("erti transform, source2: %s".format(source2.id))
     val destination2 = AntMap.nodes.find(x => x.id == destination).getOrElse(new map.Node(destination))
-    log.info("erti transform, destination2: %s".format(destination2.id))
     val start = mapNode(source2)
-    log.info("erti transform, start: %d".format(start))
     val target = mapNode(destination2)
-    log.info("erti transform, target: %d".format(target))
     return (start, target)
   }
 
@@ -81,16 +70,22 @@ class DijkstraService extends Actor with ActorLogging {
    */
   def result(path: List[Int]): Seq[AntWay] = {
     val result = new MutableList[AntWay]()
-    var actNode = path.head 
-    var lastNode = path.head 
+    var actNode = path.head
+    var lastNode = path.head
     for (i <- path)
-      if (actNode != i)
-      {
+      if (actNode != i) {
         actNode = i
-        result += (mapEdge((lastNode,actNode)))
+        result += (mapEdge((lastNode, actNode)))
         lastNode = i
-      }     
+      }
     return result
+  }
+
+  def startAutomat(time: Int) = {
+    while (true) {
+      Thread.sleep(time)
+      
+    }
   }
 
   /**
@@ -123,6 +118,9 @@ class DijkstraService extends Actor with ActorLogging {
       }
       // Pfad zurücksenden
       sender ! path
+    // Automatisierte Dijkstraberechnung mit festem Intervall  
+    case StartAutomat(time) =>
+      startAutomat(time)
     // Initialisierung
     case Initialize =>
       init()
@@ -151,6 +149,11 @@ object DijkstraService {
    * @param destination Ziel
    */
   case class FindPath(source: String, destination: String)
+
+  /**
+   * Automatisierter Dijkstra
+   */
+  case class StartAutomat(time: Int)
 
   /**
    * Initialisierung

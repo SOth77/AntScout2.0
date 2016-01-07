@@ -1,0 +1,1352 @@
+08:38:36.846 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+08:38:37.189 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+08:38:37.205 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+08:38:37.595 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 328 milliseconds
+08:38:37.611 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+08:38:40.091 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2293 milliseconds
+08:38:40.091 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+08:38:40.481 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 249 ms
+08:38:40.528 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+08:38:40.590 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+08:38:40.746 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+08:38:41.261 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+08:38:41.589 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 795 ms
+08:38:41.620 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+08:38:41.667 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+08:38:41.682 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+08:38:41.729 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+08:38:41.745 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+08:38:41.913 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+08:38:41.935 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+08:38:42.133 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:87) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:25) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+08:38:42.303 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+08:38:42.334 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+08:38:42.443 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+08:38:42.459 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+08:38:42.521 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 15 ms
+08:38:50.633 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:39:09.776 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+08:39:09.776 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+08:39:16.306 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:39:40.324 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+08:39:40.324 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+08:39:46.067 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:40:08.936 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:44:22.524 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+08:44:22.773 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+08:44:22.773 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+08:44:22.885 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 112 milliseconds
+08:44:22.885 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+08:44:24.866 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1981 milliseconds
+08:44:24.866 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+08:44:25.037 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 140 ms
+08:44:25.053 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+08:44:25.053 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+08:44:25.084 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+08:44:25.193 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+08:44:25.193 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+08:44:25.193 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+08:44:25.193 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+08:44:25.193 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+08:44:25.209 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+08:44:25.209 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+08:44:25.256 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+08:44:25.256 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+08:44:25.271 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+08:44:25.271 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+08:44:25.271 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+08:44:26.332 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:27.346 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:28.360 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:29.234 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+08:44:29.234 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+08:44:29.374 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:30.380 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:31.394 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:32.408 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:33.422 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:34.436 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:35.044 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:44:35.450 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:36.464 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:37.478 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:38.492 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:39.506 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:40.520 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:41.534 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:42.548 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:43.562 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:44.576 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:45.590 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:46.604 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:47.618 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:48.632 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:49.646 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:50.660 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:51.660 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:52.663 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:53.678 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:54.692 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:55.706 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:56.707 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:57.721 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:58.735 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:44:59.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:00.763 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:01.777 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:02.791 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:03.805 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:04.819 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:05.833 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:06.847 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:07.861 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:08.875 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:09.889 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:10.903 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:11.917 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:12.463 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:45:12.931 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:13.945 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:14.959 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:15.973 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:16.987 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:18.001 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:19.015 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:20.029 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:21.043 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:22.057 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:23.072 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:24.086 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:25.088 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:26.091 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:27.091 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:28.105 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:29.105 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:30.119 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:31.133 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:32.147 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:33.161 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:34.175 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:35.189 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:36.203 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:37.217 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:38.231 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:39.245 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:40.259 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:41.273 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:42.288 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:43.302 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:44.316 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:45.330 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:46.344 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:47.358 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:48.372 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:49.386 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:50.400 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:51.414 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:52.428 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:53.442 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:54.456 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:55.470 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:56.484 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:57.499 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:58.499 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:45:59.503 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:00.517 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:01.531 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:02.532 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:03.546 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:04.560 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:05.574 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:06.588 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:07.602 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:08.616 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:09.630 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:10.644 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:11.658 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:12.672 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:13.687 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:13.827 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:46:14.701 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:15.715 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:16.729 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:17.743 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:18.757 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:19.771 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:20.785 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:21.799 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:22.813 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:23.827 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:24.841 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:25.855 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:46:26.869 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:33.884 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+08:52:34.118 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+08:52:34.118 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+08:52:34.227 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+08:52:34.227 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+08:52:36.255 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2012 milliseconds
+08:52:36.271 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+08:52:36.442 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 140 ms
+08:52:36.442 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+08:52:36.442 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+08:52:36.489 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+08:52:36.583 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 94 ms
+08:52:36.583 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+08:52:36.583 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+08:52:36.583 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+08:52:36.583 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+08:52:36.598 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+08:52:36.598 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+08:52:36.645 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+08:52:36.645 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+08:52:36.661 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+08:52:36.661 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+08:52:36.661 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+08:52:37.722 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:37.722 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:37.722 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:37.784 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+08:52:37.800 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+08:52:38.730 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:38.730 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:38.730 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:39.732 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:39.732 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:39.732 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:40.746 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:40.746 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:40.746 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:41.760 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:41.760 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:41.760 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:42.761 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:42.761 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:42.761 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:43.260 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:52:43.775 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:43.775 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:43.775 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:44.789 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:44.789 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:44.789 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:45.803 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:45.803 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:45.803 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:46.817 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:46.817 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:46.817 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:47.831 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:47.831 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:47.831 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:48.845 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:48.845 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:48.845 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:49.859 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:49.859 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:49.859 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:50.873 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:50.873 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:50.873 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:51.887 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:51.887 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:51.887 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:52:52.901 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:52.901 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:52:52.901 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:09.068 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+08:57:09.302 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+08:57:09.318 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+08:57:09.427 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+08:57:09.427 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+08:57:11.424 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1981 milliseconds
+08:57:11.424 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+08:57:11.660 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 205 ms
+08:57:11.660 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+08:57:11.660 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+08:57:11.707 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+08:57:11.800 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 93 ms
+08:57:11.816 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+08:57:11.816 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+08:57:11.816 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+08:57:11.816 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+08:57:11.816 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+08:57:11.831 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+08:57:11.878 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+08:57:11.878 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+08:57:11.894 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+08:57:11.894 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+08:57:11.894 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+08:57:12.908 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+08:57:12.908 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+08:57:12.923 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:12.923 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:12.923 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:13.938 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:13.938 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:13.938 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:14.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:14.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:14.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:15.966 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:15.966 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:15.966 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:16.980 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:16.980 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:16.980 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:17.994 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:17.994 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:17.994 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:19.008 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:19.008 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:19.008 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:19.351 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Boxinhalt definiert: true
+08:57:19.413 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Boxinhalt definiert: true
+08:57:19.460 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:57:20.022 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:20.022 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:20.022 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:21.036 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:21.036 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:21.036 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:22.051 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:22.051 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:22.051 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:23.065 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:23.065 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:23.065 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:24.079 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:24.079 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:24.079 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:25.093 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:25.093 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:25.093 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:26.107 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:26.107 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:26.107 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:27.107 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:27.107 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:27.107 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:28.121 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:28.121 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:28.121 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:29.135 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:29.135 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:29.135 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:30.149 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:30.149 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:30.149 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:31.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:31.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:31.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:32.177 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:32.177 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:32.177 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:32.988 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Boxinhalt definiert: true
+08:57:32.988 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Boxinhalt definiert: true
+08:57:33.019 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+08:57:33.191 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:33.191 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:33.191 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:34.205 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:34.205 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:34.205 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:35.219 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:35.219 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:35.219 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+08:57:36.233 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:36.233 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+08:57:36.233 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+09:00:26.889 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+09:00:27.123 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+09:00:27.138 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+09:00:27.232 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 94 milliseconds
+09:00:27.232 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+09:00:27.903 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+09:00:27.918 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+09:00:28.113 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:87) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:25) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+09:00:28.815 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+09:00:28.815 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+09:00:28.877 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1645 milliseconds
+09:00:28.877 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+09:00:29.052 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:87) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:25) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+09:00:29.080 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 164 ms
+09:00:29.080 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+09:00:29.080 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+09:00:29.127 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+09:00:29.236 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+09:00:29.236 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+09:00:29.236 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+09:00:29.236 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+09:00:29.236 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+09:00:29.252 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+09:00:29.252 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+09:00:29.314 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+09:00:29.314 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+09:00:29.330 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+09:00:29.330 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+09:00:29.330 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+09:00:31.238 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+09:00:31.238 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+09:00:36.326 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+09:00:43.487 INFO  [d.f.a.rest.Rest] [] - Rest: Weg wird geändert! 
+09:00:43.487 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Boxinhalt definiert: true
+09:00:43.487 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Boxinhalt definiert: true
+09:00:43.627 INFO  [d.f.a.rest.Rest] [] - Rest: Dijkstra berechnet Weg neu
+09:00:43.643 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+09:00:51.099 INFO  [d.f.a.rest.Rest] [] - Rest: Weg wird geändert! 
+09:00:51.099 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Boxinhalt definiert: true
+09:00:51.099 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Boxinhalt definiert: true
+09:00:51.099 INFO  [d.f.a.rest.Rest] [] - Rest: Dijkstra berechnet Weg neu
+09:00:51.099 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:31:24.170 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+12:31:24.404 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+12:31:24.404 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+12:31:24.513 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+12:31:24.513 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+12:31:25.122 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:31:25.137 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:31:25.339 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:87) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:25) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+12:31:26.073 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:31:26.073 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:31:26.234 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:87) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:25) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+12:31:26.868 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2340 milliseconds
+12:31:26.868 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+12:31:27.087 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+12:31:27.087 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+12:31:27.087 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+12:31:27.134 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+12:31:27.227 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 93 ms
+12:31:27.227 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+12:31:27.227 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+12:31:27.227 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+12:31:27.227 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+12:31:27.243 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+12:31:27.243 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+12:31:27.290 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+12:31:27.290 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+12:31:27.305 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+12:31:27.305 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+12:31:27.305 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+12:31:28.896 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:31:28.896 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:31:33.453 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+12:31:37.317 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+12:31:37.317 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+12:31:47.321 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+12:31:47.321 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+12:31:57.322 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+12:31:57.322 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+12:32:07.322 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+12:32:07.322 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+12:32:17.337 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+12:32:17.337 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:15.089 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+15:05:15.370 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+15:05:15.370 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+15:05:15.479 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+15:05:15.479 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+15:05:17.788 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2309 milliseconds
+15:05:17.788 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+15:05:17.991 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+15:05:17.991 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+15:05:17.991 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+15:05:18.022 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+15:05:18.116 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 94 ms
+15:05:18.116 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+15:05:18.131 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+15:05:18.131 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+15:05:18.131 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+15:05:18.131 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+15:05:18.131 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+15:05:18.178 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+15:05:18.194 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+15:05:18.194 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+15:05:18.209 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+15:05:18.209 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+15:05:18.833 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+15:05:18.849 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+15:05:19.215 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:20.229 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:21.243 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:22.257 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:23.271 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:24.160 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+15:05:24.285 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:25.299 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:26.313 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:27.327 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:28.341 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:29.355 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:30.370 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:31.384 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:32.398 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:33.398 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:34.412 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:35.426 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:36.440 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:37.454 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:38.455 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:39.469 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:40.483 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:41.497 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:42.497 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:43.511 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:44.525 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:45.539 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:46.553 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:47.567 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:48.581 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:49.377 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+15:05:49.595 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:50.609 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:51.623 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:52.637 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:53.651 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:05:54.665 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Boxinhalt definiert: false
+15:18:13.221 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+15:18:13.457 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+15:18:13.457 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+15:18:13.566 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+15:18:13.566 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+15:18:15.547 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1981 milliseconds
+15:18:15.547 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+15:18:15.719 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 156 ms
+15:18:15.719 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+15:18:15.719 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+15:18:15.750 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+15:18:15.859 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 94 ms
+15:18:15.859 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+15:18:15.859 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+15:18:15.859 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+15:18:15.859 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+15:18:15.859 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+15:18:15.859 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+15:18:15.922 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+15:18:15.922 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+15:18:15.937 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+15:18:15.937 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+15:18:15.937 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+15:18:18.418 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+15:18:18.433 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+15:18:23.209 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+15:18:30.278 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Weg wird geändert! 
+15:18:30.309 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Dijkstra berechnet Weg neu
+15:18:30.309 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Source: 291151430, Destination: 716613041
+15:18:30.325 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+15:30:40.960 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+15:30:41.194 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+15:30:41.194 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+15:30:41.304 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 110 milliseconds
+15:30:41.319 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+15:30:43.207 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1888 milliseconds
+15:30:43.207 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+15:30:43.425 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+15:30:43.425 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+15:30:43.425 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+15:30:43.472 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+15:30:43.566 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 94 ms
+15:30:43.566 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+15:30:43.566 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+15:30:43.566 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+15:30:43.581 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+15:30:43.581 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+15:30:43.581 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+15:30:43.628 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+15:30:43.628 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+15:30:43.644 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+15:30:43.644 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+15:30:43.644 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+15:30:45.765 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+15:30:45.781 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+15:30:52.550 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:30.256 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:01:30.490 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:01:30.490 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:01:30.599 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+16:01:30.599 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:01:32.721 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2122 milliseconds
+16:01:32.721 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:01:32.908 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 140 ms
+16:01:32.908 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+16:01:32.908 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:01:32.939 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:01:33.157 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+16:01:33.157 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:01:33.157 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:01:33.157 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:01:33.220 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:01:33.220 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:01:33.220 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:01:33.282 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:01:33.282 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:01:33.298 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:01:33.298 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:01:33.298 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+16:01:33.984 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:01:33.984 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:01:34.456 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+16:01:35.548 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+16:01:36.656 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+16:01:37.748 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+16:01:38.855 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: empty, Destination: empty
+16:01:39.074 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:39.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:39.947 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:39.963 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:39.979 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #175 #1118551846 - #41015945, #149 #1353664905 - #1118551846, #6 #577287989 -> #1353664905, #118 #577287989 - #1600859322, #79 #1600859322 - #245956062, #84 #245956062 - #21545101, #160 #21545101 - #96731915, #155 #96731915 - #26474333, #47 #26474333 - #29631976, #205 #29631976 - #716613041)
+16:01:41.055 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:41.055 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:41.071 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:41.071 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #188 #185479852 -> #185479876, #13 #185479876 -> #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:42.147 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:42.147 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:42.163 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:42.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #188 #185479852 -> #185479876, #13 #185479876 -> #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:43.147 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:43.147 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:43.163 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:43.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #188 #185479852 -> #185479876, #13 #185479876 -> #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:44.255 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:44.255 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:44.271 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:44.271 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #188 #185479852 -> #185479876, #13 #185479876 -> #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:45.347 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:45.347 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:45.363 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:45.363 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #188 #185479852 -> #185479876, #13 #185479876 -> #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:46.455 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:46.455 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:46.470 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:46.470 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #33 #105345805 -> #1276752486, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:47.457 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:47.457 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:47.473 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:47.473 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #33 #105345805 -> #1276752486, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:48.549 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:48.549 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:48.549 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:48.565 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #33 #105345805 -> #1276752486, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:49.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:49.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:49.657 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:49.672 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #33 #105345805 -> #1276752486, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:50.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:50.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:50.657 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:50.673 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #33 #105345805 -> #1276752486, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:51.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:51.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:51.749 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:51.765 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #33 #105345805 -> #1276752486, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:52.857 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:52.857 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:52.857 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:52.872 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #33 #105345805 -> #1276752486, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:53.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:53.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:53.949 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:53.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #143 #68670477 - #1554437296, #173 #68665493 - #68670477, #148 #68666288 - #68665493, #63 #68666292 - #68666288, #1 #81540871 - #68666292, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #61 #240516073 - #105345805, #91 #1276752486 -> #240516073, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:55.058 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:55.058 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:55.058 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:55.058 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #75 #1554437296 - #69341754, #207 #131220 - #69341754, #167 #81540871 - #131220, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #61 #240516073 - #105345805, #91 #1276752486 -> #240516073, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:56.150 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:56.150 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:56.150 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:56.166 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #75 #1554437296 - #69341754, #207 #131220 - #69341754, #167 #81540871 - #131220, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #61 #240516073 - #105345805, #91 #1276752486 -> #240516073, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:57.151 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:57.151 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:57.151 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:57.151 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #75 #1554437296 - #69341754, #207 #131220 - #69341754, #167 #81540871 - #131220, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #61 #240516073 - #105345805, #91 #1276752486 -> #240516073, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:58.243 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:58.243 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:58.243 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:58.258 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #75 #1554437296 - #69341754, #207 #131220 - #69341754, #167 #81540871 - #131220, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #61 #240516073 - #105345805, #91 #1276752486 -> #240516073, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:01:59.257 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:01:59.257 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:01:59.257 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:01:59.257 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #75 #1554437296 - #69341754, #207 #131220 - #69341754, #167 #81540871 - #131220, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #61 #240516073 - #105345805, #91 #1276752486 -> #240516073, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:02:00.349 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:02:00.349 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:02:00.349 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:02:00.349 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #75 #1554437296 - #69341754, #207 #131220 - #69341754, #167 #81540871 - #131220, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #116 #41015945 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #61 #240516073 - #105345805, #91 #1276752486 -> #240516073, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)
+16:02:01.458 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: Source: 291151430, Destination: 716613041
+16:02:01.458 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti-JamGen: Routing starten
+16:02:01.458 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+16:02:01.458 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - erti: path: MutableList(#129 #74990787 - #291151430, #93 #21534741 - #74990787, #5 #21534741 - #280755105, #88 #280755105 - #21534702, #81 #21534702 - #69344200, #170 #69344200 - #68675823, #198 #1554437296 - #68675823, #75 #1554437296 - #69341754, #207 #131220 - #69341754, #167 #81540871 - #131220, #4 #1440146370 - #81540871, #50 #70658318 -> #1440146370, #136 #70658318 - #72876557, #186 #72876557 -> #41015945, #175 #1118551846 - #41015945, #39 #1118551846 -> #351407469, #103 #351407469 -> #169691336, #108 #169691336 -> #1197565501, #100 #1197565501 -> #162454627, #112 #162454627 -> #274103505, #115 #274103505 -> #164096985, #7 #164096985 -> #274105216, #185 #274105216 -> #164102304, #174 #1605248028 - #164102304, #163 #1605248028 -> #185479852, #184 #270729417 - #185479852, #89 #633423959 - #270729417, #194 #633423959 - #105345805, #61 #240516073 - #105345805, #91 #1276752486 -> #240516073, #172 #1276752486 - #1587264705, #206 #1587264705 -> #1587264612, #19 #283662518 - #1587264612, #127 #283662519 -> #283662518, #191 #131177 - #283662519, #24 #131177 - #246813314, #35 #1582334924 - #246813314, #92 #29631976 - #1582334924, #205 #29631976 - #716613041)

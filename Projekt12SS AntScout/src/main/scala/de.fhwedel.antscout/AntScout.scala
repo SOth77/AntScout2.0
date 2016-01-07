@@ -4,9 +4,16 @@ import antnet.{ AntMap, AntWayData }
 import osm.OsmMap
 import routing.RoutingService
 import dijkstra.DijkstraService
-import akka.actor.{ Props, Actor, FSM }
+import antnet.JamGen
+import akka.actor._
 import net.liftweb.http.LiftSession
 import antnet.AntNodeSupervisor
+import akka.actor.Props
+import akka.util._
+import scala.concurrent._
+import java.util.concurrent.TimeUnit
+import net.liftweb.util.TimeHelpers
+import collection.mutable
 
 /**
  * Initialisiert die Anwendung mit Hilfe eines Zustands-Automaten.
@@ -14,6 +21,11 @@ import antnet.AntNodeSupervisor
 class AntScout extends Actor with FSM[AntScoutState, Unit] {
 
   import AntScout._
+  
+   /**
+   * Cancellabeles werden beim Erzeugen von Schedulern zurückgegeben und erlauben es diese zu stoppen.
+   */
+  val cancellables = mutable.Set[Cancellable]()
 
   // AntNodeSupervisor erzeugen
   context.actorOf(Props[AntNodeSupervisor].withDispatcher("ant-node-supervisor-dispatcher"),
@@ -22,6 +34,8 @@ class AntScout extends Actor with FSM[AntScoutState, Unit] {
   context.actorOf(Props[RoutingService], RoutingService.ActorName)
   // Dijkstra erzeugen
   context.actorOf(Props[DijkstraService], DijkstraService.ActorName)
+  // Staugenerator erzeugen
+  context.actorOf(Props[JamGen], JamGen.ActorName)
 
   // Start-Zustand
   startWith(Uninitialized, Unit)
@@ -54,6 +68,10 @@ class AntScout extends Actor with FSM[AntScoutState, Unit] {
       AntMap.computeNodes(antWayData)
       // AntNodeSupervisor-Initialisierung anstoÃŸen
       context.actorFor(AntNodeSupervisor.ActorName) ! AntNodeSupervisor.Initialize(antWayData)
+      if (Settings.Jamgen) {
+        // Stauerzeugung-Initialisierung anstoßen
+        context.actorFor(JamGen.ActorName) ! JamGen.Initialize
+      }
       // Zustand wechseln
       goto(InitializingAntNodeSupervisor)
   }
@@ -74,8 +92,22 @@ class AntScout extends Actor with FSM[AntScoutState, Unit] {
         // Initialisierung der Ant-Knoten anstoÃŸen
         context.actorFor(AntNodeSupervisor.ActorName) ! AntNodeSupervisor.InitializeNodes
       }
+      //Erzeugen des Schedules für die Staus
+      if (Settings.Jamgen) {
+        cancellables += context.system.scheduler.schedule(Duration.Zero, Duration(Settings.Frequency,
+            TimeUnit.MILLISECONDS), context.actorFor(JamGen.ActorName), JamGen.StartGen())
+      }
       // In diesem Zustand bleiben
       stay()
+  }
+  
+  /**
+   * Event-Handler, der nach dem Stoppen des Aktors augeführt wird.
+   */
+  override def postStop() {
+    // Alle schedule-Aktionen stoppen
+    for (cancellable <- cancellables)
+      cancellable.cancel()
   }
 
   // Unbehandelte Nachrichten
@@ -122,10 +154,14 @@ object AntScout {
   case object ServiceInitialized extends AntScoutMessage
 
   /**
+   * Staugenerator initialisiert.
+   */
+  case object JamGenInitialized extends AntScoutMessage
+
+  /**
    * DijkstraService-Initialisierung.
    */
   case object InitializingService extends AntScoutState
-
 
   // AntScout-Aktor erzeugen
   system.actorOf(Props[AntScout], AntScout.ActorName)

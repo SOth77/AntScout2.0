@@ -58,8 +58,6 @@ class Graph extends Logger {
 
       // shortest known distance to nodes and node on the way just before
       val distances: Map[Node, (Node, Distance)] = Map()
-      
-      info("erti: Dijkstra-Start, from: %d, to: %d".format(from, to))
 
       // the start node is always explored and its distance is 0
       distances += (from -> (from, 0))
@@ -67,7 +65,6 @@ class Graph extends Logger {
       // all other nodes are unexplored
       getNodes().foreach((n: Node) => unexplored += n)
       unexplored -= from
-      info("erti Dijkstra, unexplored Size: %d".format(unexplored.size))
 
       // and we know the distances to all neighbours of from
       // we're also setting the before nodes for every edge that starts at from
@@ -76,22 +73,17 @@ class Graph extends Logger {
           val (end, distance) = edge
           distances += (end -> (from, distance))
         })
-      info("erti, distances Size: %d".format(distances.size))
 
       // subset the distances to the unexplored nodes
       // we need this to terminate the search in case there is no path
       var distancesToUnexplored = distances filterKeys unexplored
-      info("erti, distancesToUnexplored Size: %d".format(distancesToUnexplored.size))
       var counter = 0
 
-      info("erti: Vor der Schleife")
       // now we repeatedly choose the closest unexplored node and explore it
       while ((unexplored contains to) && !distancesToUnexplored.isEmpty) {
         counter = counter + 1
-        info("erti: Schleifenzähler %d".format(counter))
         // select the closest unexplored node
         val (closest, (_, d)) = distancesToUnexplored.minBy(_._2._2)
-        info("erti, closest: %d".format(closest))
 
         // now update all distances for which there is a shorter way through closest
         // only update unexplored nodes and don't forget the before nodes
@@ -113,13 +105,11 @@ class Graph extends Logger {
         unexplored -= closest
         distancesToUnexplored = distances filterKeys unexplored
       }
-      info("erti: Nach der Schleife")
       // now we have to check if we found a path and reconstruct its pieces
       distances.get(to) match {
         // yay, there's a path
         case Some((b4, d)) =>
           {
-            info("erti: Pfad gefunden")
             var step = b4
             var thePath: List[Node] = List(to)
 
@@ -137,7 +127,6 @@ class Graph extends Logger {
         // no path :(
         case None =>
           {
-            info("erti: keinen Pfad gefunden")
             None
           }
       }

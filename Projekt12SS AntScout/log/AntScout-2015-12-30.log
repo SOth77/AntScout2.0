@@ -1,0 +1,1194 @@
+17:52:07.641 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+17:52:07.937 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+17:52:07.953 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+17:52:08.078 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 125 milliseconds
+17:52:08.093 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+17:52:09.998 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1905 milliseconds
+17:52:10.044 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+17:52:10.278 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+17:52:10.278 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+17:52:10.278 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+17:52:10.341 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+17:52:10.481 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 125 ms
+17:52:10.481 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+17:52:10.481 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+17:52:10.481 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(jamgen)' failed
+17:52:10.481 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+17:52:10.497 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+17:52:10.497 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+17:52:10.559 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+17:52:10.575 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+17:52:10.590 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+17:52:10.590 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+17:52:10.590 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+17:52:10.590 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(jamgen)' failed
+17:52:14.724 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+17:52:14.740 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+17:52:22.228 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform: Vor der 1. Schleife, mapEdge Size: 0
+17:52:22.228 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, AntMap Size: 144, mapNode Size: 144
+17:52:22.244 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform: Zwischen den Schleifen, mapEdge Size: 304
+17:52:22.244 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform: Nach der 2. Schleife, mapEdge Size: 412
+17:52:22.244 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, source2: 68666292
+17:52:22.259 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, destination2: 716613041
+17:52:22.259 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, start: 49
+17:52:22.259 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, target: 95
+17:52:22.322 INFO  [d.f.a.dijkstra.Graph] [] - erti: Dijkstra-Start, from: 49, to: 95
+17:52:22.400 INFO  [d.f.a.dijkstra.Graph] [] - erti Dijkstra, unexplored Size: 143
+17:52:22.447 INFO  [d.f.a.dijkstra.Graph] [] - erti, distances Size: 4
+17:52:22.478 INFO  [d.f.a.dijkstra.Graph] [] - erti, distancesToUnexplored Size: 3
+17:52:22.493 INFO  [d.f.a.dijkstra.Graph] [] - erti: Vor der Schleife
+17:52:22.509 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 1
+17:52:22.556 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 125
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 2
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 78
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 3
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 101
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 4
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 100
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 5
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 30
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 6
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 96
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 7
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 88
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 8
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 61
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 9
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 68
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 10
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 131
+17:52:22.587 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 11
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 67
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 12
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 117
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 13
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 87
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 14
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 13
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 15
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 120
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 16
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 51
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 17
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 103
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 18
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 102
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 19
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 64
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 20
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 114
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 21
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 20
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 22
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 14
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 23
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 128
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 24
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 29
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 25
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 18
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 26
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 47
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 27
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 118
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 28
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 104
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 29
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 141
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 30
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 5
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 31
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 48
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 32
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 72
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 33
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 53
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 34
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 93
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 35
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 39
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 36
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 46
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 37
+17:52:22.603 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 60
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 38
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 109
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 39
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 107
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 40
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 43
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 41
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 42
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 42
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 82
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 43
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 0
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 44
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 55
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 45
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 1
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 46
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 33
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 47
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 97
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 48
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 59
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 49
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 123
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 50
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 45
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 51
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 119
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 52
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 140
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 53
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 10
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 54
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 84
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 55
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 134
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 56
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 85
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 57
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 94
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 58
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 143
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 59
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 127
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 60
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 71
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 61
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 3
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 62
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 65
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 63
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 79
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 64
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 26
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 65
+17:52:22.618 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 23
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 66
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 15
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 67
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 54
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 68
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 17
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 69
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 91
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 70
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 98
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 71
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 108
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 72
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 80
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 73
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 32
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 74
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 11
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 75
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 132
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 76
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 138
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 77
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 113
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 78
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 37
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 79
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 16
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 80
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 130
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 81
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 112
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 82
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 62
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 83
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 56
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 84
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 6
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 85
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 76
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 86
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 7
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 87
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 36
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 88
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 139
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 89
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 77
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 90
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 63
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 91
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 111
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 92
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 34
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 93
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 57
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 94
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 92
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 95
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 81
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 96
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 110
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 97
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 105
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 98
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 135
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 99
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 66
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 100
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 28
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 101
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 137
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 102
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 129
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 103
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 41
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 104
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 136
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 105
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 73
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 106
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 2
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 107
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 4
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 108
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 126
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 109
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 21
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 110
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 74
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 111
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 86
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 112
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 89
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 113
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 142
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 114
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 83
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 115
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 116
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 116
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 69
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 117
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 75
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 118
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 70
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 119
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 44
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 120
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 90
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 121
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 12
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 122
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 38
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 123
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 24
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 124
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 22
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 125
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 27
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 126
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 31
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 127
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 99
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 128
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 106
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 129
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 124
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 130
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 9
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 131
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 25
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 132
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 50
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 133
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 19
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 134
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 122
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 135
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 35
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 136
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 115
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 137
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 58
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 138
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 40
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 139
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 121
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 140
+17:52:22.634 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 95
+17:52:22.649 INFO  [d.f.a.dijkstra.Graph] [] - erti: Nach der Schleife
+17:52:22.665 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+17:52:30.140 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform: Vor der 1. Schleife, mapEdge Size: 0
+17:52:30.140 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, AntMap Size: 144, mapNode Size: 144
+17:52:30.140 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform: Zwischen den Schleifen, mapEdge Size: 304
+17:52:30.140 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform: Nach der 2. Schleife, mapEdge Size: 412
+17:52:30.140 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, source2: 291151430
+17:52:30.140 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, destination2: 716613041
+17:52:30.140 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, start: 140
+17:52:30.140 INFO  [d.f.a.dijkstra.Graph] [] - erti: Dijkstra-Start, from: 140, to: 95
+17:52:30.140 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - erti transform, target: 95
+17:52:30.140 INFO  [d.f.a.dijkstra.Graph] [] - erti Dijkstra, unexplored Size: 143
+17:52:30.140 INFO  [d.f.a.dijkstra.Graph] [] - erti, distances Size: 2
+17:52:30.140 INFO  [d.f.a.dijkstra.Graph] [] - erti, distancesToUnexplored Size: 1
+17:52:30.140 INFO  [d.f.a.dijkstra.Graph] [] - erti: Vor der Schleife
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 1
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 45
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 2
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 33
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 3
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 97
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 4
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 1
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 5
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 119
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 6
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 0
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 7
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 10
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 8
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 43
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 9
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 107
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 10
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 109
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 11
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 60
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 12
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 46
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 13
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 39
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 14
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 93
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 15
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 53
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 16
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 47
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 17
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 18
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 18
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 72
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 19
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 29
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 20
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 141
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 21
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 5
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 22
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 102
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 23
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 103
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 24
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 48
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 25
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 118
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 26
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 51
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 27
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 104
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 28
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 120
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 29
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 78
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 30
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 67
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 31
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 13
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 32
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 87
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 33
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 100
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 34
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 96
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 35
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 61
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 36
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 88
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 37
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 30
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 38
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 131
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 39
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 68
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 40
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 117
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 41
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 101
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 42
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 125
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 43
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 49
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 44
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 14
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 45
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 128
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 46
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 64
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 47
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 114
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 48
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 20
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 49
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 42
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 50
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 82
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 51
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 55
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 52
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 59
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 53
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 123
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 54
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 84
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 55
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 134
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 56
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 85
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 57
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 94
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 58
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 143
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 59
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 127
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 60
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 71
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 61
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 3
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 62
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 65
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 63
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 79
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 64
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 26
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 65
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 23
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 66
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 15
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 67
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 54
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 68
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 17
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 69
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 91
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 70
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 98
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 71
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 108
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 72
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 80
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 73
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 32
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 74
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 11
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 75
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 132
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 76
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 138
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 77
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 113
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 78
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 37
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 79
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 16
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 80
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 130
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 81
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 112
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 82
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 62
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 83
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 56
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 84
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 6
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 85
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 76
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 86
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 7
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 87
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 36
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 88
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 139
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 89
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 77
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 90
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 63
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 91
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 111
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 92
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 34
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 93
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 57
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 94
+17:52:30.156 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 92
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 95
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 81
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 96
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 110
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 97
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 105
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 98
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 135
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 99
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 66
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 100
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 28
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 101
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 137
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 102
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 129
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 103
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 41
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 104
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 136
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 105
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 73
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 106
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 2
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 107
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 4
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 108
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 126
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 109
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 21
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 110
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 74
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 111
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 86
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 112
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 89
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 113
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 142
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 114
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 83
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 115
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 116
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 116
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 69
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 117
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 75
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 118
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 70
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 119
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 44
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 120
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 90
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 121
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 12
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 122
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 38
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 123
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 24
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 124
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 22
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 125
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 27
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 126
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 31
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 127
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 99
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 128
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 106
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 129
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 124
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 130
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 9
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 131
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 25
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 132
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 50
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 133
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 19
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 134
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 122
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 135
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 35
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 136
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 115
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 137
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 58
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 138
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 40
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 139
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 121
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Schleifenzähler 140
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti, closest: 95
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Nach der Schleife
+17:52:30.172 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+17:52:40.236 INFO  [b.liftweb.Boot] [] - Shutting down
+17:52:40.267 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+18:29:25.071 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+18:29:25.133 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+18:29:25.133 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+18:29:25.164 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 31 milliseconds
+18:29:25.164 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+18:29:27.073 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1909 milliseconds
+18:29:27.073 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+18:29:27.183 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 94 ms
+18:29:27.183 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+18:29:27.198 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+18:29:27.214 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+18:29:27.307 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 93 ms
+18:29:27.307 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+18:29:27.307 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+18:29:27.307 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+18:29:27.307 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(jamgen)' failed
+18:29:27.323 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+18:29:27.323 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+18:29:27.354 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+18:29:27.354 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+18:29:27.370 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+18:29:27.370 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+18:29:27.370 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+18:29:27.385 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(jamgen)' failed
+18:29:29.679 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+18:29:29.679 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+18:29:35.630 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:29:58.415 INFO  [b.liftweb.Boot] [] - Shutting down
+18:29:58.446 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+18:34:30.957 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+18:34:31.206 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+18:34:31.206 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+18:34:31.316 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 110 milliseconds
+18:34:31.316 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+18:34:31.612 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+18:34:31.628 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+18:34:31.923 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:87) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:25) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+18:34:33.609 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2293 milliseconds
+18:34:33.609 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+18:34:33.796 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 156 ms
+18:34:33.796 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+18:34:33.796 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+18:34:33.843 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+18:34:33.937 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 94 ms
+18:34:33.937 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+18:34:33.937 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+18:34:33.937 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+18:34:33.937 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+18:34:33.937 WARN  [d.f.a.AntScout] [akka://AntScout/user/antScout] - unhandled event JamGenInitialized in state InitializingAntNodeSupervisor
+18:34:33.984 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+18:34:33.999 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+18:34:34.046 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+18:34:34.046 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+18:34:34.062 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+18:34:34.062 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+18:34:34.062 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+18:34:34.062 ERROR [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - null
+java.lang.IllegalMonitorStateException: null
+	at java.lang.Object.wait(Native Method) ~[na:1.7.0_21]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:34) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:30) ~[classes/:na]
+	at akka.actor.Actor$class.apply(Actor.scala:318) ~[akka-actor-2.0.5.jar:2.0.5]
+	at de.fhwedel.antscout.antnet.JamGen.apply(JamGen.scala:8) ~[classes/:na]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor-2.0.5.jar:2.0.5]
+18:34:34.062 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initializing
+18:34:34.764 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+18:34:34.779 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+18:34:40.913 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:35:02.787 INFO  [b.liftweb.Boot] [] - Shutting down
+18:35:02.819 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+18:43:24.337 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+18:43:24.618 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+18:43:24.633 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+18:43:24.743 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 110 milliseconds
+18:43:24.743 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+18:43:26.693 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1934 milliseconds
+18:43:26.693 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+18:43:26.864 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 140 ms
+18:43:26.864 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+18:43:26.864 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+18:43:26.911 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+18:43:27.020 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+18:43:27.020 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+18:43:27.020 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+18:43:27.020 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+18:43:27.020 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+18:43:27.020 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+18:43:27.020 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+18:43:27.083 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+18:43:27.083 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+18:43:27.098 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+18:43:27.098 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+18:43:27.098 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+18:43:27.098 ERROR [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - null
+java.lang.IllegalMonitorStateException: null
+	at java.lang.Object.wait(Native Method) ~[na:1.7.0_21]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:34) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:30) ~[classes/:na]
+	at akka.actor.Actor$class.apply(Actor.scala:318) ~[akka-actor-2.0.5.jar:2.0.5]
+	at de.fhwedel.antscout.antnet.JamGen.apply(JamGen.scala:8) ~[classes/:na]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor-2.0.5.jar:2.0.5]
+18:43:27.098 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initializing
+18:43:27.878 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+18:43:27.894 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+18:43:33.447 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:43:55.127 INFO  [b.liftweb.Boot] [] - Shutting down
+18:43:55.158 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+18:48:32.433 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+18:48:32.714 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+18:48:32.730 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+18:48:32.839 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+18:48:32.839 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+18:48:34.973 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2134 milliseconds
+18:48:34.973 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+18:48:35.176 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 140 ms
+18:48:35.176 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+18:48:35.176 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+18:48:35.207 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+18:48:35.316 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+18:48:35.316 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+18:48:35.316 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+18:48:35.316 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+18:48:35.316 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+18:48:35.332 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+18:48:35.332 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+18:48:35.379 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+18:48:35.379 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+18:48:35.394 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+18:48:35.394 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+18:48:35.394 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+18:48:40.234 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+18:48:40.250 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+18:48:40.428 ERROR [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - d != java.lang.Double
+java.util.IllegalFormatConversionException: d != java.lang.Double
+	at java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4045) ~[na:1.7.0_21]
+	at java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:2748) ~[na:1.7.0_21]
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2702) ~[na:1.7.0_21]
+	at java.util.Formatter.format(Formatter.java:2488) ~[na:1.7.0_21]
+	at java.util.Formatter.format(Formatter.java:2423) ~[na:1.7.0_21]
+	at java.lang.String.format(String.java:2797) ~[na:1.7.0_21]
+	at scala.collection.immutable.StringLike$class.format(StringLike.scala:270) ~[scala-library.jar:0.12.0]
+	at scala.collection.immutable.StringOps.format(StringOps.scala:31) ~[scala-library.jar:0.12.0]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:45) ~[classes/:na]
+	at de.fhwedel.antscout.antnet.JamGen$$anonfun$receive$1.apply(JamGen.scala:30) ~[classes/:na]
+	at akka.actor.Actor$class.apply(Actor.scala:318) ~[akka-actor-2.0.5.jar:2.0.5]
+	at de.fhwedel.antscout.antnet.JamGen.apply(JamGen.scala:8) ~[classes/:na]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:626) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:197) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:179) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:516) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1479) [akka-actor-2.0.5.jar:2.0.5]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor-2.0.5.jar:2.0.5]
+18:48:40.430 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initializing
+18:48:45.290 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:49:01.834 INFO  [b.liftweb.Boot] [] - Shutting down
+18:49:01.865 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+18:52:21.434 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+18:52:21.544 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+18:52:21.544 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+18:52:21.575 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 31 milliseconds
+18:52:21.575 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+18:52:22.074 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+18:52:22.074 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+18:52:22.328 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:87) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:25) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:21) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+18:52:23.607 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2017 milliseconds
+18:52:23.607 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+18:52:23.763 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 140 ms
+18:52:23.763 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+18:52:23.763 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+18:52:23.779 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+18:52:23.873 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 94 ms
+18:52:23.873 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+18:52:23.873 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+18:52:23.873 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+18:52:23.873 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+18:52:23.873 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+18:52:23.873 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+18:52:23.919 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+18:52:23.919 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+18:52:23.935 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+18:52:23.935 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+18:52:23.935 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+18:52:23.966 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+18:52:23.966 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+18:52:28.725 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:52:28.944 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:52:33.956 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:52:38.967 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:52:43.979 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:52:44.244 INFO  [b.liftweb.Boot] [] - Shutting down
+18:52:48.994 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:52:54.001 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:52:59.009 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:04.018 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:09.026 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:14.037 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:19.046 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:24.059 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:29.068 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:34.078 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:37.012 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+18:53:37.059 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+18:53:37.059 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+18:53:37.105 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 31 milliseconds
+18:53:37.105 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+18:53:38.429 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1309 milliseconds
+18:53:38.429 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+18:53:38.492 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 47 ms
+18:53:38.492 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+18:53:38.492 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+18:53:38.507 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+18:53:38.601 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 94 ms
+18:53:38.601 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+18:53:38.601 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+18:53:38.601 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+18:53:38.601 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+18:53:38.616 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+18:53:38.616 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+18:53:38.663 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+18:53:38.663 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+18:53:38.679 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+18:53:38.679 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+18:53:38.679 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+18:53:39.084 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:39.615 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+18:53:39.630 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+18:53:43.691 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:44.096 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:44.894 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:53:48.560 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:53:48.700 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:49.106 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:51.540 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:53:53.709 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:54.114 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:56.146 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:53:58.720 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:53:59.126 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:00.813 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:54:03.732 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:04.138 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:04.216 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:54:06.992 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:54:08.740 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:09.145 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:11.314 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:54:13.748 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:14.154 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:14.702 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:54:17.389 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:54:18.748 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:19.154 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:23.399 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:54:23.758 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:24.164 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:26.427 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:54:28.768 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:29.126 INFO  [d.f.a.dijkstra.Graph] [] - erti: Pfad gefunden
+18:54:29.173 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:33.779 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:34.185 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:54:36.088 INFO  [b.liftweb.Boot] [] - Shutting down
+18:54:38.780 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:56:19.764 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+18:56:20.014 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+18:56:20.014 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+18:56:20.139 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 125 milliseconds
+18:56:20.139 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+18:56:21.809 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1670 milliseconds
+18:56:21.809 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+18:56:22.043 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+18:56:22.043 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+18:56:22.043 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+18:56:22.090 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+18:56:22.199 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+18:56:22.199 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+18:56:22.199 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+18:56:22.199 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+18:56:22.199 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+18:56:22.214 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+18:56:22.214 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+18:56:22.261 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+18:56:22.261 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+18:56:22.277 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+18:56:22.277 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+18:56:22.277 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+18:56:27.316 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:56:32.323 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
+18:56:36.446 INFO  [b.liftweb.Boot] [] - Shutting down
+18:56:37.326 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - JamGen: Stau erzeugt!
