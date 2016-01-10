@@ -1,0 +1,9 @@
+1. Konsole aufmachen
+2. sbt starten
+3. container:start startet Ameisensimulation
+4. in Browser: localhost:8080 oder http://127.0.0.1:8080/ aufrufen
+5. container:stop beendet Ameisensimulation
+
+In AntScout/src/main/resources/reference.conf stehen die Einstellungen:
+Dort kann die Karte geändert werden (durch Ein- und Auskommentieren).
+Zum Aktivieren der Änderung container:stop, container:start. 

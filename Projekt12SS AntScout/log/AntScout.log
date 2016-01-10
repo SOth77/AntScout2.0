@@ -1,0 +1,551 @@
+17:43:53.699 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+17:43:53.964 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+17:43:53.964 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+17:43:54.073 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 93 milliseconds
+17:43:54.073 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+17:43:56.320 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2200 milliseconds
+17:43:56.320 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+17:43:56.569 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 203 ms
+17:43:56.569 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+17:43:56.569 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+17:43:56.616 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+17:43:56.741 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+17:43:56.741 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+17:43:56.741 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+17:43:56.741 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+17:43:56.741 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+17:43:56.756 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+17:43:56.772 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+17:43:56.834 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+17:43:56.834 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+17:43:56.834 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+17:43:56.850 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+17:43:56.850 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+17:43:56.850 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+17:43:56.866 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+17:43:56.975 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:56.975 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 155 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:56.993 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.052 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.052 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 191 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:43:57.052 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.161 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.161 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 60 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:43:57.161 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.255 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.255 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 159 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:57.255 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.349 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.349 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 71 beträgt 27.777777777777775 nach Anwendung des Staufaktors 2.0,
+17:43:57.349 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.458 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.458 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 73 beträgt 16.666666666666668 nach Anwendung des Staufaktors 2.0,
+17:43:57.458 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.551 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.551 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 184 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:57.551 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.661 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.661 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 62 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:57.661 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.754 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.754 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 10 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:57.754 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.863 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.863 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 142 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:43:57.863 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:57.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:57.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 112 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:43:57.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.051 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.051 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 17 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:58.051 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.160 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.160 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 9 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:58.160 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.253 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.253 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 40 beträgt 38.8888 nach Anwendung des Staufaktors 2.0,
+17:43:58.253 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.363 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.363 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 35 beträgt 4.166666666666667 nach Anwendung des Staufaktors 0.5,
+17:43:58.363 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.456 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.456 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 51 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:58.456 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.550 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.550 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 27 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:43:58.550 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.659 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.659 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 59 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:43:58.659 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.753 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.753 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 6 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:58.753 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.862 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.862 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 114 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:43:58.862 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:58.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:58.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 99 beträgt 4.166666666666667 nach Anwendung des Staufaktors 0.5,
+17:43:58.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.049 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.049 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 56 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:43:59.049 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.158 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.158 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 156 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:59.158 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.252 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.252 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 193 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:43:59.252 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.361 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.361 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 182 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:43:59.361 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.455 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.455 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 190 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:43:59.455 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.548 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.548 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 134 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:43:59.548 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 87 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:43:59.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.751 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.751 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 46 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:43:59.751 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.860 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.860 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 151 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:43:59.860 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:43:59.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:43:59.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 186 beträgt 16.666666666666668 nach Anwendung des Staufaktors 2.0,
+17:43:59.954 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.063 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.063 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 183 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:00.063 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.157 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.157 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 34 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:44:00.157 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.250 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.250 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 194 beträgt 33.333333333333336 nach Anwendung des Staufaktors 2.0,
+17:44:00.250 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.359 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.359 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 8 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:00.359 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.453 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.453 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 7 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:44:00.453 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.562 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.562 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 99 beträgt 2.0833333333333335 nach Anwendung des Staufaktors 0.5,
+17:44:00.562 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.656 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.656 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 92 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:00.656 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 12 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:00.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.859 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.859 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 188 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:00.859 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:00.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:00.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 199 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:00.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:01.061 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.061 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 120 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:44:01.061 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:01.155 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.155 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 60 beträgt 13.8889 nach Anwendung des Staufaktors 2.0,
+17:44:01.155 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:01.249 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.249 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 104 beträgt 9.7222 nach Anwendung des Staufaktors 0.5,
+17:44:01.249 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:01.358 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.358 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 160 beträgt 20.96762011654898 nach Anwendung des Staufaktors 2.0,
+17:44:01.358 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:01.451 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.451 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 107 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:01.451 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von empty nach empty
+17:44:01.561 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.561 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 195 beträgt 6.944444444444444 nach Anwendung des Staufaktors 0.5,
+17:44:01.561 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:01.592 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:01.607 INFO  [d.f.a.rest.Rest] [] - erti-Rest: Dijkstra manuell ausgeführt
+17:44:01.623 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:01.654 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.654 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 131 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:44:01.654 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:01.654 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:01.763 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.763 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 158 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:01.763 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:01.763 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:01.857 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.857 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 104 beträgt 4.8611 nach Anwendung des Staufaktors 0.5,
+17:44:01.857 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:01.857 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:01.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:01.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 23 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:44:01.951 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:01.951 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.060 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.060 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 93 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:44:02.060 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.060 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.153 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.153 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 29 beträgt 9.7222 nach Anwendung des Staufaktors 0.5,
+17:44:02.153 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.153 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.263 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.263 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 58 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:02.263 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.278 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.356 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.356 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 122 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:02.356 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.356 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.450 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.450 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 174 beträgt 5.997632348936292 nach Anwendung des Staufaktors 0.5,
+17:44:02.450 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.465 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.559 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.559 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 49 beträgt 4.166666666666666 nach Anwendung des Staufaktors 0.5,
+17:44:02.559 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.559 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.653 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.653 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 45 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:02.653 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.653 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.762 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.762 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 120 beträgt 3.472225 nach Anwendung des Staufaktors 0.5,
+17:44:02.762 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.762 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 46, 53, 47, 102, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.855 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.855 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 65 beträgt 27.777777777777775 nach Anwendung des Staufaktors 2.0,
+17:44:02.855 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.855 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:02.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:02.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 179 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:02.949 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:02.949 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.058 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.058 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 125 beträgt 9.7222 nach Anwendung des Staufaktors 0.5,
+17:44:03.058 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.058 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.152 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.152 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 167 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:03.152 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.152 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.261 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.261 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 200 beträgt 7.275859432185033 nach Anwendung des Staufaktors 0.5,
+17:44:03.261 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.261 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.355 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.355 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 15 beträgt 16.666666666666668 nach Anwendung des Staufaktors 2.0,
+17:44:03.355 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.355 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.448 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.448 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 37 beträgt 6.9444444444444455 nach Anwendung des Staufaktors 0.5,
+17:44:03.448 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.448 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.557 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.557 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 150 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:03.557 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.557 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 112, 77, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.651 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.651 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 145 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:03.651 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.651 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.760 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.760 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 157 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:03.760 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.760 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.854 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.854 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 61 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:03.854 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.854 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:03.963 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:03.963 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 170 beträgt 7.524881081129066 nach Anwendung des Staufaktors 0.5,
+17:44:03.963 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:03.963 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.057 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.057 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 143 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:04.057 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.057 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.150 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.150 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 69 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:44:04.150 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.150 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 37, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.259 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.259 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 83 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:04.259 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.259 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.353 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.353 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 135 beträgt 16.666666666666668 nach Anwendung des Staufaktors 2.0,
+17:44:04.353 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.353 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 42, 134, 127, 79, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.462 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.462 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 123 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:04.462 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.462 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 51, 78, 49, 68, 14, 42, 134, 127, 79, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.556 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.556 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 68 beträgt 6.9444444444444455 nach Anwendung des Staufaktors 0.5,
+17:44:04.556 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.556 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 51, 78, 49, 68, 14, 42, 134, 127, 79, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.649 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.649 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 147 beträgt 27.777792492473502 nach Anwendung des Staufaktors 2.0,
+17:44:04.649 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.649 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 51, 78, 49, 68, 14, 42, 134, 127, 79, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.759 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.759 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 199 beträgt 55.55555555555556 nach Anwendung des Staufaktors 2.0,
+17:44:04.759 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.759 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 51, 78, 49, 68, 14, 42, 134, 127, 79, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.852 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.852 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 188 beträgt 55.55555555555556 nach Anwendung des Staufaktors 2.0,
+17:44:04.852 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.852 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 51, 78, 49, 68, 14, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:04.961 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:04.961 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 152 beträgt 10.755257411663042 nach Anwendung des Staufaktors 0.5,
+17:44:04.961 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:04.961 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 51, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.055 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.055 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 136 beträgt 33.333333333333336 nach Anwendung des Staufaktors 2.0,
+17:44:05.055 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.055 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 51, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.149 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.149 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 119 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:05.149 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.149 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.258 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.258 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 59 beträgt 13.88888888888889 nach Anwendung des Staufaktors 0.5,
+17:44:05.258 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.258 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.351 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.351 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 94 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:44:05.351 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.351 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.461 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.461 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 131 beträgt 55.5556 nach Anwendung des Staufaktors 2.0,
+17:44:05.461 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.461 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.554 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.554 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 103 beträgt 4.166666666666667 nach Anwendung des Staufaktors 0.5,
+17:44:05.554 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.554 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.663 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.663 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 138 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:05.663 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.663 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.757 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.757 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 204 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:05.757 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.757 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.851 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.851 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 67 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:05.851 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.851 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:05.960 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:05.960 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 166 beträgt 27.777792522321878 nach Anwendung des Staufaktors 2.0,
+17:44:05.960 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:05.960 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 140, 111, 57, 28, 136, 73, 2, 88, 40, 94)
+17:44:06.053 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.053 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 142 beträgt 13.88888888888889 nach Anwendung des Staufaktors 0.5,
+17:44:06.053 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.053 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 112, 77, 41, 88, 40, 94)
+17:44:06.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 33 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:06.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.163 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 112, 77, 41, 88, 40, 94)
+17:44:06.256 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.256 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 44 beträgt 38.8888 nach Anwendung des Staufaktors 2.0,
+17:44:06.256 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.256 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 112, 77, 41, 88, 40, 94)
+17:44:06.350 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.350 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 56 beträgt 55.55555555555556 nach Anwendung des Staufaktors 2.0,
+17:44:06.350 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.350 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 112, 77, 41, 88, 40, 94)
+17:44:06.459 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.459 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 141 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:44:06.459 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.459 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 23, 113, 16, 112, 77, 41, 88, 40, 94)
+17:44:06.553 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.553 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 92 beträgt 13.88888888888889 nach Anwendung des Staufaktors 2.0,
+17:44:06.553 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.553 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 39, 93, 18, 29, 103, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:06.662 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.662 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 65 beträgt 55.55555555555555 nach Anwendung des Staufaktors 2.0,
+17:44:06.662 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.662 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:06.755 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.755 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 16 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:06.755 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.755 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:06.849 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.849 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 43 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:06.849 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.849 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:06.958 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:06.958 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 12 beträgt 3.4722222222222223 nach Anwendung des Staufaktors 0.5,
+17:44:06.958 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:06.958 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.052 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.052 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 30 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:44:07.052 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.052 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.161 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.161 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 76 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:07.161 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.161 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.255 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.255 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 79 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:07.255 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.255 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.364 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.364 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 40 beträgt 19.4444 nach Anwendung des Staufaktors 0.5,
+17:44:07.364 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.364 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.457 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.457 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 48 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:07.457 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.457 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.551 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.551 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 46 beträgt 55.5556 nach Anwendung des Staufaktors 2.0,
+17:44:07.551 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.551 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.660 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.660 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 202 beträgt 38.8888 nach Anwendung des Staufaktors 2.0,
+17:44:07.660 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.660 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.754 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.754 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 90 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:07.754 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.754 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.863 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.863 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 138 beträgt 13.88888888888889 nach Anwendung des Staufaktors 2.0,
+17:44:07.863 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.863 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:07.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:07.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 14 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:07.957 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:07.957 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.050 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.050 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 15 beträgt 8.333333333333334 nach Anwendung des Staufaktors 0.5,
+17:44:08.050 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.050 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.159 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.159 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 34 beträgt 13.8889 nach Anwendung des Staufaktors 2.0,
+17:44:08.159 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.159 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.253 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.253 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 146 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:08.253 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.253 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.362 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.362 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 78 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:08.362 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.362 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.456 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.456 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 137 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:08.456 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.456 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.549 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.549 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 30 beträgt 3.472225 nach Anwendung des Staufaktors 0.5,
+17:44:08.549 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.549 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.659 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.659 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 192 beträgt 8.333333333333334 nach Anwendung des Staufaktors 0.5,
+17:44:08.659 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.659 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.752 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.752 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 67 beträgt 13.88888888888889 nach Anwendung des Staufaktors 2.0,
+17:44:08.752 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.752 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.861 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.861 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 169 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:44:08.861 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.861 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:08.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:08.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 42 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:08.955 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:08.955 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.049 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.049 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 31 beträgt 33.333333333333336 nach Anwendung des Staufaktors 2.0,
+17:44:09.049 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.049 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.158 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.158 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 54 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:44:09.158 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.158 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.251 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.251 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 62 beträgt 3.4722222222222223 nach Anwendung des Staufaktors 0.5,
+17:44:09.251 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.251 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.361 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.361 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 68 beträgt 13.888888888888891 nach Anwendung des Staufaktors 2.0,
+17:44:09.361 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.361 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.454 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.454 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 92 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:09.454 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.454 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.563 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.563 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 158 beträgt 3.4722222222222223 nach Anwendung des Staufaktors 0.5,
+17:44:09.563 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.563 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 125 beträgt 4.8611 nach Anwendung des Staufaktors 0.5,
+17:44:09.657 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.657 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.751 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.751 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 17 beträgt 13.88888888888889 nach Anwendung des Staufaktors 2.0,
+17:44:09.751 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.751 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.860 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.860 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 83 beträgt 55.55555555555556 nach Anwendung des Staufaktors 2.0,
+17:44:09.860 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.860 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 1, 0, 43, 109, 107, 60, 53, 47, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:09.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:09.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 203 beträgt 27.7778 nach Anwendung des Staufaktors 2.0,
+17:44:09.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:09.953 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:10.063 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.063 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 95 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:10.063 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.063 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:10.156 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.156 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 134 beträgt 55.55555555555556 nach Anwendung des Staufaktors 2.0,
+17:44:10.156 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.156 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:10.250 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.250 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 40 beträgt 9.7222 nach Anwendung des Staufaktors 0.5,
+17:44:10.250 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.250 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:10.359 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.359 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 135 beträgt 33.333333333333336 nach Anwendung des Staufaktors 2.0,
+17:44:10.359 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.359 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 71, 138, 130, 76, 41, 88, 40, 94)
+17:44:10.453 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.453 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 206 beträgt 6.94445 nach Anwendung des Staufaktors 0.5,
+17:44:10.453 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.453 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 17, 6, 76, 41, 88, 40, 94)
+17:44:10.562 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.562 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 190 beträgt 13.88888888888889 nach Anwendung des Staufaktors 0.5,
+17:44:10.562 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.562 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 17, 6, 76, 41, 88, 40, 94)
+17:44:10.655 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.655 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 208 beträgt 27.77777777777778 nach Anwendung des Staufaktors 2.0,
+17:44:10.655 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.655 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 17, 6, 76, 41, 88, 40, 94)
+17:44:10.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 8 beträgt 13.88888888888889 nach Anwendung des Staufaktors 0.5,
+17:44:10.749 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.749 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 17, 6, 76, 41, 88, 40, 94)
+17:44:10.858 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.858 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 80 beträgt 6.944444444444445 nach Anwendung des Staufaktors 0.5,
+17:44:10.858 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.858 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 17, 6, 76, 41, 88, 40, 94)
+17:44:10.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:10.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 16 beträgt 13.88888888888889 nach Anwendung des Staufaktors 2.0,
+17:44:10.952 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:10.952 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 17, 6, 76, 41, 88, 40, 94)
+17:44:11.061 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - --------------------------------------------------------------------------------------------------------------------------------------------
+17:44:11.061 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Geschwindigkeit von Weg 81 beträgt 16.666666666666668 nach Anwendung des Staufaktors 2.0,
+17:44:11.061 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Pfad von 291151430 nach 716613041
+17:44:11.061 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Der Pfad nach Dijkstra lautet: List(139, 44, 33, 97, 72, 118, 120, 78, 49, 68, 14, 128, 82, 42, 134, 127, 79, 27, 15, 17, 6, 76, 41, 88, 40, 94)
+17:44:11.092 INFO  [b.liftweb.Boot] [] - Shutting down
+17:44:11.123 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
