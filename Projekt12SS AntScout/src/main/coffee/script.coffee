@@ -210,12 +210,12 @@ require(["jquery", "styles", "bootstrap", "leaflet-src", "underscore"], ($, styl
         )
       }).done (way) ->
         # In allen Weg-Layern den entsprechenden Weg aktualisieren
-        #_.each([incomingWaysLayer, outgoingWaysLayer, pathLayer, waysLayer], (layerGroup) ->
-        #  layerGroup.eachLayer((layer) ->
-        #    if layer.way.id is way.id
-        #      layer.way = way
-        #  )
-        #)      
+        _.each([incomingWaysLayer, outgoingWaysLayer, pathLayer, waysLayer], (layerGroup) ->
+          layerGroup.eachLayer((layer) ->
+            if layer.way.id is way.id
+              layer.way = way
+          )
+        )      
         # Aktuelle selektierten Weg aktualisieren
         selectWay.way = way
         # Daten des aktualisierten Weges anzeigen
@@ -268,35 +268,25 @@ require(["jquery", "styles", "bootstrap", "leaflet-src", "underscore"], ($, styl
     $("##{ elementId }").prop("disabled", true)
 
   # Zeigt Weg-Daten an.
-  displayWayData = (way) ->
-  	# Ajax-GET-Request
-    $.get "way/#{ way.id }",
-      (wayData) ->
-        # In allen Weg-Layern den entsprechenden Weg aktualisieren
-        _.each([incomingWaysLayer, outgoingWaysLayer, pathLayer, waysLayer], (layerGroup) ->
-          layerGroup.eachLayer((layer) ->
-            if layer.way.id is wayData.id
-              layer.way = wayData
-          )
-        )   
-        # Id
-        $("#wayId").html(wayData.id)
-        # Länge
-        lengths = for length in wayData.lengths
-          "#{ length.value } #{ length.unit }"
-        $("#wayLength").attr("data-original-title", lengths.join("<br>")).html(wayData.length)
-        # Maximale Geschwindkigkeit
-        maxSpeeds = for maxSpeed in wayData.maxSpeeds
-          "#{ maxSpeed.value } #{ maxSpeed.unit }"
-        $("#wayMaxSpeed").attr("data-original-title", maxSpeeds.join("<br>")).html(wayData.maxSpeed)
-        # Passier-Zeit
-        tripTimes = for tripTime in wayData.tripTimes
-          "#{ tripTime.value } #{ tripTime.unit }"
-        $("#wayTripTime").attr("data-original-title", tripTimes.join("<br>")).html(wayData.tripTime)
-        # Knoten
-        nodes = for node in wayData.nodes
-          "<a href=\"http://www.openstreetmap.org/browse/node/#{ node.id }\">#{ node.id }</a>"
-        $("#way-nodes").html("<ul><li>" + nodes.join("</li><li>") + "</li></ul>")
+  displayWayData = (way) ->  
+    # Id
+    $("#wayId").html(way.id)
+    # Länge
+    lengths = for length in way.lengths
+      "#{ length.value } #{ length.unit }"
+    $("#wayLength").attr("data-original-title", lengths.join("<br>")).html(way.length)
+    # Maximale Geschwindkigkeit
+    maxSpeeds = for maxSpeed in way.maxSpeeds
+      "#{ maxSpeed.value } #{ maxSpeed.unit }"
+    $("#wayMaxSpeed").attr("data-original-title", maxSpeeds.join("<br>")).html(way.maxSpeed)
+    # Passier-Zeit
+    tripTimes = for tripTime in way.tripTimes
+      "#{ tripTime.value } #{ tripTime.unit }"
+    $("#wayTripTime").attr("data-original-title", tripTimes.join("<br>")).html(way.tripTime)
+    # Knoten
+    nodes = for node in way.nodes
+      "<a href=\"http://www.openstreetmap.org/browse/node/#{ node.id }\">#{ node.id }</a>"
+    $("#way-nodes").html("<ul><li>" + nodes.join("</li><li>") + "</li></ul>")
 
   # Zeichnet einen Pfad auf der Karte.
   drawPath = (path) ->
@@ -314,7 +304,27 @@ require(["jquery", "styles", "bootstrap", "leaflet-src", "underscore"], ($, styl
    AntScout.path = (path) ->
     # console? && console.debug("Drawing path - path: " + JSON.stringify(path))
     drawPath(path) 
-            	
+    
+   # Schnittstelle zum Back-End. Ändert den Weg.
+   AntScout.way = (way, newSpeed) ->
+      maxSpeed = parseFloat(newSpeed)
+      # PUT-Ajax-Request an das Back-End
+      $.ajax({
+        contentType: "application/json"
+        type: "PUT"
+        url: "way/#{ way.id }"
+        data: JSON.stringify(
+          maxSpeed: maxSpeed
+        )
+      }).done (way) ->
+        # In allen Weg-Layern den entsprechenden Weg aktualisieren
+        _.each([incomingWaysLayer, outgoingWaysLayer, pathLayer, waysLayer], (layerGroup) ->
+          layerGroup.eachLayer((layer) ->
+            if layer.way.id is way.id
+              layer.way = way
+          )
+        )      
+              	
   # Aktiviert ein Html-Element.
   enable = (elementId) ->
     $("##{ elementId }").prop("disabled", false)

@@ -1,0 +1,133 @@
+23:40:39.742 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Kreis.osm
+23:40:39.898 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+23:40:39.898 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+23:40:39.929 INFO  [d.f.a.osm.OsmMap] [] - 230 nodes parsed in 31 milliseconds
+23:40:39.929 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+23:40:39.960 WARN  [d.f.a.osm.OsmWay] [] - Way 33891761: unknown max speed "5 mph"
+23:40:39.960 WARN  [d.f.a.osm.OsmWay] [] - Way 33891763: unknown max speed "5 mph"
+23:40:39.976 INFO  [d.f.a.osm.OsmMap] [] - 71 ways parsed in 32 milliseconds
+23:40:39.976 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+23:40:40.069 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 230 elements computed, took 78 ms
+23:40:40.069 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+23:40:40.069 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+23:40:40.085 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+23:40:40.100 INFO  [d.f.a.antnet.AntMap] [] - 16 ant ways data computed, took 0 ms
+23:40:40.100 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+23:40:40.100 INFO  [d.f.a.antnet.AntMap] [] - 14 nodes computed
+23:40:40.100 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+23:40:40.116 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+23:40:40.116 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+23:40:40.132 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+23:40:40.132 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+23:40:40.132 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+23:40:40.132 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+23:40:40.132 INFO  [d.f.a.antnet.AntMap] [] - 12 sources and 12 destinations computed, took 0 ms
+23:40:40.147 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+23:40:44.266 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+23:40:44.266 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+23:40:49.297 INFO  [d.f.a.rest.Rest] [] - Neue Endpunkte: Dijsktra ausführen - Pfad suchen von Knoten 355550094 nach Knoten 1505625032
+23:40:49.344 INFO  [d.f.a.rest.Rest] [] - Neue Endpunkte: Dijsktra erfolgreich ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:49.344 INFO  [d.f.a.rest.Rest] [] - Neue Endpunkte: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.0362899262886685 Minuten
+23:40:49.360 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Neue Geschwindigkeit von 25.0 Kilometer pro Stunde für Knoten 12 festgelegt!
+23:40:49.407 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:40:49.531 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Weg 12 wurde geändert, neue Geschwindigkeit ist 25.0 Kilometer pro Stunde
+23:40:49.531 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad gefunden: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:49.547 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad muss angepasst werden
+23:40:49.547 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad erfolgreich angepasst
+23:40:49.547 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.1699704483803388 Minuten
+23:40:49.547 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Dijsktra ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:49.547 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.1699704483803388 Minuten
+23:40:49.672 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.1699704483803388 Minuten
+23:40:49.968 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.1699704483803388 Minuten
+23:40:50.265 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.1699704483803388 Minuten
+23:40:50.467 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Neue Geschwindigkeit von 25.0 Kilometer pro Stunde für Knoten 9 festgelegt!
+23:40:50.483 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Weg 9 wurde geändert, neue Geschwindigkeit ist 25.0 Kilometer pro Stunde
+23:40:50.483 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad gefunden: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:50.499 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Dijsktra ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:50.499 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.1699704483803388 Minuten
+23:40:50.561 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.1699704483803388 Minuten
+23:40:50.857 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.1699704483803388 Minuten
+23:40:51.169 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.1699704483803388 Minuten
+23:40:51.466 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.1699704483803388 Minuten
+23:40:51.559 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Neue Geschwindigkeit von 25.0 Kilometer pro Stunde für Knoten 1 festgelegt!
+23:40:51.575 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Weg 1 wurde geändert, neue Geschwindigkeit ist 25.0 Kilometer pro Stunde
+23:40:51.575 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad gefunden: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:51.575 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad muss angepasst werden
+23:40:51.575 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad erfolgreich angepasst
+23:40:51.575 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.205554302236663 Minuten
+23:40:51.591 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Dijsktra ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:51.591 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.205554302236663 Minuten
+23:40:51.762 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:52.059 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:52.371 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:52.669 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:52.669 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Neue Geschwindigkeit von 25.0 Kilometer pro Stunde für Knoten 13 festgelegt!
+23:40:52.685 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Weg 13 wurde geändert, neue Geschwindigkeit ist 25.0 Kilometer pro Stunde
+23:40:52.685 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad gefunden: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:52.700 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Dijsktra ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:52.700 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.205554302236663 Minuten
+23:40:52.965 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:53.262 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:53.558 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:53.761 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Neue Geschwindigkeit von 34.99992 Kilometer pro Stunde für Knoten 14 festgelegt!
+23:40:53.777 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Weg 14 wurde geändert, neue Geschwindigkeit ist 34.99992 Kilometer pro Stunde
+23:40:53.777 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad gefunden: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:53.792 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Dijsktra ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:53.792 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.205554302236663 Minuten
+23:40:53.870 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:54.167 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:54.463 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:54.759 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:54.869 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Neue Geschwindigkeit von 17.49996 Kilometer pro Stunde für Knoten 14 festgelegt!
+23:40:54.884 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Weg 14 wurde geändert, neue Geschwindigkeit ist 17.49996 Kilometer pro Stunde
+23:40:54.884 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad gefunden: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:54.900 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Dijsktra ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:54.900 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.205554302236663 Minuten
+23:40:55.071 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:55.368 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:55.664 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:55.961 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:55.961 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Neue Geschwindigkeit von 25.0 Kilometer pro Stunde für Knoten 7 festgelegt!
+23:40:55.976 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Weg 7 wurde geändert, neue Geschwindigkeit ist 25.0 Kilometer pro Stunde
+23:40:55.976 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad gefunden: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:55.992 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Dijsktra ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:55.992 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.205554302236663 Minuten
+23:40:56.257 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:56.569 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:56.865 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:57.068 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Neue Geschwindigkeit von 25.0 Kilometer pro Stunde für Knoten 15 festgelegt!
+23:40:57.084 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Weg 15 wurde geändert, neue Geschwindigkeit ist 25.0 Kilometer pro Stunde
+23:40:57.084 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Pfad gefunden: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:57.099 INFO  [d.f.a.rest.Rest] [] - Wegänderung: Dijsktra ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#5 #355550094 -> #1320917075, #3 #1320917075 -> #230536443, #10 #230536443 -> #1505625143, #11 #1505625143 -> #52699805, #12 #52699805 - #1505625024, #1 #1505625032 - #1505625024)
+23:40:57.099 INFO  [d.f.a.rest.Rest] [] - Wegänderung: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.205554302236663 Minuten
+23:40:57.162 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:57.458 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.205554302236663 Minuten
+23:40:57.474 INFO  [b.liftweb.Boot] [] - Shutting down
+23:40:57.474 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+23:42:08.528 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Kreis.osm
+23:42:08.591 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+23:42:08.591 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+23:42:08.622 INFO  [d.f.a.osm.OsmMap] [] - 230 nodes parsed in 16 milliseconds
+23:42:08.622 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+23:42:08.638 WARN  [d.f.a.osm.OsmWay] [] - Way 33891761: unknown max speed "5 mph"
+23:42:08.638 WARN  [d.f.a.osm.OsmWay] [] - Way 33891763: unknown max speed "5 mph"
+23:42:08.653 INFO  [d.f.a.osm.OsmMap] [] - 71 ways parsed in 31 milliseconds
+23:42:08.653 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+23:42:08.669 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 230 elements computed, took 16 ms
+23:42:08.669 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+23:42:08.669 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+23:42:08.669 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+23:42:08.684 INFO  [d.f.a.antnet.AntMap] [] - 16 ant ways data computed, took 15 ms
+23:42:08.684 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+23:42:08.684 INFO  [d.f.a.antnet.AntMap] [] - 14 nodes computed
+23:42:08.684 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+23:42:08.684 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+23:42:08.684 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+23:42:08.716 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+23:42:08.716 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+23:42:08.716 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+23:42:08.716 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+23:42:08.716 INFO  [d.f.a.antnet.AntMap] [] - 12 sources and 12 destinations computed, took 0 ms
+23:42:08.716 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+23:42:09.092 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+23:42:09.108 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)

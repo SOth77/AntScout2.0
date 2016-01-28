@@ -4,6 +4,7 @@ import com.typesafe.config.ConfigFactory
 import scala.collection.JavaConverters._
 import akka.util.Duration
 import java.util.concurrent.TimeUnit
+import java.io._
 
 /**
  * Konfiguration.
@@ -16,37 +17,77 @@ object Settings {
   private val config = ConfigFactory.load
 
   import config._
-  
+
   /**
    * Soll Dijkstra verwendet werden?
    */
   val Dji = getBoolean("ant-scout.dijkstra")
-  
+
   /**
    * Sollen zufällige Staus erzeugt werden?
    */
   val Jamgen = getBoolean("ant-scout.jam-gen.gen")
   
+    /**
+   * Wurde bisher noch kein Pfad gefunden?
+   */
+  var NoPath = true
+  
+  /**
+   * JamActive
+   */
+  var JamActive = false
+
+  /**
+   * Aus welcher Datei sollen Staus geladen werden? Ist das Feld empty, werden sie nicht geladen, sondern zufällig erzeugt.
+   */
+  val LoadJam = getString("ant-scout.jam-gen.loadJam") 
+  
+  /**
+   * Iterator über der Staudatei
+   */
+  var Lines = Iterator("1", "2")
+
+  /**
+   * In welcher Datei sollen Staus gespeichert werden? Ist das Feld empty, werden sie nicht gespeichert.
+   */
+  val SaveJam = getString("ant-scout.jam-gen.saveJam")
+  
+  /**
+   * # In welche Datei sollen Dijkstraergebnisse geschrieben werden? Ist das Feld empty, werden sie nicht gespeichert
+   */
+  val SaveDijkstra = getString("ant-scout.jam-gen.saveDijkstra")
+  
+  /**
+   * # In welche Datei sollen Ameisenergebnisse geschrieben werden? Ist das Feld empty, werden sie nicht gespeichert
+   */
+  val SaveAnt = getString("ant-scout.jam-gen.saveAnt")
+
   /**
    * Sollen sich Verkehrsverhältnisse auch positiv verändern können?
    */
   val Positive = getBoolean("ant-scout.jam-gen.positive")
-  
+
   /**
    * Millisekunden, nach denen jeweils ein Stau erzeugt werden soll
    */
   val Frequency = getInt("ant-scout.jam-gen.frequency")
-  
+
   /**
    *  Faktor, um den die bisherige Geschwindigkeit durch einen Stau verändert werden soll
    */
-	val Factor = getDouble("ant-scout.jam-gen.factor")
-	
-	/**
-	 * Grenze, bis zu welchem Vielfachen des Grundfaktors sich die Geschwindigkeit
-	 * auf einer Teilstrecke pro Stau maximal verändert.
-	 */
-	val MaxChange = getInt("ant-scout.jam-gen.maxChange")
+  val Factor = getDouble("ant-scout.jam-gen.factor")
+
+  /**
+   * Grenze, bis zu welchem Vielfachen des Grundfaktors sich die Geschwindigkeit
+   * auf einer Teilstrecke pro Stau maximal verändert.
+   */
+  val MaxChange = getInt("ant-scout.jam-gen.maxChange")
+
+  /**
+   * Millisekunden, nach denen jeweils die Güte des aktuellen Pfades ausgegeben wird
+   */
+  val PathOutput = getInt("ant-scout.jam-gen.pathOutput")
 
   /**
    * Parameter a für die Squash-Funktion.
@@ -171,4 +212,5 @@ object Settings {
     else
       None
   }
+
 }

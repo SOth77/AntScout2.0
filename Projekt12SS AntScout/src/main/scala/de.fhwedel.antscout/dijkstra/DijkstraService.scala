@@ -5,11 +5,13 @@ import annotation.tailrec
 import collection.mutable
 import collection.mutable.MutableList
 import antnet.{ AntNode, AntWay, AntMap }
-import akka.actor.{ ActorRef, ActorLogging, Actor }
+import akka.actor.{ Cancellable, ActorRef, ActorLogging, Actor }
 import de.fhwedel.antscout
 import net.liftweb.common.{ Empty, Full, Box }
 import net.liftweb.http.{ NamedCometListener, S, LiftSession }
 import de.fhwedel.antscout._
+import scala.concurrent._
+import java.util.concurrent.TimeUnit
 
 class DijkstraService extends Actor with ActorLogging {
   import DijkstraService._
@@ -26,13 +28,11 @@ class DijkstraService extends Actor with ActorLogging {
    * Sucht einen Pfad von einem Quell- zu einem Ziel-Knoten.
    */
   def findPath(source: String, destination: String): Box[Seq[AntWay]] = {
-    val (start, target) = transformGraph(source, destination)
+    val (start, target) = transformGraph(source, destination)   
     graph.dijkstra(start, target) match {
       case Some((path, distance)) => {
-        log.info("Der Pfad führt über die folgenden Wege: %s".format(path.toString))
-        log.info("Die Länge des Pfades beträgt %s Meter.".format(distance.toString))
         return Full(result(path))
-      }      
+      }
       case None => return Empty
     }
   }
@@ -88,7 +88,7 @@ class DijkstraService extends Actor with ActorLogging {
   def startAutomat(time: Int) = {
     while (true) {
       Thread.sleep(time)
-      
+
     }
   }
 
@@ -112,6 +112,10 @@ class DijkstraService extends Actor with ActorLogging {
     case FindPath(source, destination) =>
       // Pfad suchen
       val path = findPath(source, destination)
+      if (Settings.NoPath && Settings.Jamgen) {
+        Settings.NoPath = false
+
+      }
       for {
         liftSession <- liftSession
       } yield {

@@ -40,4 +40,6 @@ package object antscout {
    * Flag, ob die Applikation sehr detaillierte Log-Ausgaben erzeugen soll.
    */
   object IsTraceEnabled extends SessionVar[Box[Boolean]](Empty)
+  
+  object Lines extends SessionVar[Box[Iterator[String]]](Empty)
 }

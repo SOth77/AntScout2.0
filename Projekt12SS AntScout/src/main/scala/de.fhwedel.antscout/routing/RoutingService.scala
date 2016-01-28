@@ -4,11 +4,15 @@ package routing
 import annotation.tailrec
 import collection.mutable
 import antnet.{ AntNode, AntWay }
-import akka.actor.{ ActorRef, ActorLogging, Actor }
+import akka.actor.{ Cancellable, ActorRef, ActorLogging, Actor }
 import de.fhwedel.antscout
 import net.liftweb.common.{ Empty, Full, Box }
 import net.liftweb.http.{ NamedCometListener, S, LiftSession }
 import de.fhwedel.antscout._
+import scala.concurrent._
+import java.util.concurrent.TimeUnit
+import akka.util._
+import antnet.JamGen
 
 /**
  * Verwaltet eine globale Routing-Tabelle, beantwortet Anfragen nach dem aktuellen Pfad von einem Quell- zu einem
@@ -22,6 +26,12 @@ class RoutingService extends Actor with ActorLogging {
    * Lift-Session
    */
   var liftSession: Option[LiftSession] = None
+
+  /**
+   * Cancellabeles werden beim Erzeugen von Schedulern zurückgegeben und erlauben es diese zu stoppen.
+   */
+  val cancellables = mutable.Set[Cancellable]()
+
   /**
    * Routing-Tabelle.
    *
@@ -90,6 +100,14 @@ class RoutingService extends Actor with ActorLogging {
         liftSession <- liftSession
       } yield {
         S.initIfUninitted(liftSession) {
+          if (Settings.NoPath && Settings.Jamgen) {
+            Settings.NoPath = false
+            //Erzeugen des Schedules für die Staus
+            cancellables += context.system.scheduler.schedule(Duration.Zero, Duration(Settings.PathOutput,
+              TimeUnit.MILLISECONDS), context.actorFor(JamGen.ActorName), JamGen.PathOutput())
+            cancellables += context.system.scheduler.schedule(Duration.Zero, Duration(Settings.Frequency,
+              TimeUnit.MILLISECONDS), context.actorFor(JamGen.ActorName), JamGen.StartGen())
+          }
           // Pfad in die Session schreiben
           antscout.Path(path)
         }
@@ -108,8 +126,8 @@ class RoutingService extends Actor with ActorLogging {
     // Aktualisiert den besten Weg zu einem Ziel
     case UpdateBestWay(destination, way) =>
       {
-      //log.info("UpdateRouting")
-      updateBestWay(sender, destination, way)
+        //log.info("UpdateRouting")
+        updateBestWay(sender, destination, way)
       }
     case m: Any =>
       log.warning("Unknown message: %s" format m.toString)
@@ -191,6 +209,15 @@ class RoutingService extends Actor with ActorLogging {
       }
     }
   }
+  /**
+   * Event-Handler, der nach dem Stoppen des Services augeführt wird.
+   */
+  override def postStop() {
+    // Alle schedule-Aktionen stoppen
+    for (cancellable <- cancellables)
+      cancellable.cancel()
+  }
+
 }
 
 /**

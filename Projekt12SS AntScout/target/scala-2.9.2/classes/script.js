@@ -176,6 +176,13 @@
             maxSpeed: maxSpeed
           })
         }).done(function(way) {
+          _.each([incomingWaysLayer, outgoingWaysLayer, pathLayer, waysLayer], function(layerGroup) {
+            return layerGroup.eachLayer(function(layer) {
+              if (layer.way.id === way.id) {
+                return layer.way = way;
+              }
+            });
+          });
           selectWay.way = way;
           return displayWayData(way);
         });
@@ -238,61 +245,52 @@
       return $("#" + elementId).prop("disabled", true);
     };
     displayWayData = function(way) {
-      return $.get("way/" + way.id, function(wayData) {
-        var length, lengths, maxSpeed, maxSpeeds, node, tripTime, tripTimes;
-        _.each([incomingWaysLayer, outgoingWaysLayer, pathLayer, waysLayer], function(layerGroup) {
-          return layerGroup.eachLayer(function(layer) {
-            if (layer.way.id === wayData.id) {
-              return layer.way = wayData;
-            }
-          });
-        });
-        $("#wayId").html(wayData.id);
-        lengths = (function() {
-          var _i, _len, _ref, _results;
-          _ref = wayData.lengths;
-          _results = [];
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-            length = _ref[_i];
-            _results.push("" + length.value + " " + length.unit);
-          }
-          return _results;
-        })();
-        $("#wayLength").attr("data-original-title", lengths.join("<br>")).html(wayData.length);
-        maxSpeeds = (function() {
-          var _i, _len, _ref, _results;
-          _ref = wayData.maxSpeeds;
-          _results = [];
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-            maxSpeed = _ref[_i];
-            _results.push("" + maxSpeed.value + " " + maxSpeed.unit);
-          }
-          return _results;
-        })();
-        $("#wayMaxSpeed").attr("data-original-title", maxSpeeds.join("<br>")).html(wayData.maxSpeed);
-        tripTimes = (function() {
-          var _i, _len, _ref, _results;
-          _ref = wayData.tripTimes;
-          _results = [];
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-            tripTime = _ref[_i];
-            _results.push("" + tripTime.value + " " + tripTime.unit);
-          }
-          return _results;
-        })();
-        $("#wayTripTime").attr("data-original-title", tripTimes.join("<br>")).html(wayData.tripTime);
-        nodes = (function() {
-          var _i, _len, _ref, _results;
-          _ref = wayData.nodes;
-          _results = [];
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-            node = _ref[_i];
-            _results.push("<a href=\"http://www.openstreetmap.org/browse/node/" + node.id + "\">" + node.id + "</a>");
-          }
-          return _results;
-        })();
-        return $("#way-nodes").html("<ul><li>" + nodes.join("</li><li>") + "</li></ul>");
-      });
+      var length, lengths, maxSpeed, maxSpeeds, node, tripTime, tripTimes;
+      $("#wayId").html(way.id);
+      lengths = (function() {
+        var _i, _len, _ref, _results;
+        _ref = way.lengths;
+        _results = [];
+        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          length = _ref[_i];
+          _results.push("" + length.value + " " + length.unit);
+        }
+        return _results;
+      })();
+      $("#wayLength").attr("data-original-title", lengths.join("<br>")).html(way.length);
+      maxSpeeds = (function() {
+        var _i, _len, _ref, _results;
+        _ref = way.maxSpeeds;
+        _results = [];
+        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          maxSpeed = _ref[_i];
+          _results.push("" + maxSpeed.value + " " + maxSpeed.unit);
+        }
+        return _results;
+      })();
+      $("#wayMaxSpeed").attr("data-original-title", maxSpeeds.join("<br>")).html(way.maxSpeed);
+      tripTimes = (function() {
+        var _i, _len, _ref, _results;
+        _ref = way.tripTimes;
+        _results = [];
+        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          tripTime = _ref[_i];
+          _results.push("" + tripTime.value + " " + tripTime.unit);
+        }
+        return _results;
+      })();
+      $("#wayTripTime").attr("data-original-title", tripTimes.join("<br>")).html(way.tripTime);
+      nodes = (function() {
+        var _i, _len, _ref, _results;
+        _ref = way.nodes;
+        _results = [];
+        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          node = _ref[_i];
+          _results.push("<a href=\"http://www.openstreetmap.org/browse/node/" + node.id + "\">" + node.id + "</a>");
+        }
+        return _results;
+      })();
+      return $("#way-nodes").html("<ul><li>" + nodes.join("</li><li>") + "</li></ul>");
     };
     drawPath = function(path) {
       var length, lengths, tripTime, tripTimes;
@@ -325,6 +323,26 @@
     };
     AntScout.path = function(path) {
       return drawPath(path);
+    };
+    AntScout.way = function(way, newSpeed) {
+      var maxSpeed;
+      maxSpeed = parseFloat(newSpeed);
+      return $.ajax({
+        contentType: "application/json",
+        type: "PUT",
+        url: "way/" + way.id,
+        data: JSON.stringify({
+          maxSpeed: maxSpeed
+        })
+      }).done(function(way) {
+        return _.each([incomingWaysLayer, outgoingWaysLayer, pathLayer, waysLayer], function(layerGroup) {
+          return layerGroup.eachLayer(function(layer) {
+            if (layer.way.id === way.id) {
+              return layer.way = way;
+            }
+          });
+        });
+      });
     };
     enable = function(elementId) {
       return $("#" + elementId).prop("disabled", false);

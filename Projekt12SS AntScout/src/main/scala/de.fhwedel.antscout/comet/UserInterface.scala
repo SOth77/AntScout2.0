@@ -1,8 +1,8 @@
 package de.fhwedel.antscout
 package comet
 
-import antnet.{AntWay, AntNode, JamGen }
-import net.liftweb.common.{Full, Logger}
+import antnet.{ AntWay, AntNode, JamGen }
+import net.liftweb.common.{ Full, Logger }
 import net.liftweb.http.js.JE.Call
 import net.liftweb.http.js.JsCmds.SetHtml
 import net.liftweb.http.NamedCometActorTrait
@@ -11,7 +11,7 @@ import routing.RoutingService
 import dijkstra.DijkstraService
 import xml.Text
 import net.liftweb.json.JsonAST.JArray
-import akka.actor.{Cancellable, ActorRef, ActorLogging, Actor}
+import akka.actor.{ Cancellable, ActorRef, ActorLogging, Actor }
 
 /**
  * Zuständig für die Manipulation des User-Interfaces.
@@ -48,15 +48,7 @@ class UserInterface extends Logger with NamedCometActorTrait {
               </tr>
           }
         }))
-     
-    // Weg, der geändert werden soll    
-    //case JamGen.Way(way) => {
-      // Weg als Json
-      //val wayAsJson = way.openOr(null).toJson
-      //info("erti: wayAsJason: %s".format(wayAsJson))
-      //partialUpdate(Call("JamGen.way", wayAsJson).cmd)     
-    //}
-        
+
     // Pfad über Dijkstra
     case DijkstraService.Path(path) => {
       // Pfad als Json
@@ -66,17 +58,17 @@ class UserInterface extends Logger with NamedCometActorTrait {
             case ((lengthAcc, tripTimeAcc), way) => (way.length + lengthAcc, way.tripTime + tripTimeAcc)
           }
           ("length" -> "%.4f".format(length / 1000)) ~
-          ("lengths" ->
-            JArray(List(("unit" -> "m") ~
-            ("value" -> "%.4f".format(length))))) ~
-          ("tripTime" -> "%.4f".format(tripTime / 60)) ~
-          ("tripTimes" ->
-            JArray(List(
-              ("unit" -> "s") ~
-              ("value" -> "%.4f".format(tripTime)),
-              ("unit" -> "h") ~
-              ("value" -> "%.4f".format(tripTime / 3600))))) ~
-          ("ways" ->  path.map(_.toJson))
+            ("lengths" ->
+              JArray(List(("unit" -> "m") ~
+                ("value" -> "%.4f".format(length))))) ~
+              ("tripTime" -> "%.4f".format(tripTime / 60)) ~
+              ("tripTimes" ->
+                JArray(List(
+                  ("unit" -> "s") ~
+                    ("value" -> "%.4f".format(tripTime)),
+                  ("unit" -> "h") ~
+                    ("value" -> "%.4f".format(tripTime / 3600))))) ~
+                ("ways" -> path.map(_.toJson))
         case _ => JArray(List[AntWay]().map(_.toJson))
       }
       // Pfad an das Front-End senden
@@ -91,21 +83,26 @@ class UserInterface extends Logger with NamedCometActorTrait {
             case ((lengthAcc, tripTimeAcc), way) => (way.length + lengthAcc, way.tripTime + tripTimeAcc)
           }
           ("length" -> "%.4f".format(length / 1000)) ~
-          ("lengths" ->
-            JArray(List(("unit" -> "m") ~
-            ("value" -> "%.4f".format(length))))) ~
-          ("tripTime" -> "%.4f".format(tripTime / 60)) ~
-          ("tripTimes" ->
-            JArray(List(
-              ("unit" -> "s") ~
-              ("value" -> "%.4f".format(tripTime)),
-              ("unit" -> "h") ~
-              ("value" -> "%.4f".format(tripTime / 3600))))) ~
-          ("ways" ->  path.map(_.toJson))
+            ("lengths" ->
+              JArray(List(("unit" -> "m") ~
+                ("value" -> "%.4f".format(length))))) ~
+              ("tripTime" -> "%.4f".format(tripTime / 60)) ~
+              ("tripTimes" ->
+                JArray(List(
+                  ("unit" -> "s") ~
+                    ("value" -> "%.4f".format(tripTime)),
+                  ("unit" -> "h") ~
+                    ("value" -> "%.4f".format(tripTime / 3600))))) ~
+                ("ways" -> path.map(_.toJson))
         case _ => JArray(List[AntWay]().map(_.toJson))
       }
       // Pfad an das Front-End senden
       partialUpdate(Call("AntScout.path", pathAsJson).cmd)
+    }
+    case JamGen.Way(way, newSpeed) => {
+      val way1 = way.get
+      val speed = newSpeed.get
+      partialUpdate(Call("AntScout.way", way1.toJson, speed.toString()).cmd)
     }
     case m: Any =>
       warn("Unknown message: %s" format m)

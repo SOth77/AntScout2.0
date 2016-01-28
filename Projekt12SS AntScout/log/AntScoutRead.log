@@ -1,0 +1,80 @@
+23:43:31.274 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Kreis.osm
+23:43:31.339 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+23:43:31.339 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+23:43:31.354 INFO  [d.f.a.osm.OsmMap] [] - 230 nodes parsed in 15 milliseconds
+23:43:31.354 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+23:43:31.386 WARN  [d.f.a.osm.OsmWay] [] - Way 33891761: unknown max speed "5 mph"
+23:43:31.386 WARN  [d.f.a.osm.OsmWay] [] - Way 33891763: unknown max speed "5 mph"
+23:43:31.401 INFO  [d.f.a.osm.OsmMap] [] - 71 ways parsed in 47 milliseconds
+23:43:31.401 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+23:43:31.495 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 230 elements computed, took 78 ms
+23:43:31.495 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+23:43:31.495 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+23:43:31.526 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+23:43:31.526 INFO  [d.f.a.antnet.AntMap] [] - 16 ant ways data computed, took 0 ms
+23:43:31.526 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+23:43:31.526 INFO  [d.f.a.antnet.AntMap] [] - 14 nodes computed
+23:43:31.526 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+23:43:31.542 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+23:43:31.542 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+23:43:31.557 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+23:43:31.557 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+23:43:31.557 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+23:43:31.573 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+23:43:31.573 INFO  [d.f.a.antnet.AntMap] [] - 12 sources and 12 destinations computed, took 0 ms
+23:43:31.573 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+23:43:34.802 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+23:43:34.802 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+23:43:39.453 INFO  [d.f.a.rest.Rest] [] - Neue Endpunkte: Dijsktra ausführen - Pfad suchen von Knoten 355550094 nach Knoten 1505625032
+23:43:39.500 INFO  [d.f.a.rest.Rest] [] - Neue Endpunkte: Dijsktra erfolgreich ausgeführt - Pfad gefunden von Knoten 355550094 nach Knoten 1505625032: MutableList(#14 #355550094 -> #1320917075, #13 #1320917075 -> #230536443, #9 #230536443 -> #1505625143, #7 #1505625143 -> #52699805, #2 #52699805 - #1505625024, #11 #1505625032 - #1505625024)
+23:43:39.500 INFO  [d.f.a.rest.Rest] [] - Neue Endpunkte: neue Pfadlänge: 863.5749385738904 Meter, neue Fahrtzeit: 1.0362899262886685 Minuten
+23:43:39.578 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:39.890 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:40.187 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:40.483 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:40.779 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:41.091 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:41.390 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:41.686 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:41.983 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:42.279 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:42.591 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:42.887 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:43.179 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:43.491 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:43.788 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:44.084 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:44.381 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:44.693 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:44.989 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:45.287 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:45.584 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:45.880 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:46.192 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:46.489 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:46.785 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:47.081 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:47.393 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:47.690 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:47.986 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:48.283 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:48.579 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:48.892 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:49.188 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:49.485 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:49.783 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:50.080 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:50.392 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:50.688 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:50.984 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:51.281 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:51.593 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:51.889 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:52.186 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:52.482 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:52.778 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:53.090 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:53.387 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:53.686 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:53.983 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
+23:43:54.279 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Aktueller Pfad: Länge - 863.5749385738904 Meter, Fahrtzeit - 1.0362899262886685 Minuten
