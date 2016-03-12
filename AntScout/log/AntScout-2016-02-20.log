@@ -1,0 +1,1415 @@
+02:07:46.898 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+02:07:47.210 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+02:07:47.226 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+02:07:47.335 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+02:07:47.335 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+02:07:49.145 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+02:07:49.160 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+02:07:49.419 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2084 milliseconds
+02:07:49.421 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+02:07:49.581 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:132) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:26) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:22) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:22) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+02:07:49.613 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 152 ms
+02:07:49.613 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+02:07:49.613 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+02:07:49.659 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+02:07:49.769 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 110 ms
+02:07:49.769 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+02:07:49.769 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+02:07:49.769 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+02:07:49.815 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+02:07:49.831 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+02:07:49.878 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+02:07:49.878 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+02:07:49.893 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+02:07:49.893 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+02:07:49.893 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+02:07:49.893 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+02:07:52.686 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+02:07:52.686 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+02:08:19.111 INFO  [b.liftweb.Boot] [] - Shutting down
+02:08:19.142 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+02:15:14.813 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+02:15:15.047 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+02:15:15.062 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+02:15:15.156 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 94 milliseconds
+02:15:15.172 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+02:15:17.309 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2137 milliseconds
+02:15:17.309 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+02:15:17.527 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+02:15:17.527 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+02:15:17.527 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+02:15:17.574 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+02:15:17.683 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+02:15:17.683 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+02:15:17.683 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+02:15:17.683 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+02:15:17.683 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+02:15:17.746 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+02:15:17.746 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+02:15:17.746 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+02:15:17.792 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+02:15:17.792 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+02:15:17.824 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+02:15:17.824 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+02:15:17.824 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+02:15:17.824 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+02:15:17.824 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+02:15:18.009 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+02:15:18.435 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 424 ms
+02:15:18.981 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+02:15:24.004 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+02:15:46.721 INFO  [b.liftweb.Boot] [] - Shutting down
+02:15:46.799 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+12:27:25.310 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+12:27:25.584 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+12:27:25.617 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+12:27:25.952 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 273 milliseconds
+12:27:25.970 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+12:27:28.419 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2353 milliseconds
+12:27:28.423 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+12:27:28.758 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 213 ms
+12:27:28.832 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+12:27:28.953 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+12:27:29.076 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+12:27:29.490 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:27:29.594 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 493 ms
+12:27:29.596 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+12:27:29.689 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+12:27:29.750 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+12:27:29.877 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+12:27:29.883 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+12:27:30.023 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:27:30.172 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+12:27:30.243 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+12:27:30.318 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+12:27:30.320 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+12:27:30.386 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 24 ms
+12:27:30.389 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+12:27:57.503 INFO  [b.liftweb.Boot] [] - Shutting down
+12:27:57.596 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+12:29:04.116 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+12:29:04.393 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+12:29:04.398 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+12:29:04.523 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 123 milliseconds
+12:29:04.525 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+12:29:04.866 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:29:04.877 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:29:05.163 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:132) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:26) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:22) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:22) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+12:29:06.418 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:29:06.428 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:29:06.533 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 2007 milliseconds
+12:29:06.534 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+12:29:06.581 ERROR [n.l.http.LiftRules] [] - Exception being returned to browser when processing Req(List(), Map(), ParsePath(List(ways),,true,false), , GetRequest, Empty)
+java.lang.NullPointerException: null
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:132) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$$anonfun$1.apply(Rest.scala:26) ~[classes/:na]
+	at net.liftweb.http.rest.RestHelper$class.apply(RestHelper.scala:508) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:22) ~[classes/:na]
+	at de.fhwedel.antscout.rest.Rest$.apply(Rest.scala:22) ~[classes/:na]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$liftedTree1$1$1.apply(LiftServlet.scala:351) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.functionLifespan(S.scala:1712) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.functionLifespan(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.liftedTree1$1(LiftServlet.scala:350) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.net$liftweb$http$LiftServlet$$dispatchStatefulRequest(LiftServlet.scala:337) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doSession$1$1.apply(LiftServlet.scala:286) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$wrapQuery(S.scala:1453) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1$$anonfun$apply$36.apply(S.scala:1601) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$doAround(S.scala:1382) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_nest2InnerInit$1.apply(S.scala:1599) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_nest2InnerInit(S.scala:1598) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42$$anonfun$apply$43.apply(S.scala:1642) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$withReq$1.apply(S.scala:1652) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.withReq(S.scala:1651) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.withReq(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41$$anonfun$apply$42.apply(S.scala:1638) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40$$anonfun$apply$41.apply(S.scala:1636) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1$$anonfun$apply$40.apply(S.scala:1635) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_innerInit$1.apply(S.scala:1634) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_innerInit(S.scala:1633) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49$$anonfun$apply$50.apply(S.scala:1675) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48$$anonfun$apply$49.apply(S.scala:1673) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(S.scala:1672) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:613) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46$$anonfun$apply$47.apply(S.scala:1671) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1$$anonfun$apply$46.apply(S.scala:1670) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$$anonfun$net$liftweb$http$S$$_init$1.apply(S.scala:1669) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.net$liftweb$http$S$$_init(S.scala:1668) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$class.init(S.scala:1267) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.S$.init(S.scala:47) ~[lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doSession$1(LiftServlet.scala:285) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doService(LiftServlet.scala:295) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:133) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet$$anonfun$doIt$1$1.apply(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.calcTime(TimeHelpers.scala:345) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.calcTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.TimeHelpers$class.logTime(TimeHelpers.scala:364) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.Helpers$.logTime(Helpers.scala:34) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.doIt$1(LiftServlet.scala:132) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftServlet.service(LiftServlet.scala:143) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(HTTPProvider.scala:72) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(HTTPProvider.scala:71) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.URLRewriter$.doWith(Req.scala:1278) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply$mcV$sp(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2$$anonfun$apply$mcV$sp$1.apply(HTTPProvider.scala:70) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply$mcV$sp(HTTPProvider.scala:66) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$$anonfun$service$2.apply(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.HTTPProvider$class.service(HTTPProvider.scala:60) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.service(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$2.apply(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.handleLoan$1(ServletFilterProvider.scala:59) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.net$liftweb$http$provider$servlet$ServletFilterProvider$$handleLoanWrappers(ServletFilterProvider.scala:63) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ServletFilterProvider.scala:82) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1$$anonfun$apply$mcV$sp$1.apply(ServletFilterProvider.scala:77) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.RequestVarHandler$.apply(Vars.scala:515) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply$mcV$sp(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$$anonfun$doFilter$1.apply(ServletFilterProvider.scala:75) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18$$anonfun$apply$19.apply(Vars.scala:619) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17$$anonfun$apply$18.apply(Vars.scala:618) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16$$anonfun$apply$17.apply(Vars.scala:617) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$$anonfun$apply$16.apply(Vars.scala:616) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.util.ThreadGlobal.doWith(ThreadGlobal.scala:71) [lift-util_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.CoreRequestVarHandler$class.apply(Vars.scala:615) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.TransientRequestVarHandler$.apply(Vars.scala:528) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.provider.servlet.ServletFilterProvider$class.doFilter(ServletFilterProvider.scala:74) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at net.liftweb.http.LiftFilter.doFilter(LiftServlet.scala:904) [lift-webkit_2.9.2-2.5-M3.jar:2.5-M3]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:559) [jetty-security-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.Server.handle(Server.java:361) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:627) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:51) [jetty-io-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.7.v20120910.jar:8.1.7.v20120910]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_21]
+12:29:06.785 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 200 ms
+12:29:06.787 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+12:29:06.789 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+12:29:06.833 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+12:29:06.947 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 112 ms
+12:29:06.947 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+12:29:06.948 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+12:29:06.949 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+12:29:06.981 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+12:29:06.981 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+12:29:07.031 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+12:29:07.032 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+12:29:07.049 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+12:29:07.049 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+12:29:07.051 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+12:29:07.052 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+12:29:07.052 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+12:29:07.568 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+12:29:08.395 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 697 ms
+12:29:08.678 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+12:29:08.680 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+12:29:09.229 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+12:29:15.123 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+12:29:48.906 INFO  [b.liftweb.Boot] [] - Shutting down
+12:29:49.172 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+16:33:48.992 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:33:49.226 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:33:49.226 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:33:49.335 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+16:33:49.335 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:33:51.301 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1950 milliseconds
+16:33:51.301 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:33:51.472 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 140 ms
+16:33:51.488 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+16:33:51.488 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:33:51.519 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:33:51.628 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+16:33:51.628 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:33:51.628 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:33:51.628 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:33:51.644 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:33:51.644 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:33:51.691 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:33:51.706 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:33:51.722 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:33:51.722 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:33:51.722 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+16:33:51.738 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:33:52.986 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:33:52.986 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:34:00.026 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 55.5556 Kilometer pro Stunde für Knoten 128
+16:34:00.603 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 44.44448 Kilometer pro Stunde für Knoten 128
+16:34:01.211 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 200.0 Kilometer pro Stunde für Knoten 147
+16:34:01.728 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 100.0 Kilometer pro Stunde für Knoten 168
+16:34:02.321 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 100.00000000000001 Kilometer pro Stunde für Knoten 117
+16:34:02.929 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 48.00000000000001 Kilometer pro Stunde für Knoten 146
+16:34:03.522 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 5.000004 Kilometer pro Stunde für Knoten 148
+16:34:04.130 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 10.000000000000002 Kilometer pro Stunde für Knoten 59
+16:34:04.598 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 45.0 Kilometer pro Stunde für Knoten 173
+16:34:05.113 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 83.33333333333333 Kilometer pro Stunde für Knoten 62
+16:34:05.630 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 1.0000000000000002 Kilometer pro Stunde für Knoten 59
+16:34:06.238 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 125.0 Kilometer pro Stunde für Knoten 149
+16:34:06.862 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 100.0 Kilometer pro Stunde für Knoten 40
+16:34:07.424 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 45.0 Kilometer pro Stunde für Knoten 201
+16:34:08.032 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000000000000004 Kilometer pro Stunde für Knoten 6
+16:34:08.610 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 666.6666666666666 Kilometer pro Stunde für Knoten 147
+16:34:25.894 INFO  [b.liftweb.Boot] [] - Shutting down
+16:34:25.926 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+16:37:42.371 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:37:42.667 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:37:42.667 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:37:42.777 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 110 milliseconds
+16:37:42.777 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:37:44.524 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1747 milliseconds
+16:37:44.539 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:37:44.758 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+16:37:44.758 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+16:37:44.758 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:37:44.805 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:37:44.914 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 93 ms
+16:37:44.914 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:37:44.914 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:37:44.914 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:37:44.914 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:37:44.914 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:37:44.976 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:37:44.976 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:37:45.007 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:37:45.007 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:37:45.007 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+16:37:45.007 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:37:45.663 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:37:45.694 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:37:51.705 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 40.00000000000001 Kilometer pro Stunde für Knoten 101
+16:37:52.297 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 40.000032 Kilometer pro Stunde für Knoten 191
+16:37:52.906 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 83.33333333333333 Kilometer pro Stunde für Knoten 56
+16:37:53.639 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 83.33333333333333 Kilometer pro Stunde für Knoten 118
+16:37:54.091 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000000000000004 Kilometer pro Stunde für Knoten 127
+16:37:54.606 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 250.0 Kilometer pro Stunde für Knoten 83
+16:37:55.199 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 250.0 Kilometer pro Stunde für Knoten 201
+16:37:55.792 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 83.33333333333333 Kilometer pro Stunde für Knoten 139
+16:37:56.338 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 250.0 Kilometer pro Stunde für Knoten 198
+16:37:56.931 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.000000000000004 Kilometer pro Stunde für Knoten 8
+16:37:57.523 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 42.00000000000001 Kilometer pro Stunde für Knoten 207
+16:37:58.116 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 34.99992 Kilometer pro Stunde für Knoten 152
+16:37:58.693 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 35.00000000000001 Kilometer pro Stunde für Knoten 166
+16:37:59.317 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000000000000004 Kilometer pro Stunde für Knoten 115
+16:37:59.926 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 349.99920000000003 Kilometer pro Stunde für Knoten 19
+16:38:00.534 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 15.000012000000003 Kilometer pro Stunde für Knoten 85
+16:38:01.127 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 10.000008 Kilometer pro Stunde für Knoten 79
+16:38:01.735 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 40.00000000000001 Kilometer pro Stunde für Knoten 205
+16:38:02.328 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 75.00000000000001 Kilometer pro Stunde für Knoten 201
+16:38:02.937 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.000000000000004 Kilometer pro Stunde für Knoten 119
+16:38:03.498 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 166.66666666666666 Kilometer pro Stunde für Knoten 187
+16:38:04.107 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 24.999999999999996 Kilometer pro Stunde für Knoten 42
+16:38:04.699 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 16.666666666666664 Kilometer pro Stunde für Knoten 187
+16:38:05.339 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 166.6667759896245 Kilometer pro Stunde für Knoten 170
+16:38:05.916 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 12.000000000000002 Kilometer pro Stunde für Knoten 189
+16:38:06.540 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000024000000007 Kilometer pro Stunde für Knoten 203
+16:38:22.925 INFO  [b.liftweb.Boot] [] - Shutting down
+16:38:22.956 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+16:39:49.214 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:39:49.479 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:39:49.479 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:39:49.588 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+16:39:49.588 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:39:51.335 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1747 milliseconds
+16:39:51.335 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:39:51.554 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+16:39:51.554 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+16:39:51.554 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:39:51.601 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:39:51.710 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+16:39:51.710 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:39:51.710 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:39:51.710 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:39:51.725 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:39:51.725 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:39:51.788 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:39:51.788 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:39:51.803 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:39:51.803 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:39:51.803 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+16:39:51.803 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:39:52.849 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:39:52.864 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:39:58.672 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 500.0 Kilometer pro Stunde für Knoten 113
+16:39:59.234 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 55.555555555555564 Kilometer pro Stunde für Knoten 63
+16:39:59.842 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 35.00002800000001 Kilometer pro Stunde für Knoten 178
+16:40:00.435 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 125.0 Kilometer pro Stunde für Knoten 153
+16:40:01.044 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 10.000008 Kilometer pro Stunde für Knoten 53
+16:40:01.636 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 83.33333333333333 Kilometer pro Stunde für Knoten 10
+16:40:02.245 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 138.88888888888886 Kilometer pro Stunde für Knoten 10
+16:40:02.838 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 62.5 Kilometer pro Stunde für Knoten 123
+16:40:03.446 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 100.0 Kilometer pro Stunde für Knoten 133
+16:40:04.039 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 15.000000000000002 Kilometer pro Stunde für Knoten 184
+16:40:04.632 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 5.000004 Kilometer pro Stunde für Knoten 195
+16:40:05.240 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 500.00040000000007 Kilometer pro Stunde für Knoten 126
+16:40:05.833 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 45.000036 Kilometer pro Stunde für Knoten 145
+16:40:06.441 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 13.999968 Kilometer pro Stunde für Knoten 71
+16:40:07.034 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 75.48343241957633 Kilometer pro Stunde für Knoten 81
+16:40:07.643 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 45.0 Kilometer pro Stunde für Knoten 88
+16:40:08.235 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 300.00000000000006 Kilometer pro Stunde für Knoten 134
+16:40:08.844 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 154.8757067279478 Kilometer pro Stunde für Knoten 172
+16:40:09.437 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 77.4378533639739 Kilometer pro Stunde für Knoten 172
+16:40:10.045 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 35.000000000000014 Kilometer pro Stunde für Knoten 122
+16:40:10.638 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 2.0000016 Kilometer pro Stunde für Knoten 53
+16:40:11.246 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 25.0 Kilometer pro Stunde für Knoten 34
+16:40:11.839 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 10.000000000000004 Kilometer pro Stunde für Knoten 31
+16:40:12.432 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 139.99968 Kilometer pro Stunde für Knoten 19
+16:40:12.978 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 71.42857142857142 Kilometer pro Stunde für Knoten 11
+16:40:13.571 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 34.99992 Kilometer pro Stunde für Knoten 22
+16:40:14.163 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000000000000004 Kilometer pro Stunde für Knoten 89
+16:40:14.741 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 166.66666666666666 Kilometer pro Stunde für Knoten 168
+16:40:15.365 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 500.0 Kilometer pro Stunde für Knoten 202
+16:40:15.973 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 71.42862857142856 Kilometer pro Stunde für Knoten 159
+16:40:16.443 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 10.000000000000002 Kilometer pro Stunde für Knoten 66
+16:40:17.036 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 62.50005000000001 Kilometer pro Stunde für Knoten 87
+16:40:17.769 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 49.99999999999999 Kilometer pro Stunde für Knoten 93
+16:40:18.377 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 31.499928000000004 Kilometer pro Stunde für Knoten 22
+16:40:18.970 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 41.908950329385796 Kilometer pro Stunde für Knoten 82
+16:40:19.347 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.000000000000004 Kilometer pro Stunde für Knoten 65
+16:40:19.939 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 166.6668 Kilometer pro Stunde für Knoten 5
+16:40:33.217 INFO  [b.liftweb.Boot] [] - Shutting down
+16:40:33.248 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+16:42:38.544 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:42:38.809 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:42:38.809 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:42:38.918 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+16:42:38.918 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:42:40.650 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1732 milliseconds
+16:42:40.650 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:42:40.884 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+16:42:40.884 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+16:42:40.884 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:42:40.931 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:42:41.040 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+16:42:41.040 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:42:41.040 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:42:41.040 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:42:41.055 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:42:41.055 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:42:41.102 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:42:41.102 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:42:41.133 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:42:41.133 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:42:41.133 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+16:42:41.133 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+16:42:41.133 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:42:41.305 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+16:42:41.773 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:42:41.789 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:42:41.820 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 499 ms
+16:42:42.496 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+16:42:47.581 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+16:42:47.612 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  55.5556 Kilometer pro Stunde für Weg 128
+16:42:48.330 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  44.44448 Kilometer pro Stunde für Weg 128
+16:42:48.923 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  200.0 Kilometer pro Stunde für Weg 147
+16:42:49.594 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.0 Kilometer pro Stunde für Weg 168
+16:42:50.062 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.00000000000001 Kilometer pro Stunde für Weg 117
+16:42:50.576 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  48.00000000000001 Kilometer pro Stunde für Weg 146
+16:42:51.156 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000004 Kilometer pro Stunde für Weg 148
+16:42:51.655 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.000000000000002 Kilometer pro Stunde für Weg 59
+16:42:52.216 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.0 Kilometer pro Stunde für Weg 173
+16:42:52.794 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 62
+16:42:53.449 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  1.0000000000000002 Kilometer pro Stunde für Weg 59
+16:42:53.995 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.0 Kilometer pro Stunde für Weg 149
+16:42:54.525 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.0 Kilometer pro Stunde für Weg 40
+16:42:55.165 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.0 Kilometer pro Stunde für Weg 201
+16:42:55.914 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 6
+16:42:56.553 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  666.6666666666666 Kilometer pro Stunde für Weg 147
+16:43:11.839 INFO  [b.liftweb.Boot] [] - Shutting down
+16:43:11.964 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+16:44:19.764 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:44:20.030 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:44:20.030 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:44:20.154 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 124 milliseconds
+16:44:20.154 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:44:21.933 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1732 milliseconds
+16:44:21.933 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:44:22.191 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+16:44:22.191 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+16:44:22.191 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:44:22.238 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:44:22.363 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+16:44:22.363 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:44:22.363 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:44:22.363 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:44:22.379 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:44:22.379 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:44:22.425 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:44:22.425 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:44:22.441 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:44:22.441 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:44:22.441 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+16:44:22.457 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+16:44:22.457 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:44:22.628 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+16:44:22.971 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 343 ms
+16:44:23.143 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:44:23.159 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:44:23.478 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+16:44:30.656 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+16:44:30.718 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 101
+16:44:31.217 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.000032 Kilometer pro Stunde für Weg 191
+16:44:31.904 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 56
+16:44:32.574 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 118
+16:44:33.105 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 127
+16:44:33.791 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 83
+16:44:34.400 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 201
+16:44:35.039 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 139
+16:44:35.601 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 198
+16:44:36.209 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 8
+16:44:36.693 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  42.00000000000001 Kilometer pro Stunde für Weg 207
+16:44:37.317 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  34.99992 Kilometer pro Stunde für Weg 152
+16:44:37.816 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  35.00000000000001 Kilometer pro Stunde für Weg 166
+16:44:38.362 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 115
+16:44:38.877 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  349.99920000000003 Kilometer pro Stunde für Weg 19
+16:44:39.548 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000012000000003 Kilometer pro Stunde für Weg 85
+16:44:40.016 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.000008 Kilometer pro Stunde für Weg 79
+16:44:40.593 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 205
+16:44:41.123 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  75.00000000000001 Kilometer pro Stunde für Weg 201
+16:44:41.700 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 119
+16:44:42.278 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  166.66666666666666 Kilometer pro Stunde für Weg 187
+16:44:42.964 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  24.999999999999996 Kilometer pro Stunde für Weg 42
+16:44:43.526 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  16.666666666666664 Kilometer pro Stunde für Weg 187
+16:44:44.072 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  166.6667759896245 Kilometer pro Stunde für Weg 170
+16:44:44.602 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  12.000000000000002 Kilometer pro Stunde für Weg 189
+16:44:45.382 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000024000000007 Kilometer pro Stunde für Weg 203
+16:45:04.061 INFO  [b.liftweb.Boot] [] - Shutting down
+16:45:04.155 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+16:46:49.007 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:46:49.272 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:46:49.272 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:46:49.381 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+16:46:49.381 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:46:51.114 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1733 milliseconds
+16:46:51.114 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:46:51.332 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 171 ms
+16:46:51.348 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+16:46:51.348 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:46:51.379 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:46:51.488 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+16:46:51.488 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:46:51.488 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:46:51.488 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:46:51.504 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:46:51.504 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:46:51.551 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:46:51.566 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:46:51.582 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:46:51.582 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:46:51.582 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+16:46:51.582 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+16:46:51.582 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:46:51.738 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+16:46:52.206 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 468 ms
+16:46:52.627 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:46:52.643 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:46:52.674 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+16:47:00.980 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+16:47:01.073 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.0 Kilometer pro Stunde für Weg 113
+16:47:02.243 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  55.555555555555564 Kilometer pro Stunde für Weg 63
+16:47:02.290 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  35.00002800000001 Kilometer pro Stunde für Weg 178
+16:47:02.743 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.0 Kilometer pro Stunde für Weg 153
+16:47:03.413 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.000008 Kilometer pro Stunde für Weg 53
+16:47:03.928 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 10
+16:47:04.474 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  138.88888888888886 Kilometer pro Stunde für Weg 10
+16:47:05.114 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  62.5 Kilometer pro Stunde für Weg 123
+16:47:05.722 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.0 Kilometer pro Stunde für Weg 133
+16:47:06.237 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 184
+16:47:06.814 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000004 Kilometer pro Stunde für Weg 195
+16:47:07.345 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.00040000000007 Kilometer pro Stunde für Weg 126
+16:47:08.203 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.000036 Kilometer pro Stunde für Weg 145
+16:47:08.905 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  13.999968 Kilometer pro Stunde für Weg 71
+16:47:09.419 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  75.48343241957633 Kilometer pro Stunde für Weg 81
+16:47:09.887 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.0 Kilometer pro Stunde für Weg 88
+16:47:10.465 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  300.00000000000006 Kilometer pro Stunde für Weg 134
+16:47:11.026 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  154.8757067279478 Kilometer pro Stunde für Weg 172
+16:47:11.525 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  77.4378533639739 Kilometer pro Stunde für Weg 172
+16:47:12.056 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  35.000000000000014 Kilometer pro Stunde für Weg 122
+16:47:12.711 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  2.0000016 Kilometer pro Stunde für Weg 53
+16:47:13.226 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  25.0 Kilometer pro Stunde für Weg 34
+16:47:13.834 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.000000000000004 Kilometer pro Stunde für Weg 31
+16:47:14.333 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  139.99968 Kilometer pro Stunde für Weg 19
+16:47:15.176 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  71.42857142857142 Kilometer pro Stunde für Weg 11
+16:47:15.737 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  34.99992 Kilometer pro Stunde für Weg 22
+16:47:16.299 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 89
+16:47:16.829 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  166.66666666666666 Kilometer pro Stunde für Weg 168
+16:47:17.391 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.0 Kilometer pro Stunde für Weg 202
+16:47:18.077 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  71.42862857142856 Kilometer pro Stunde für Weg 159
+16:47:18.608 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.000000000000002 Kilometer pro Stunde für Weg 66
+16:47:19.123 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  62.50005000000001 Kilometer pro Stunde für Weg 87
+16:47:19.700 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  49.99999999999999 Kilometer pro Stunde für Weg 93
+16:47:20.230 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  31.499928000000004 Kilometer pro Stunde für Weg 22
+16:47:20.932 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  41.908950329385796 Kilometer pro Stunde für Weg 82
+16:47:21.650 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 65
+16:47:22.118 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  166.6668 Kilometer pro Stunde für Weg 5
+16:47:46.878 INFO  [b.liftweb.Boot] [] - Shutting down
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:46.987 DEBUG [LocalActorRefProvider(akka://AntScout)] [LocalActorRefProvider(akka://AntScout)] - look-up of path sequence 'List(user, antScout, routingService)' failed
+16:47:47.003 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+16:51:21.194 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:51:21.459 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:51:21.459 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:51:21.568 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+16:51:21.568 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:51:23.362 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1716 milliseconds
+16:51:23.362 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:51:23.596 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 171 ms
+16:51:23.612 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+16:51:23.612 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:51:23.659 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:51:23.768 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+16:51:23.768 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:51:23.768 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:51:23.768 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:51:23.783 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:51:23.783 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:51:23.830 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:51:23.830 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:51:23.846 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:51:23.846 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:51:23.861 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 15 ms
+16:51:23.861 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+16:51:23.861 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:51:24.033 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+16:51:24.485 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 437 ms
+16:51:24.953 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+16:51:25.156 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:51:25.187 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:51:33.834 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+16:51:33.834 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 101
+16:51:34.302 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.000032 Kilometer pro Stunde für Weg 191
+16:51:34.942 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 56
+16:51:35.378 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 118
+16:51:35.940 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 127
+16:51:36.580 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 83
+16:51:37.063 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 201
+16:51:37.609 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 139
+16:51:38.140 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 198
+16:51:38.764 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 8
+16:51:39.263 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  42.00000000000001 Kilometer pro Stunde für Weg 207
+16:51:39.809 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  34.99992 Kilometer pro Stunde für Weg 152
+16:51:40.324 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  35.00000000000001 Kilometer pro Stunde für Weg 166
+16:51:40.963 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 115
+16:51:41.540 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  349.99920000000003 Kilometer pro Stunde für Weg 19
+16:51:42.196 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000012000000003 Kilometer pro Stunde für Weg 85
+16:51:42.710 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.000008 Kilometer pro Stunde für Weg 79
+16:51:43.381 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 205
+16:51:43.990 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  75.00000000000001 Kilometer pro Stunde für Weg 201
+16:51:44.645 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 119
+16:51:45.206 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  166.66666666666666 Kilometer pro Stunde für Weg 187
+16:51:45.721 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  24.999999999999996 Kilometer pro Stunde für Weg 42
+16:51:46.330 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  16.666666666666664 Kilometer pro Stunde für Weg 187
+16:51:47.141 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  166.6667759896245 Kilometer pro Stunde für Weg 170
+16:51:47.781 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  12.000000000000002 Kilometer pro Stunde für Weg 189
+16:51:48.125 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000024000000007 Kilometer pro Stunde für Weg 203
+16:52:16.275 INFO  [b.liftweb.Boot] [] - Shutting down
+16:52:16.369 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+16:53:27.223 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:53:27.473 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:53:27.488 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:53:27.598 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 110 milliseconds
+16:53:27.598 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:53:29.329 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1731 milliseconds
+16:53:29.329 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:53:29.657 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 297 ms
+16:53:29.672 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+16:53:29.672 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:53:29.719 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:53:29.828 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+16:53:29.828 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:53:29.828 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:53:29.828 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:53:29.844 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:53:29.844 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:53:29.906 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:53:29.906 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:53:29.922 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:53:29.922 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:53:29.922 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+16:53:29.922 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+16:53:29.922 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:53:30.125 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+16:53:30.437 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:53:30.452 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:53:30.515 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 375 ms
+16:53:31.186 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+16:53:36.459 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+16:53:36.583 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 101
+16:53:37.051 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.000032 Kilometer pro Stunde für Weg 191
+16:53:37.629 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 56
+16:53:38.221 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 118
+16:53:38.752 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 127
+16:53:39.345 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 83
+16:53:39.906 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 201
+16:53:40.437 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 139
+16:53:41.014 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 198
+16:53:41.685 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 8
+16:53:42.184 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  42.00000000000001 Kilometer pro Stunde für Weg 207
+16:53:42.730 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  34.99992 Kilometer pro Stunde für Weg 152
+16:53:43.245 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  35.00000000000001 Kilometer pro Stunde für Weg 166
+16:53:43.853 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 115
+16:53:44.337 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  349.99920000000003 Kilometer pro Stunde für Weg 19
+16:53:44.929 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000012000000003 Kilometer pro Stunde für Weg 85
+16:53:45.475 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.000008 Kilometer pro Stunde für Weg 79
+16:53:46.037 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 205
+16:53:46.552 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  75.00000000000001 Kilometer pro Stunde für Weg 201
+16:53:47.145 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 119
+16:53:47.800 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  166.66666666666666 Kilometer pro Stunde für Weg 187
+16:53:48.299 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  24.999999999999996 Kilometer pro Stunde für Weg 42
+16:53:48.970 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  16.666666666666664 Kilometer pro Stunde für Weg 187
+16:53:49.422 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  166.6667759896245 Kilometer pro Stunde für Weg 170
+16:53:49.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  12.000000000000002 Kilometer pro Stunde für Weg 189
+16:53:50.514 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000024000000007 Kilometer pro Stunde für Weg 203
+16:53:59.999 INFO  [b.liftweb.Boot] [] - Shutting down
+16:54:00.155 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+16:57:18.459 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+16:57:18.739 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+16:57:18.739 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+16:57:18.849 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 110 milliseconds
+16:57:18.849 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+16:57:20.533 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1684 milliseconds
+16:57:20.533 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+16:57:20.767 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+16:57:20.767 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+16:57:20.767 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+16:57:20.814 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+16:57:20.923 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+16:57:20.923 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+16:57:20.923 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+16:57:20.923 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+16:57:20.939 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+16:57:20.939 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+16:57:20.986 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+16:57:21.001 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+16:57:21.017 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+16:57:21.017 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+16:57:21.017 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+16:57:21.017 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+16:57:23.934 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+16:57:23.950 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+16:57:30.687 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 21.000000000000004 Kilometer pro Stunde für Knoten 92
+16:57:31.279 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000000000000004 Kilometer pro Stunde für Knoten 9
+16:57:31.888 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 50.0 Kilometer pro Stunde für Knoten 104
+16:57:32.481 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 9.000000000000002 Kilometer pro Stunde für Knoten 169
+16:57:33.089 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.000000000000004 Kilometer pro Stunde für Knoten 38
+16:57:33.682 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 150.00000000000003 Kilometer pro Stunde für Knoten 193
+16:57:34.290 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 55.55557380837844 Kilometer pro Stunde für Knoten 45
+16:57:34.883 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 500.00040000000007 Kilometer pro Stunde für Knoten 68
+16:57:35.616 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 13.999968 Kilometer pro Stunde für Knoten 71
+16:57:36.225 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 35.00001854051661 Kilometer pro Stunde für Knoten 165
+16:57:36.802 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000000000000004 Kilometer pro Stunde für Knoten 198
+16:57:37.426 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 42.00000000000001 Kilometer pro Stunde für Knoten 25
+16:57:38.003 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 10.000000000000002 Kilometer pro Stunde für Knoten 83
+16:57:38.489 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 125.00010000000002 Kilometer pro Stunde für Knoten 103
+16:57:39.081 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 150.00000000000003 Kilometer pro Stunde für Knoten 198
+16:57:39.690 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000000000000004 Kilometer pro Stunde für Knoten 157
+16:57:40.283 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 35.00002800000001 Kilometer pro Stunde für Knoten 107
+16:57:41.016 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 40.000032 Kilometer pro Stunde für Knoten 195
+16:57:41.625 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 18.000000000000004 Kilometer pro Stunde für Knoten 14
+16:57:42.218 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 62.5 Kilometer pro Stunde für Knoten 39
+16:57:42.826 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 40.00000000000001 Kilometer pro Stunde für Knoten 185
+16:57:43.279 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 250.00020000000004 Kilometer pro Stunde für Knoten 44
+16:57:44.028 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 100.0 Kilometer pro Stunde für Knoten 124
+16:57:44.480 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.000016 Kilometer pro Stunde für Knoten 174
+16:57:45.200 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 83.33333333333333 Kilometer pro Stunde für Knoten 131
+16:57:45.683 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 250.0 Kilometer pro Stunde für Knoten 24
+16:57:46.292 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 5.555557380837845 Kilometer pro Stunde für Knoten 45
+16:57:46.916 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.000000000000004 Kilometer pro Stunde für Knoten 125
+16:57:47.618 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 166.6668 Kilometer pro Stunde für Knoten 51
+16:57:48.210 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 25.00002 Kilometer pro Stunde für Knoten 175
+16:57:48.819 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 250.0 Kilometer pro Stunde für Knoten 142
+16:57:49.427 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.048319732674017 Kilometer pro Stunde für Knoten 101
+16:57:50.020 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 12.000000000000002 Kilometer pro Stunde für Knoten 190
+16:57:50.488 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 100.0 Kilometer pro Stunde für Knoten 110
+16:57:51.081 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 15.000000000000002 Kilometer pro Stunde für Knoten 69
+16:57:51.689 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 83.3334 Kilometer pro Stunde für Knoten 176
+16:57:52.282 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 50.000040000000006 Kilometer pro Stunde für Knoten 44
+16:57:52.890 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 75.00000000000001 Kilometer pro Stunde für Knoten 69
+16:57:53.624 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 41.99990400000001 Kilometer pro Stunde für Knoten 155
+16:57:54.216 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 10.000000000000002 Kilometer pro Stunde für Knoten 12
+16:57:54.825 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 500.0 Kilometer pro Stunde für Knoten 90
+16:57:55.402 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 55.55555555555556 Kilometer pro Stunde für Knoten 143
+16:57:55.886 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 125.0 Kilometer pro Stunde für Knoten 199
+16:57:56.478 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.000000000000004 Kilometer pro Stunde für Knoten 86
+16:57:57.087 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 24.000000000000007 Kilometer pro Stunde für Knoten 15
+16:57:57.680 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 100.0 Kilometer pro Stunde für Knoten 9
+16:58:04.949 INFO  [b.liftweb.Boot] [] - Shutting down
+16:58:04.981 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+17:00:30.703 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+17:00:30.968 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+17:00:30.968 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+17:00:31.077 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 109 milliseconds
+17:00:31.077 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+17:00:32.778 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1701 milliseconds
+17:00:32.778 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+17:00:32.996 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+17:00:32.996 INFO  [d.f.a.d.DijkstraService] [akka://AntScout/user/antScout/dijkstra] - Initialized
+17:00:32.996 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+17:00:33.043 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+17:00:33.152 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+17:00:33.152 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+17:00:33.152 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+17:00:33.152 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+17:00:33.168 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+17:00:33.168 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+17:00:33.215 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+17:00:33.215 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+17:00:33.230 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+17:00:33.230 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+17:00:33.230 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+17:00:33.246 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+17:00:36.211 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+17:00:36.226 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+17:00:42.164 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 25.00002 Kilometer pro Stunde für Knoten 5
+17:00:42.726 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 500.0 Kilometer pro Stunde für Knoten 21
+17:00:43.319 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 625.0 Kilometer pro Stunde für Knoten 21
+17:00:43.927 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 5.000000000000001 Kilometer pro Stunde für Knoten 186
+17:00:44.520 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 500.0 Kilometer pro Stunde für Knoten 43
+17:00:45.128 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 40.00000000000001 Kilometer pro Stunde für Knoten 185
+17:00:45.721 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 5.000000000000001 Kilometer pro Stunde für Knoten 202
+17:00:46.314 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 18.621513317799277 Kilometer pro Stunde für Knoten 32
+17:00:46.845 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 62.5 Kilometer pro Stunde für Knoten 164
+17:00:47.453 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 40.00000000000001 Kilometer pro Stunde für Knoten 62
+17:00:48.061 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 25.000000000000004 Kilometer pro Stunde für Knoten 181
+17:00:48.623 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 1.0000000000000002 Kilometer pro Stunde für Knoten 202
+17:00:49.263 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 24.0 Kilometer pro Stunde für Knoten 93
+17:00:49.840 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000024000000007 Kilometer pro Stunde für Knoten 176
+17:00:50.464 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 12.5 Kilometer pro Stunde für Knoten 164
+17:00:51.043 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 45.0 Kilometer pro Stunde für Knoten 111
+17:00:51.527 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 100.0 Kilometer pro Stunde für Knoten 113
+17:00:52.244 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 14.999999999999998 Kilometer pro Stunde für Knoten 42
+17:00:52.728 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 62.5 Kilometer pro Stunde für Knoten 8
+17:00:53.228 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 250.00020000000004 Kilometer pro Stunde für Knoten 161
+17:00:53.821 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 174.99960000000002 Kilometer pro Stunde für Knoten 155
+17:00:54.429 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 1250.0010000000002 Kilometer pro Stunde für Knoten 161
+17:00:55.022 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 15.000000000000002 Kilometer pro Stunde für Knoten 1
+17:00:55.615 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 500.00040000000007 Kilometer pro Stunde für Knoten 50
+17:00:56.223 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 33.333333333333336 Kilometer pro Stunde für Knoten 177
+17:00:56.816 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 5.000004 Kilometer pro Stunde für Knoten 195
+17:00:57.424 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 125.00010000000002 Kilometer pro Stunde für Knoten 161
+17:00:58.017 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 40.00000000000001 Kilometer pro Stunde für Knoten 69
+17:00:58.626 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 15.000000000000005 Kilometer pro Stunde für Knoten 122
+17:00:59.218 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 699.9984000000001 Kilometer pro Stunde für Knoten 99
+17:00:59.827 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 21.000000000000004 Kilometer pro Stunde für Knoten 105
+17:01:00.420 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 5.000000000000001 Kilometer pro Stunde für Knoten 80
+17:01:01.028 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 55.55555555555556 Kilometer pro Stunde für Knoten 73
+17:01:01.621 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 45.0 Kilometer pro Stunde für Knoten 136
+17:01:02.229 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 37.50000000000001 Kilometer pro Stunde für Knoten 134
+17:01:02.822 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.000000000000004 Kilometer pro Stunde für Knoten 20
+17:01:03.415 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 416.667 Kilometer pro Stunde für Knoten 161
+17:01:04.023 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 10.0 Kilometer pro Stunde für Knoten 41
+17:01:04.616 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.032213155116015 Kilometer pro Stunde für Knoten 101
+17:01:05.224 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 125.0 Kilometer pro Stunde für Knoten 59
+17:01:05.817 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 15.000000000000002 Kilometer pro Stunde für Knoten 123
+17:01:06.426 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000000000000004 Kilometer pro Stunde für Knoten 146
+17:01:07.018 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 30.000000000000004 Kilometer pro Stunde für Knoten 205
+17:01:07.627 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 100.00008 Kilometer pro Stunde für Knoten 17
+17:01:08.220 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 5.000004 Kilometer pro Stunde für Knoten 68
+17:01:08.828 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 250.0 Kilometer pro Stunde für Knoten 184
+17:01:09.421 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 71.42857142857142 Kilometer pro Stunde für Knoten 10
+17:01:10.029 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 125.0 Kilometer pro Stunde für Knoten 102
+17:01:10.622 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.833333333333332 Kilometer pro Stunde für Knoten 164
+17:01:11.215 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 20.000000000000004 Kilometer pro Stunde für Knoten 94
+17:01:11.823 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 350.00000000000006 Kilometer pro Stunde für Knoten 43
+17:01:12.416 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 15.000000000000002 Kilometer pro Stunde für Knoten 88
+17:01:13.024 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 71.42857142857142 Kilometer pro Stunde für Knoten 201
+17:01:13.617 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 45.0 Kilometer pro Stunde für Knoten 96
+17:01:14.226 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 15.000000000000002 Kilometer pro Stunde für Knoten 33
+17:01:14.818 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Zufall: Geschwindigkeit von 138.88888888888889 Kilometer pro Stunde für Knoten 73
+17:01:20.701 INFO  [b.liftweb.Boot] [] - Shutting down
+17:01:20.732 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+17:03:04.846 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+17:03:05.111 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+17:03:05.126 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+17:03:05.236 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 110 milliseconds
+17:03:05.236 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+17:03:06.983 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1700 milliseconds
+17:03:06.983 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+17:03:07.232 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 187 ms
+17:03:07.232 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+17:03:07.232 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+17:03:07.280 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+17:03:07.389 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+17:03:07.389 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+17:03:07.389 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+17:03:07.389 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+17:03:07.405 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+17:03:07.405 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+17:03:07.452 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+17:03:07.452 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+17:03:07.467 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+17:03:07.467 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+17:03:07.467 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+17:03:07.483 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+17:03:07.483 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+17:03:07.639 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+17:03:07.951 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 312 ms
+17:03:08.388 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+17:03:16.406 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+17:03:16.531 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+17:03:24.531 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+17:03:24.624 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  21.000000000000004 Kilometer pro Stunde für Weg 92
+17:03:25.155 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 9
+17:03:25.732 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  50.0 Kilometer pro Stunde für Weg 104
+17:03:26.309 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  9.000000000000002 Kilometer pro Stunde für Weg 169
+17:03:27.058 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 38
+17:03:27.542 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  150.00000000000003 Kilometer pro Stunde für Weg 193
+17:03:28.150 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  55.55557380837844 Kilometer pro Stunde für Weg 45
+17:03:28.665 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.00040000000007 Kilometer pro Stunde für Weg 68
+17:03:29.180 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  13.999968 Kilometer pro Stunde für Weg 71
+17:03:29.757 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  35.00001854051661 Kilometer pro Stunde für Weg 165
+17:03:30.256 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 198
+17:03:30.833 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  42.00000000000001 Kilometer pro Stunde für Weg 25
+17:03:31.395 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.000000000000002 Kilometer pro Stunde für Weg 83
+17:03:32.003 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.00010000000002 Kilometer pro Stunde für Weg 103
+17:03:32.846 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  150.00000000000003 Kilometer pro Stunde für Weg 198
+17:03:33.376 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 157
+17:03:34.094 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  35.00002800000001 Kilometer pro Stunde für Weg 107
+17:03:34.468 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.000032 Kilometer pro Stunde für Weg 195
+17:03:35.092 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  18.000000000000004 Kilometer pro Stunde für Weg 14
+17:03:35.576 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  62.5 Kilometer pro Stunde für Weg 39
+17:03:36.371 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 185
+17:03:36.730 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.00020000000004 Kilometer pro Stunde für Weg 44
+17:03:37.338 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.0 Kilometer pro Stunde für Weg 124
+17:03:38.009 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000016 Kilometer pro Stunde für Weg 174
+17:03:38.493 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.33333333333333 Kilometer pro Stunde für Weg 131
+17:03:39.117 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 24
+17:03:39.663 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.555557380837845 Kilometer pro Stunde für Weg 45
+17:03:40.162 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 125
+17:03:40.708 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  166.6668 Kilometer pro Stunde für Weg 51
+17:03:41.270 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  25.00002 Kilometer pro Stunde für Weg 175
+17:03:41.800 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 142
+17:03:42.330 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.048319732674017 Kilometer pro Stunde für Weg 101
+17:03:42.908 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  12.000000000000002 Kilometer pro Stunde für Weg 190
+17:03:43.672 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.0 Kilometer pro Stunde für Weg 110
+17:03:44.078 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 69
+17:03:44.702 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  83.3334 Kilometer pro Stunde für Weg 176
+17:03:45.294 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  50.000040000000006 Kilometer pro Stunde für Weg 44
+17:03:45.934 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  75.00000000000001 Kilometer pro Stunde für Weg 69
+17:03:46.464 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  41.99990400000001 Kilometer pro Stunde für Weg 155
+17:03:47.104 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.000000000000002 Kilometer pro Stunde für Weg 12
+17:03:47.603 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.0 Kilometer pro Stunde für Weg 90
+17:03:48.212 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  55.55555555555556 Kilometer pro Stunde für Weg 143
+17:03:49.038 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.0 Kilometer pro Stunde für Weg 199
+17:03:49.694 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 86
+17:03:50.442 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  24.000000000000007 Kilometer pro Stunde für Weg 15
+17:03:50.855 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.0 Kilometer pro Stunde für Weg 9
+17:04:03.611 INFO  [b.liftweb.Boot] [] - Shutting down
+17:04:03.736 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+17:04:49.131 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+17:04:49.396 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+17:04:49.411 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+17:04:49.521 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 110 milliseconds
+17:04:49.521 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+17:04:51.239 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1718 milliseconds
+17:04:51.239 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+17:04:51.457 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 172 ms
+17:04:51.457 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+17:04:51.473 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+17:04:51.504 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+17:04:51.613 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 109 ms
+17:04:51.613 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+17:04:51.629 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+17:04:51.675 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+17:04:51.691 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+17:04:51.707 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+17:04:51.769 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+17:04:51.769 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+17:04:51.785 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+17:04:51.785 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+17:04:51.785 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+17:04:51.785 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+17:04:51.785 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+17:04:52.003 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+17:04:52.315 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+17:04:52.315 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+17:04:52.440 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 421 ms
+17:04:53.110 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+17:04:59.147 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+17:04:59.210 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  25.00002 Kilometer pro Stunde für Weg 5
+17:04:59.709 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.0 Kilometer pro Stunde für Weg 21
+17:05:00.333 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  625.0 Kilometer pro Stunde für Weg 21
+17:05:00.941 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000000000000001 Kilometer pro Stunde für Weg 186
+17:05:01.534 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.0 Kilometer pro Stunde für Weg 43
+17:05:02.096 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 185
+17:05:02.673 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000000000000001 Kilometer pro Stunde für Weg 202
+17:05:03.328 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  18.621513317799277 Kilometer pro Stunde für Weg 32
+17:05:03.827 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  62.5 Kilometer pro Stunde für Weg 164
+17:05:04.373 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 62
+17:05:04.935 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  25.000000000000004 Kilometer pro Stunde für Weg 181
+17:05:05.543 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  1.0000000000000002 Kilometer pro Stunde für Weg 202
+17:05:06.058 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  24.0 Kilometer pro Stunde für Weg 93
+17:05:06.573 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000024000000007 Kilometer pro Stunde für Weg 176
+17:05:07.088 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  12.5 Kilometer pro Stunde für Weg 164
+17:05:07.821 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.0 Kilometer pro Stunde für Weg 111
+17:05:08.507 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.0 Kilometer pro Stunde für Weg 113
+17:05:08.991 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  14.999999999999998 Kilometer pro Stunde für Weg 42
+17:05:09.584 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  62.5 Kilometer pro Stunde für Weg 8
+17:05:10.304 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.00020000000004 Kilometer pro Stunde für Weg 161
+17:05:10.897 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  174.99960000000002 Kilometer pro Stunde für Weg 155
+17:05:11.443 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  1250.0010000000002 Kilometer pro Stunde für Weg 161
+17:05:12.067 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 1
+17:05:12.722 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.00040000000007 Kilometer pro Stunde für Weg 50
+17:05:13.471 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  33.333333333333336 Kilometer pro Stunde für Weg 177
+17:05:14.236 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000004 Kilometer pro Stunde für Weg 195
+17:05:14.813 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.00010000000002 Kilometer pro Stunde für Weg 161
+17:05:15.421 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 69
+17:05:15.967 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000005 Kilometer pro Stunde für Weg 122
+17:05:16.576 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  699.9984000000001 Kilometer pro Stunde für Weg 99
+17:05:17.246 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  21.000000000000004 Kilometer pro Stunde für Weg 105
+17:05:17.777 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000000000000001 Kilometer pro Stunde für Weg 80
+17:05:18.401 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  55.55555555555556 Kilometer pro Stunde für Weg 73
+17:05:19.181 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.0 Kilometer pro Stunde für Weg 136
+17:05:19.976 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  37.50000000000001 Kilometer pro Stunde für Weg 134
+17:05:20.476 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 20
+17:05:21.209 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  416.667 Kilometer pro Stunde für Weg 161
+17:05:22.004 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.0 Kilometer pro Stunde für Weg 41
+17:05:22.628 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.032213155116015 Kilometer pro Stunde für Weg 101
+17:05:23.065 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.0 Kilometer pro Stunde für Weg 59
+17:05:23.767 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 123
+17:05:24.391 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 146
+17:05:24.953 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 205
+17:05:25.514 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.00008 Kilometer pro Stunde für Weg 17
+17:05:26.014 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000004 Kilometer pro Stunde für Weg 68
+17:05:26.560 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 184
+17:05:27.090 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  71.42857142857142 Kilometer pro Stunde für Weg 10
+17:05:27.652 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.0 Kilometer pro Stunde für Weg 102
+17:05:28.260 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.833333333333332 Kilometer pro Stunde für Weg 164
+17:05:28.853 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 94
+17:05:29.492 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  350.00000000000006 Kilometer pro Stunde für Weg 43
+17:05:30.116 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 88
+17:05:30.803 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  71.42857142857142 Kilometer pro Stunde für Weg 201
+17:05:31.193 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.0 Kilometer pro Stunde für Weg 96
+17:05:31.895 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 33
+17:05:32.550 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  138.88888888888889 Kilometer pro Stunde für Weg 73
+17:05:48.799 INFO  [b.liftweb.Boot] [] - Shutting down
+17:05:48.892 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started
+17:09:13.143 INFO  [d.f.a.osm.OsmMap] [] - Loading file maps/Altona-Wedel.osm
+17:09:13.408 INFO  [d.f.a.osm.OsmMap] [] - Initializing
+17:09:13.408 INFO  [d.f.a.osm.OsmMap] [] - Parsing nodes
+17:09:13.533 INFO  [d.f.a.osm.OsmMap] [] - 7983 nodes parsed in 110 milliseconds
+17:09:13.533 INFO  [d.f.a.osm.OsmMap] [] - Parsing ways
+17:09:15.249 INFO  [d.f.a.osm.OsmMap] [] - 1914 ways parsed in 1716 milliseconds
+17:09:15.249 INFO  [d.f.a.osm.OsmMap] [] - Computing node ways mapping
+17:09:15.467 INFO  [d.f.a.osm.OsmMap] [] - Node ways mapping with 7983 elements computed, took 172 ms
+17:09:15.467 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - Initialized
+17:09:15.483 INFO  [d.f.a.antnet.AntMap] [] - Preparing
+17:09:15.529 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways data
+17:09:15.639 INFO  [d.f.a.antnet.AntMap] [] - 208 ant ways data computed, took 110 ms
+17:09:15.639 INFO  [d.f.a.antnet.AntMap] [] - Computing nodes
+17:09:15.639 INFO  [d.f.a.antnet.AntMap] [] - 144 nodes computed
+17:09:15.639 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing
+17:09:15.654 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initialized
+17:09:15.654 INFO  [d.f.a.antnet.AntMap] [] - Computing ant ways
+17:09:15.701 INFO  [d.f.a.antnet.AntMap] [] - Ant ways computed
+17:09:15.701 INFO  [d.f.a.antnet.AntMap] [] - Computing incoming and outgoing ways
+17:09:15.717 INFO  [d.f.a.antnet.AntMap] [] - Incoming and outgoing ways computed
+17:09:15.717 INFO  [d.f.a.antnet.AntMap] [] - Computing sources and destinations
+17:09:15.717 INFO  [d.f.a.antnet.AntMap] [] - 140 sources and 140 destinations computed, took 0 ms
+17:09:15.732 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Initializing nodes
+17:09:15.732 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Initialized
+17:09:15.888 INFO  [d.f.a.antnet.AntMap] [] - Calculating shortest paths
+17:09:16.231 INFO  [d.f.a.antnet.AntMap] [] - Shortest paths calculated, took 343 ms
+17:09:16.653 WARN  [d.f.a.c.Statistics] [] - Unknown message: CometName(statistics)
+17:09:16.653 WARN  [d.f.a.c.UserInterface] [] - Unknown message: CometName(userInterface)
+17:09:16.699 INFO  [d.f.a.a.AntNodeSupervisor] [akka://AntScout/user/antScout/antNode] - Nodes initialized
+17:09:25.451 INFO  [d.f.a.r.RoutingService] [akka://AntScout/user/antScout/routingService] - PathfindingRouting
+17:09:25.685 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  25.00002 Kilometer pro Stunde für Weg 5
+17:09:26.075 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.0 Kilometer pro Stunde für Weg 21
+17:09:26.637 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  625.0 Kilometer pro Stunde für Weg 21
+17:09:27.183 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000000000000001 Kilometer pro Stunde für Weg 186
+17:09:27.869 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.0 Kilometer pro Stunde für Weg 43
+17:09:28.509 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 185
+17:09:29.039 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000000000000001 Kilometer pro Stunde für Weg 202
+17:09:29.554 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  18.621513317799277 Kilometer pro Stunde für Weg 32
+17:09:30.272 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  62.5 Kilometer pro Stunde für Weg 164
+17:09:30.845 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 62
+17:09:31.376 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  25.000000000000004 Kilometer pro Stunde für Weg 181
+17:09:31.937 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  1.0000000000000002 Kilometer pro Stunde für Weg 202
+17:09:32.468 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  24.0 Kilometer pro Stunde für Weg 93
+17:09:33.107 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000024000000007 Kilometer pro Stunde für Weg 176
+17:09:33.669 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  12.5 Kilometer pro Stunde für Weg 164
+17:09:34.168 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.0 Kilometer pro Stunde für Weg 111
+17:09:34.745 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.0 Kilometer pro Stunde für Weg 113
+17:09:35.260 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  14.999999999999998 Kilometer pro Stunde für Weg 42
+17:09:35.837 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  62.5 Kilometer pro Stunde für Weg 8
+17:09:36.399 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.00020000000004 Kilometer pro Stunde für Weg 161
+17:09:36.976 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  174.99960000000002 Kilometer pro Stunde für Weg 155
+17:09:37.475 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  1250.0010000000002 Kilometer pro Stunde für Weg 161
+17:09:38.115 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 1
+17:09:38.661 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  500.00040000000007 Kilometer pro Stunde für Weg 50
+17:09:39.269 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  33.333333333333336 Kilometer pro Stunde für Weg 177
+17:09:40.018 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000004 Kilometer pro Stunde für Weg 195
+17:09:40.595 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.00010000000002 Kilometer pro Stunde für Weg 161
+17:09:41.095 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  40.00000000000001 Kilometer pro Stunde für Weg 69
+17:09:41.781 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000005 Kilometer pro Stunde für Weg 122
+17:09:42.389 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  699.9984000000001 Kilometer pro Stunde für Weg 99
+17:09:42.904 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  21.000000000000004 Kilometer pro Stunde für Weg 105
+17:09:43.528 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000000000000001 Kilometer pro Stunde für Weg 80
+17:09:44.074 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  55.55555555555556 Kilometer pro Stunde für Weg 73
+17:09:44.573 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.0 Kilometer pro Stunde für Weg 136
+17:09:45.119 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  37.50000000000001 Kilometer pro Stunde für Weg 134
+17:09:45.759 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 20
+17:09:46.336 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  416.667 Kilometer pro Stunde für Weg 161
+17:09:46.929 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  10.0 Kilometer pro Stunde für Weg 41
+17:09:47.397 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.032213155116015 Kilometer pro Stunde für Weg 101
+17:09:48.005 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.0 Kilometer pro Stunde für Weg 59
+17:09:48.692 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 123
+17:09:49.347 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 146
+17:09:49.831 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  30.000000000000004 Kilometer pro Stunde für Weg 205
+17:09:50.345 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  100.00008 Kilometer pro Stunde für Weg 17
+17:09:50.923 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  5.000004 Kilometer pro Stunde für Weg 68
+17:09:51.375 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  250.0 Kilometer pro Stunde für Weg 184
+17:09:51.968 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  71.42857142857142 Kilometer pro Stunde für Weg 10
+17:09:52.545 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  125.0 Kilometer pro Stunde für Weg 102
+17:09:53.294 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.833333333333332 Kilometer pro Stunde für Weg 164
+17:09:53.684 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  20.000000000000004 Kilometer pro Stunde für Weg 94
+17:09:54.245 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  350.00000000000006 Kilometer pro Stunde für Weg 43
+17:09:54.885 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 88
+17:09:55.478 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  71.42857142857142 Kilometer pro Stunde für Weg 201
+17:09:55.977 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  45.0 Kilometer pro Stunde für Weg 96
+17:09:56.773 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  15.000000000000002 Kilometer pro Stunde für Weg 33
+17:09:57.225 INFO  [d.f.a.antnet.JamGen] [akka://AntScout/user/antScout/jamgen] - Stauerzeugung - Laden: Geschwindigkeit  138.88888888888889 Kilometer pro Stunde für Weg 73
+17:10:05.259 INFO  [b.liftweb.Boot] [] - Shutting down
+17:10:05.337 DEBUG [a.event.EventStream] [EventStream] - shutting down: StandardOutLogger started

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.virtual-void</groupId>
+    <artifactId>sbt-dependency-graph</artifactId>
+    <packaging>jar</packaging>
+    <description>sbt-dependency-graph</description>
+    <url>http://github.com/jrudolph/sbt-dependency-graph</url>
+    <version>0.6.0</version>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://github.com/jrudolph/sbt-dependency-graph/raw/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>sbt-dependency-graph</name>
+    <organization>
+        <name>net.virtual-void</name>
+        <url>http://github.com/jrudolph/sbt-dependency-graph</url>
+    </organization>
+    <scm>
+        <url>git@github.com:jrudolph/sbt-dependency-graph.git</url>
+        <connection>scm:git:git@github.com:jrudolph/sbt-dependency-graph.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>jrudolph</id>
+            <name>Johannes Rudolph</name>
+        </developer>
+    </developers>
+    <properties>
+        <sbtVersion>0.12</sbtVersion>
+        <scalaVersion>2.9.2</scalaVersion>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>0.12.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.2</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
