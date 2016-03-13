@@ -1,10 +1,11 @@
-1.) 	Ist Java nicht mindestens in der Version 7 installiert, muss dies nachgeholt werden. 
+1.) 	Ist Java nicht bereits mindestens in der Version 7 installiert, wird dies nachgeholt. 
 
 2.) 	Der Ordner "AntScout" wird an beliebige Stelle kopiert.
 
-3.) 	Der Inhalt des Ordners "Bibliotheken" wird in den lokalen Cache-Ordner kopiert.
+3.) 	Der Ordner ".ivy2" wird in das eigene Benutzerverzeichnis kopiert. Existiert ein solcher 
+	Ordner dort bereits, wird dieser in den vorhandenen integriert.  
 	Unter Windows lautet der Pfad dorthin wie folgt:
-	[Home-Laufwerk]:\Users\[Benutzer]\.ivy2\cache
+	[Home-Laufwerk]\Users\[Benutzer]
 
 4.) 	Alle weiteren Bibliotheken werden beim ersten Start von AntScout automatisch heruntergeladen.
 
